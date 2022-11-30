@@ -1,0 +1,19 @@
+.header__lang-container {
+	width: 3.91vw;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 3.125vw 0 4.375vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__lang-container {
+		width: 50px;
+		margin: 0 40px 0 56px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.header__lang-container {
+		margin-left: 2.375vw;
+	}
+}

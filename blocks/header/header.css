@@ -1,0 +1,16 @@
+.header {
+	margin: auto;
+	max-width: 1280px;
+	width: 100%;
+	height: 56px;
+	position: fixed;
+	top: 0;
+	color: #FFFFFF;
+	display: flex;
+}
+
+@media screen and (max-width: 425px) {
+	.header {
+		height: 48px;
+	}
+}

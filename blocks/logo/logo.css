@@ -1,0 +1,26 @@
+.logo {
+	display: flex;
+	max-width: 82px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 4.67vw 0 18px;
+}
+
+
+@media screen and (min-width: 1280px) {
+	.logo {
+		margin-right: 59.82px
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width: 1023px) {
+	.logo {
+		margin-right: 2.375vw;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.logo {
+		margin-left: 24px;
+	}
+}
