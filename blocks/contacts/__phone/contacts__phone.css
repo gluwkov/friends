@@ -1,0 +1,18 @@
+.contacts__phone {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 60px;
+	text-align: center;
+	color: #71BBCA;
+	text-decoration: none;
+	margin: 16px 0 0;
+}
+
+@media (max-width: 550px) {
+	.contacts__phone {
+		font-size: 32px;
+		line-height: 42px;
+		margin-top: 16px;
+	}
+}
