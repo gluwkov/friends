@@ -1,0 +1,13 @@
+.modal-nav__link {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 38px;
+}
+
+.modal-nav__link:hover {
+	opacity: 0.4;
+}

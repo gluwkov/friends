@@ -1,0 +1,20 @@
+.social-container {
+	display: flex;
+	width: 5vw;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 4.69vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.social-container {
+		width: 64px;
+		margin-left: 60px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.social-container {
+		margin-left: 1.5vw;
+	}
+}

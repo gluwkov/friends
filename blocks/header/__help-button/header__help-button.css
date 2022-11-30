@@ -1,0 +1,16 @@
+.header__help-button {
+	background: #EEB250;
+	width: 212px;
+	/* 16.56vw */
+	color: #fff;
+	border: none;
+	padding: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.header__help-button:hover {
+	background: #E8AD4D;
+}
