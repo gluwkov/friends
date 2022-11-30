@@ -1,0 +1,15 @@
+.nav {
+	display: flex;
+	width: 49.84vw;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@media screen and (min-width: 1280px) {
+	.nav {
+		width: 638px;
+	}
+}

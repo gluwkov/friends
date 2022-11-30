@@ -1,0 +1,7 @@
+.social-container__social {
+	width: 24px;
+}
+
+.social-container__social:hover {
+	opacity: 0.4;
+}

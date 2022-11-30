@@ -1,0 +1,15 @@
+.modal-nav__lang {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 38px;
+	margin-right: 22px;
+}
+
+.modal-nav__lang:last-child {
+	margin-right: 0;
+}
+
+.modal-nav__lang:hover {
+	opacity: 0.4;
+}
