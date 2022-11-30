@@ -1,0 +1,18 @@
+.header__lang {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	margin-right: 1.25vw;
+	/* 16px */
+}
+
+.header__lang:last-child {
+	opacity: 0.4;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__lang {
+		margin-right: 16px;
+	}
+}

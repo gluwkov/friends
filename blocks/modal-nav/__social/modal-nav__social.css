@@ -1,0 +1,11 @@
+.modal-nav__social {
+	margin-right: 16px;
+}
+
+.modal-nav__social:last-child {
+	margin-right: 0;
+}
+
+.modal-nav__social:hover {
+	opacity: 0.4;
+}

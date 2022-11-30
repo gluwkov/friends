@@ -1,0 +1,7 @@
+.modal-nav__item {
+	margin-bottom: 20px;
+}
+
+.modal-nav__item:last-child {
+	margin-bottom: 0;
+}
