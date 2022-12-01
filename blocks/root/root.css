@@ -4,4 +4,11 @@
 	min-width: 320px;
 	margin: 0 auto;
 	font-family: 'Inter', 'Arial', sans-serif;
+	padding-top: 56px;
+}
+
+@media screen and (max-width: 425px) {
+	.root {
+		padding-top: 48px;
+	}
 }

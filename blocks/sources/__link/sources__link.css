@@ -1,0 +1,14 @@
+.sources__link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.sources__link:hover {
+	opacity: 0.4;
+}

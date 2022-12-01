@@ -7,6 +7,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/social-container/social-container.css);
+@import url(../blocks/sources/sources.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__help-button/header__help-button.css);
 @import url(../blocks/header/__lang/header__lang.css);
@@ -27,7 +28,16 @@
 @import url(../blocks/modal-nav/__social-container/modal-nav__social-container.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/social-container/__social/social-container__social.css);
+@import url(../blocks/sources/__title/sources__title.css);
+@import url(../blocks/sources/__cards/sources__cards.css);
+@import url(../blocks/sources/__card/sources__card.css);
+@import url(../blocks/sources/__text-container/sources__text-container.css);
+@import url(../blocks/sources/__card-title/sources__card-title.css);
+@import url(../blocks/sources/__link/sources__link.css);
+@import url(../blocks/sources/__image/sources__image.css);
+@import url(../blocks/sources/__image/_position/sources__image_position_righter.css);
 @import url(../blocks/modal/_opened/modal_opened.css);
+@import url(../blocks/sources/__image/_size/sources__image_size_smaller.css);
 
 @import url(../blocks/values/values.css);
 @import url(../blocks/items/items.css);
