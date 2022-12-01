@@ -1,0 +1,10 @@
+.values {
+	padding-top: 96px;
+	width: 100%;
+}
+
+@media (max-width: 320px) {
+	.values {
+		padding-top: 56px;
+	}
+}
