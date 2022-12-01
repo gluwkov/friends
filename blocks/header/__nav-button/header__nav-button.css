@@ -8,8 +8,13 @@
 	height: 18px;
 	background-color: transparent;
 	cursor: pointer;
+	transition: 0.5s ease;
 	align-self: center;
 	margin-left: 24px;
+}
+
+.header__nav-button:hover {
+	opacity: 0.4;
 }
 
 @media screen and (max-width: 1023px) {
