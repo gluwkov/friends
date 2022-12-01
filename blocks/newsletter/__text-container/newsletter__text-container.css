@@ -1,0 +1,16 @@
+.newsletter__text-container {
+	margin: 0 0 0 125px;
+}
+
+@media (max-width: 1023px) {
+	.newsletter__text-container {
+ margin-left: 6.4%;
+	}
+}
+
+@media (max-width: 768px) {
+	.newsletter__text-container {
+		margin: 0 0 36.5px;
+		width: 87.2%;
+	}
+}

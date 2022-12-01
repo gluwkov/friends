@@ -33,3 +33,11 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/social-container/__social/social-container__social.css);
 @import url(../blocks/modal/_opened/modal_opened.css);
+
+@import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__title/newsletter__title.css);
+@import url(../blocks/newsletter/__subtitle/newsletter__subtitle.css);
+@import url(../blocks/newsletter/__text-container/newsletter__text-container.css);
+@import url(../blocks/newsletter/__form/newsletter__form.css);
+@import url(../blocks/newsletter/__input/newsletter__input.css);
+@import url(../blocks/newsletter/__button/newsletter__button.css);
