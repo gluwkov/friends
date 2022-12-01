@@ -1,0 +1,4 @@
+.sources__image_position_righter {
+	margin-left: 60px;
+	/* должно быть 24px вместо 60px, но со шрифтом Inter при 24px текст перекрывает картинку */
+}

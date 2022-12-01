@@ -1,0 +1,5 @@
+.sources__text-container {
+	margin: 44px 0 0 44px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
