@@ -1,0 +1,19 @@
+.newsletter__button {
+	width: 152px;
+	height: 56px;
+	background-color: #528cbe;
+	border: 0;
+	border-radius: 56px;
+
+	color: #fff;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+@media (max-width: 768px) {
+	.newsletter__button {
+		width: 100%;
+	}
+}
