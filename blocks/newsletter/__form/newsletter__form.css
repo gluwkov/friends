@@ -1,0 +1,21 @@
+.newsletter__form {
+	display: flex;
+	flex-flow: nowrap row;
+	gap: 16px;
+	margin: 0 128px 0 0;
+}
+
+@media (max-width: 1023px) {
+	.newsletter__form {
+		margin-right: 6.4%;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px) {
+	.newsletter__form {
+		flex-direction: column;
+		width: 87.2%;
+		margin: 0;
+	}
+}

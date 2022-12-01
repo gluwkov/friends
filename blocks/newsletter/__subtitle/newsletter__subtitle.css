@@ -1,0 +1,14 @@
+.newsletter__subtitle {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.newsletter__subtitle {
+		line-height: 25px;
+		font-size: 17px;
+	}
+}
