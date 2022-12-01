@@ -1,4 +1,16 @@
 .sources__image_position_righter {
-	margin-left: 60px;
+	margin-left: 50px;
 	/* должно быть 24px вместо 60px, но со шрифтом Inter при 24px текст перекрывает картинку */
+}
+
+@media screen and (min-width: 881px) and (max-width: 1260px) {
+	.sources__image_position_righter {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 572px) {
+	.sources__image_position_righter {
+		margin-left: 0;
+	}
 }

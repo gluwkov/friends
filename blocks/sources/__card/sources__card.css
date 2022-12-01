@@ -1,10 +1,11 @@
 .sources__card {
 	background: #EBE9E6;
-	min-height: 208px;
+	height: 208px;
 	box-sizing: border-box;
 	display: grid;
 	grid-template-columns: repeat(2, minmax(245px, 1fr));
 	transition: 1s;
+	overflow: hidden;
 }
 
 .sources__card:hover {
@@ -16,4 +17,16 @@
 .sources__card:hover .sources__image {
 	transition: 0.5s;
 	transform: scale(1.2);
+}
+
+@media screen and (min-width: 881px) and (max-width: 1260px) {
+	.sources__card {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 572px) {
+	.sources__card {
+		display: flex;
+	}
 }
