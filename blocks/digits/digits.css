@@ -1,0 +1,10 @@
+.digits {
+	list-style: none;
+	display: flex;
+	background: #77C5D5;
+	margin: 0;
+	gap: 0 24px;
+	padding: 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}

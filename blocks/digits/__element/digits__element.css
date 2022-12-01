@@ -1,0 +1,23 @@
+.digits__element {
+	display: flex;
+	margin: 38px 0;
+	max-width: 240px;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (max-width: 376px) {
+	.digits__element {
+		margin: 24px 0 0;
+		max-width: 326px;
+	}
+
+	.digits__element:first-child {
+		margin-top: 56px;
+	}
+
+	.digits__element:last-child {
+		margin-bottom: 56px;
+	}
+}

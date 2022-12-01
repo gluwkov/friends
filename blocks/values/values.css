@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 376px) {
 	.values {
 		padding-top: 56px;
 	}

@@ -34,6 +34,11 @@
 @import url(../blocks/items/__element/items__element.css);
 @import url(../blocks/items/__image/items__image.css);
 @import url(../blocks/items/__title/items__title.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__element/digits__element.css);
+@import url(../blocks/digits/__heading/digits__heading.css);
+@import url(../blocks/digits/__text/digits__text.css);
+@import url(../blocks/digits/__span-accent/digits__span-accent.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__container/contacts__container.css);
