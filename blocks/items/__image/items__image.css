@@ -1,0 +1,11 @@
+.items__image {
+	width: 96px;
+	height: 96px;
+}
+
+@media (max-width: 376px) {
+	.items__image {
+		width: 88px;
+		height: 88px;
+	}
+}
