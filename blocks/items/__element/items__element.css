@@ -1,0 +1,23 @@
+.items__element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 56px 0 0;
+	max-width: 200px;
+	width: 100%;
+}
+
+@media (max-width: 376px) {
+	.items__element {
+		margin-top: 40px;
+		max-width: 295px;
+	}
+
+	.items__element:first-child {
+		margin-top: 24px;
+	}
+
+	.items__element:last-child {
+		margin-bottom: 56px;
+	}
+}

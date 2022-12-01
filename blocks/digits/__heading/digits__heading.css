@@ -1,0 +1,16 @@
+.digits__heading {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 96px;
+	text-align: center;
+	color: #FFF;
+	margin: 0;
+}
+
+@media (max-width: 376px) {
+	.digits__heading {
+		font-size: 56px;
+		line-height: 78px;
+	}
+}
