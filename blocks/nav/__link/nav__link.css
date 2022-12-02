@@ -5,6 +5,7 @@
 	line-height: 20px;
 	color: #fff;
 	text-decoration: none;
+	transition: 0.5s ease;
 }
 
 .nav__link:hover {

@@ -7,6 +7,11 @@
 	/* 16px */
 }
 
+.header__lang:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}
+
 .header__lang:last-child {
 	opacity: 0.4;
 }
