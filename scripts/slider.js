@@ -2,17 +2,12 @@ $(document).ready(function () {
 	$('.partners__slider').slick({
 		infinite: false,
 		speed: 400,
-		slidesToShow: 6,
+		slidesToShow: 5,
 		slidesToScroll: 1,
+		variableWidth: true,
 		prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
 		responsive: [
-			{
-				breakpoint: 1250,
-				settings: {
-					slidesToShow: 5,
-				}
-			},
 			{
 				breakpoint: 1000,
 				settings: {
@@ -20,37 +15,22 @@ $(document).ready(function () {
 				}
 			},
 			{
-				breakpoint: 888,
+				breakpoint: 810,
 				settings: {
-					slidesToShow: 4,
-					arrows: false
+					slidesToShow: 3,
 				}
 			},
 			{
-				breakpoint: 700,
-				settings: {
-					slidesToShow: 4,
-					arrows: false
-				}
-			},
-			{
-				breakpoint: 650,
+				breakpoint: 790,
 				settings: {
 					slidesToShow: 3,
 					arrows: false
 				}
 			},
 			{
-				breakpoint: 550,
+				breakpoint: 430,
 				settings: {
-					slidesToShow: 4,
-					arrows: false
-				}
-			},
-			{
-				breakpoint: 410,
-				settings: {
-					slidesToShow: 3,
+					slidesToShow: 2,
 					arrows: false
 				}
 			}
