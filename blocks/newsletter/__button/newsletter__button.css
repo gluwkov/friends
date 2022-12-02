@@ -15,6 +15,7 @@
 .newsletter__button:hover {
 	background-color: #487FAE;
 	transition: 0.5s ease;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
