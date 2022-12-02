@@ -62,3 +62,10 @@
 @import url(../blocks/newsletter/__form/newsletter__form.css);
 @import url(../blocks/newsletter/__input/newsletter__input.css);
 @import url(../blocks/newsletter/__button/newsletter__button.css);
+
+@import url(../vendor/slick/slick.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__item/partners__item.css);
+@import url(../blocks/partners/__slider/partners__slider.css);
+@import url(../blocks/partners/__img/partners__img.css);
+@import url(../blocks/partners/__button-all/partners__button-all.css);

@@ -1,0 +1,46 @@
+.partners__slider {
+	margin: 0 auto;
+	padding: 0 125px;
+}
+
+@media (max-width: 1023px) {
+	.partners__slider {
+		padding:0 6.4%;
+	}
+}
+
+.partners__slider .slick-prev {
+	position: absolute;
+	bottom: 48px;
+	right: 90%;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: #F8F8F8;
+}
+
+.partners__slider .slick-prev img {
+	width: 23.33px;
+	height: 23.33px;
+}
+
+.partners__slider .slick-next {
+	position: absolute;
+	bottom: 48px;
+	left: 88%;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: #F8F8F8;
+}
+
+.partners__slider .slick-next img {
+	width: 23.33px;
+	height: 23.33px;
+}

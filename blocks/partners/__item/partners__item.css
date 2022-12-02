@@ -1,0 +1,10 @@
+.partners__item {
+	margin-right: 57px;
+}
+
+@media (max-width: 550px) {
+	.partners__item {
+		margin-right: 32px;
+	}
+}
+
