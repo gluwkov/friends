@@ -34,7 +34,7 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 	.contacts__container {
 		margin-top: 16px;
 	}
