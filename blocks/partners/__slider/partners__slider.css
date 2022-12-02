@@ -22,6 +22,11 @@
 	height: 40px;
 	cursor: pointer;
 	background: #F8F8F8;
+	opacity: .5;
+}
+
+.partners__slider .slick-prev:hover{
+	background: #fff
 }
 
 @media (max-width: 1250px) {
@@ -45,7 +50,12 @@
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
+	opacity: .5;
 	background: #F8F8F8;
+}
+
+.partners__slider .slick-next:hover{
+	background: #fff
 }
 
 @media (max-width: 1250px) {
