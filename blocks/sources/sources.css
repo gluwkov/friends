@@ -9,3 +9,9 @@
 		width: 1032px;
 	}
 }
+
+@media screen and (max-width: 503px) {
+	.sources {
+		margin-top: 56px;
+	}
+}
