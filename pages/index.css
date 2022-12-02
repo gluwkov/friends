@@ -69,3 +69,11 @@
 @import url(../blocks/partners/__slider/partners__slider.css);
 @import url(../blocks/partners/__img/partners__img.css);
 @import url(../blocks/partners/__button-all/partners__button-all.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__close/popup__close.css);

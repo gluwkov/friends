@@ -1,5 +1,6 @@
 .modal-nav {
-	display: none;
+	visibility: hidden;
+	opacity: 0;
 	background: #fff;
 	position: absolute;
 	top: 0;
