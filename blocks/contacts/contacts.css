@@ -3,7 +3,7 @@
 	padding-top: 95px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 376px) {
 	.contacts {
 		padding-top: 56px;
 	}
