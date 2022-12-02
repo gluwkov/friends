@@ -11,6 +11,8 @@
 
 @media screen and (max-width: 1023px) {
 	.header__nav-container {
-		display: none;
+		visibility: hidden;
+		opacity: 0;
+		width: 0;
 	}
 }
