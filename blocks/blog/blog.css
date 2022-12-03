@@ -1,0 +1,6 @@
+.blog {
+	margin: 96px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

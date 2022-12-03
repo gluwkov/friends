@@ -1,0 +1,17 @@
+.blog__button {
+	width: 328px;
+	height: 56px;
+	background: #F8F8F8;
+	border: 0;
+	border-radius: 56px;
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.blog__button:hover {
+	background: #F1F5F9;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
