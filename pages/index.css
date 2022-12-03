@@ -81,3 +81,15 @@
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/popup/__close/popup__close.css);
+
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/__cards/blog__cards.css);
+@import url(../blocks/blog-card/blog-card.css);
+@import url(../blocks/blog-card/__type/blog-card__type.css);
+@import url(../blocks/blog-card/__type-text/blog-card__type-text.css);
+@import url(../blocks/blog-card/__image/blog-card__image.css);
+@import url(../blocks/blog-card/__info/blog-card__info.css);
+@import url(../blocks/blog-card/__date/blog-card__date.css);
+@import url(../blocks/blog-card/__title/blog-card__title.css);
+@import url(../blocks/blog-card/__description/blog-card__description.css);
+@import url(../blocks/blog/__button/blog__button.css);

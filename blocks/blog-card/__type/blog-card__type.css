@@ -1,0 +1,7 @@
+.blog-card__type {
+	max-width:fit-content;
+	padding: 0 8px;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+}
