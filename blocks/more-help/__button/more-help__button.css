@@ -1,0 +1,27 @@
+.more-help__button {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+	width: 287px;
+	height: 56px;
+	background: #F8F8F8;
+	border-radius: 48px;
+	border: none;
+	cursor: pointer;
+	margin-top: 32px;
+	padding: 0;
+}
+
+.more-help__button:hover {
+	color: #54A8B6;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 52px rgba(95, 97, 113, 0.35);
+	border-radius: 48px;
+}
+
+.more-help__button:hover .more-help__btn-span-accent {
+	display: none;
+}

@@ -1,0 +1,9 @@
+.more-help__title {
+	margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1030px) {
+	.more-help__title {
+		margin-bottom: 0;
+	}
+}

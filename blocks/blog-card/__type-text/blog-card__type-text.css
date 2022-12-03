@@ -1,0 +1,9 @@
+.blog-card__type-text {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin: 0;
+}

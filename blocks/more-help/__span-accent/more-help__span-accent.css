@@ -1,0 +1,16 @@
+.more-help__span-accent {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 58px;
+	text-align: center;
+	color: #000000;
+}
+
+@media screen and (max-width: 550px) {
+	.more-help__span-accent {
+		font-size: 32px;
+		line-height: 40px;
+	}
+}

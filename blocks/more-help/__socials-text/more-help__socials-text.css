@@ -1,0 +1,14 @@
+.more-help__socials-text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 150%;
+	color: #000000;
+	margin: 76px 0 21px;
+}
+
+@media screen and (max-width: 1030px) {
+	.more-help__socials-text {
+		margin: 40px 0 21px;
+	}
+}

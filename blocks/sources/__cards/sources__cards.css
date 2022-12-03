@@ -1,8 +1,14 @@
 .sources__cards {
 	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
 	grid-template-columns: repeat(auto-fill, minmax(343px, 1fr));
 	grid-template-rows: repeat(auto-fit, minmax(208px, 1fr));
 	gap: 24px;
 }
 
+@media screen and (max-width: 572px) {
+	.sources__cards {
+		max-width: 91.7vw;
+		margin: auto;
+		gap: 15.85px;
+	}
+}

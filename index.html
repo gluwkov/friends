@@ -31,10 +31,10 @@
 					<li><a href="#" class="nav__link">Партнёры</a></li>
 					<li><a href="#" class="nav__link">Контакты</a></li>
 				</ul>
-				<div class="social-container">
-					<a href="#"><img src="./images/icons/Logo_social_vk.svg" alt="Вконтакте" class="social-container__social"></a>
+				<div class="header__social-container">
+					<a href="#"><img src="./images/icons/Logo_social_vk.svg" alt="Вконтакте" class="header__social"></a>
 					<a href="#"><img src="./images/icons/Logo_social_telegram.svg" alt="Телеграм"
-							class="social-container__social"></a>
+							class="header__social"></a>
 				</div>
 				<div class="header__lang-container">
 					<p class="header__lang">Ру</p>
@@ -178,8 +178,12 @@
 			<!-- Блок “Наши друзья” -->
 		</section>
 
-		<section>
-			<!-- Блок “Блог” -->
+		<section class="blog">
+			<h2 class="title">Блог</h2>
+			<div class="blog__cards">
+
+			</div>
+			<button type="button" class="blog__button">Перейти в блог</button>
 		</section>
 
 		<section class="newsletter">
@@ -286,10 +290,26 @@
 			<a href="#"><img src="./images/icons/Logo-social-telegram-black.svg" alt="Телеграм" class="modal-nav__social"></a>
 		</div>
 	</div>
+
+	<template id="blogCardTemplate">
+		<article class="blog-card">
+			<div class="blog-card__type">
+				<p class="blog-card__type-text"></p>
+			</div>
+			<img class="blog-card__image" src="" alt="">
+			<div class="blog-card__info">
+				<p class="blog-card__date"></p>
+				<h2 class="blog-card__title"></h2>
+				<p class="blog-card__description"></p>
+			</div>
+		</article>
+	</template>
+
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> <!-- подключил jquery -->
 	<script src="./vendor/slick/slick.min.js"></script> <!-- подключил слайдер -->
 	<script src="./scripts/slider.js"></script> <!-- подключил скрипт для слайдера -->
 	<script src="./scripts/header.js"></script>
+	<script src="./scripts/blog.js"></script>
 	<script src="./scripts/closePopup.js"></script>
 </body>
 
