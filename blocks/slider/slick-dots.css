@@ -29,6 +29,7 @@
 	width: 12px;
 	outline: none;
 	cursor: pointer;
+	transition: .5s ease;
 }
 
 @media (max-width: 500px) {
