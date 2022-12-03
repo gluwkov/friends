@@ -1,0 +1,16 @@
+.promo__slider {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.promo__slider .slick-prev {
+	position: absolute;
+	bottom: 50%;
+	left: 24px;
+}
+
+.promo__slider .slick-next {
+	position: absolute;
+	bottom: 50%;
+	right: 24px;
+}
