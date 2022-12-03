@@ -13,6 +13,6 @@
 	.blog-card:first-of-type>.blog-card__info {
 		position: unset;
 		width: 85.37%;
-		margin: auto;
+		margin: 0 auto;
 	}
 }
