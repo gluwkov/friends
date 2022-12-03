@@ -1,0 +1,18 @@
+.blog-card__info {
+	max-width: 85.37%;
+	margin: auto;
+}
+
+.blog-card:first-of-type>.blog-card__info {
+	position: absolute;
+	left: 24px;
+	bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.blog-card:first-of-type>.blog-card__info {
+		position: unset;
+		width: 85.37%;
+		margin: auto;
+	}
+}
