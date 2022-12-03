@@ -4,18 +4,23 @@
 @import url(../blocks/title/title.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/social-container/social-container.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__help-button/header__help-button.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-container/header__lang-container.css);
 @import url(../blocks/header/__nav-button/header__nav-button.css);
 @import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__social-container/header__social-container.css);
+@import url(../blocks/header/__social/header__social.css);
+
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/logo/__subtitle/logo__subtitle.css);
 @import url(../blocks/logo/__title/logo__title.css);
+
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__link/nav__link.css);
+
 @import url(../blocks/modal-nav/modal-nav.css);
 @import url(../blocks/modal-nav/__close-button/modal-nav__close-button.css);
 @import url(../blocks/modal-nav/__item/modal-nav__item.css);
@@ -25,8 +30,6 @@
 @import url(../blocks/modal-nav/__nav/modal-nav__nav.css);
 @import url(../blocks/modal-nav/__social/modal-nav__social.css);
 @import url(../blocks/modal-nav/__social-container/modal-nav__social-container.css);
-@import url(../blocks/nav/__link/nav__link.css);
-@import url(../blocks/social-container/__social/social-container__social.css);
 @import url(../blocks/modal/_opened/modal_opened.css);
 
 @import url(../blocks/values/values.css);
@@ -52,3 +55,23 @@
 @import url(../blocks/newsletter/__form/newsletter__form.css);
 @import url(../blocks/newsletter/__input/newsletter__input.css);
 @import url(../blocks/newsletter/__button/newsletter__button.css);
+
+@import url(../blocks/more-help/more-help.css);
+@import url(../blocks/more-help/__span-accent/more-help__span-accent.css);
+@import url(../blocks/more-help/__container/more-help__container.css);
+@import url(../blocks/more-help/__card-title/more-help__card-title.css);
+@import url(../blocks/more-help/__card-description/more-help__card-description.css);
+@import url(../blocks/more-help/__button/more-help__button.css);
+@import url(../blocks/more-help/__link/more-help__link.css);
+@import url(../blocks/more-help/__card/more-help__card.css);
+@import url(../blocks/more-help/__card-img/more-help__card-img.css);
+@import url(../blocks/more-help/__socials-text/more-help__socials-text.css);
+@import url(../blocks/more-help/__social/more-help__social.css);
+@import url(../blocks/more-help/__text-container/more-help__text-container.css);
+@import url(../blocks/more-help/__socials/more-help__socials.css);
+
+@import url(../blocks/more-help/__flex-wrap/more-help__flex-wrap.css);
+@import url(../blocks/more-help/__title/more-help__title.css);
+@import url(../blocks/more-help/__card/_position/more-help__card_position_end.css);
+@import url(../blocks/more-help/__card/_position/more-help__card_position_start.css);
+@import url(../blocks/more-help/__flex-wrap/_direction/more-help__flex-wrap_direction_reverse.css);

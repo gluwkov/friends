@@ -1,174 +1,196 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./pages/help.css" />
-		<title>Помочь фонду</title>
-	</head>
 
-	<body class="root">
-		<header class="header">
-			<div class="header__container">
-				<button
-					class="header__nav-button"
-					type="button"
-					aria-label="Открыть меню"
-				></button>
-				<div class="logo">
-					<img
-						src="./images/logo-fond-friends.svg"
-						alt=""
-						class="logo__image logo__image_place_header"
-					/>
-					<div class="logo__container">
-						<p class="logo__title logo__title_place_header">Фонд</p>
-						<p class="logo__subtitle logo__subtitle_place_header">Друзья</p>
-					</div>
-				</div>
-				<div class="header__nav-container">
-					<ul class="nav">
-						<li><a href="#" class="nav__link">Фонд</a></li>
-						<li><a href="#" class="nav__link">Программы</a></li>
-						<li><a href="#" class="nav__link">Для НКО</a></li>
-						<li><a href="#" class="nav__link">Для бизнеса</a></li>
-						<li><a href="#" class="nav__link">Блог</a></li>
-						<li><a href="#" class="nav__link">Партнёры</a></li>
-						<li><a href="#" class="nav__link">Контакты</a></li>
-					</ul>
-					<div class="social-container">
-						<a href="#"
-							><img
-								src="./images/Logo_social_vk.svg"
-								alt=""
-								class="social-container__social"
-						/></a>
-						<a href="#"
-							><img
-								src="./images/Logo_social_telegram.svg"
-								alt=""
-								class="social-container__social"
-						/></a>
-					</div>
-					<div class="header__lang-container">
-						<p class="header__lang">Ру</p>
-						<p class="header__lang">En</p>
-					</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./pages/help.css" />
+	<title>Помочь фонду</title>
+</head>
+
+<body class="root">
+	<header class="header">
+		<div class="header__container">
+			<button class="header__nav-button" type="button" aria-label="Открыть меню"></button>
+			<div class="logo">
+				<img src="./images/icons/logo-fond-friends.svg" alt="" class="logo__image logo__image_place_header" />
+				<div class="logo__container">
+					<p class="logo__title logo__title_place_header">Фонд</p>
+					<p class="logo__subtitle logo__subtitle_place_header">Друзья</p>
 				</div>
 			</div>
-			<button class="header__help-button">Помочь фонду</button>
-		</header>
-
-		<main class="content">
-			<section>
-				<!-- Блок “Форма пожертвования” -->
-			</section>
-
-			<section class="contacts">
-				<h2 class="title">Остались вопросы? Пишите и звоните нам</h2>
-				<div class="contacts__container">
-					<a href="mailto:friends@friends-foundation.com" class="contacts__email">friends@friends-foundation.com</a>
-					<a href="tel:+79772770717" class="contacts__phone">+7 977 277-07-17</a>
-				</div>
-			</section>
-
-			<section class="values">
-				<ul class="digits">
-					<li class="digits__element">
-						<h3 class="digits__heading">2 500</h3>
-						<p class="digits__text">НКО <span class="digits__span-accent">стали</span> участниками наших программ</p>
-					</li>
-					<li class="digits__element">
-						<h3 class="digits__heading">150</h3>
-						<p class="digits__text"><span class="digits__span-accent">Профессионалов</span> благотворительности получили дипломы</p>
-					</li>
-					<li class="digits__element">
-						<h3 class="digits__heading">4 000</h3>
-						<p class="digits__text">Волонтер <span class="digits__span-accent">был привлечен</span> через нас для помощи различным НКО</p>
-					</li>
-					<li class="digits__element">
-						<h3 class="digits__heading">250</h3>
-						<p class="digits__text">Экспертов <span class="digits__span-accent">преподают</span> в наших программах</p>
-					</li>
+			<div class="header__nav-container">
+				<ul class="nav">
+					<li><a href="#" class="nav__link">Фонд</a></li>
+					<li><a href="#" class="nav__link">Программы</a></li>
+					<li><a href="#" class="nav__link">Для НКО</a></li>
+					<li><a href="#" class="nav__link">Для бизнеса</a></li>
+					<li><a href="#" class="nav__link">Блог</a></li>
+					<li><a href="#" class="nav__link">Партнёры</a></li>
+					<li><a href="#" class="nav__link">Контакты</a></li>
 				</ul>
-			</section>
-
-			<section>
-				<!-- Блок “Как еще вы можете помочь” -->
-			</section>
-
-			<section>
-				<!-- Блок “Форма обратной связи” -->
-			</section>
-
-			<section class="newsletter">
-				<div class="newsletter__text-container">
-					<h2 class="newsletter__title">
-						Подпишитесь на&nbsp;новостную рассылку программы
-					</h2>
-					<p class="newsletter__subtitle">
-						и получайте первыми наши новости и приглашения
-						на&nbsp;семинары/вебинары
-					</p>
+				<div class="header__social-container">
+					<a href="#"><img src="./images/icons/Logo_social_vk.svg" alt="" class="header__social" /></a>
+					<a href="#"><img src="./images/icons/Logo_social_telegram.svg" alt="" class="header__social" /></a>
 				</div>
-
-				<form id="newsletterForm" class="newsletter__form">
-					<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
-					<button class="newsletter__button">Подписаться</button>
-				</form>
-			</section>
-		</main>
-
-		<footer class="footer">
-			<!-- Подвал -->
-		</footer>
-
-		<div class="modal modal-nav">
-			<button class="modal-nav__close-button"></button>
-			<ul class="modal-nav__nav">
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Фонд</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Программы</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Для НКО</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Для бизнеса</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Блог</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Партнёры</a>
-				</li>
-				<li class="modal-nav__item">
-					<a href="#" class="modal-nav__link">Контакты</a>
-				</li>
-			</ul>
-			<div class="modal-nav__lang-container">
-				<p class="modal-nav__lang">Ру</p>
-				<p class="modal-nav__lang">En</p>
-			</div>
-			<div class="modal-nav__social-container">
-				<a href="#"
-					><img
-						src="./images/Logo-social-vk-black.svg"
-						alt=""
-						class="modal-nav__social"
-				/></a>
-				<a href="#"
-					><img
-						src="./images/Logo-social-telegram-black.svg"
-						alt=""
-						class="modal-nav__social"
-				/></a>
+				<div class="header__lang-container">
+					<p class="header__lang">Ру</p>
+					<p class="header__lang">En</p>
+				</div>
 			</div>
 		</div>
+		<button class="header__help-button">Помочь фонду</button>
+	</header>
 
-		<script src="./header.js"></script>
-	</body>
+	<main class="content">
+		<section>
+			<!-- Блок “Форма пожертвования” -->
+		</section>
+
+		<section class="contacts">
+			<h2 class="title">Остались вопросы? Пишите и звоните нам</h2>
+			<div class="contacts__container">
+				<a href="mailto:friends@friends-foundation.com" class="contacts__email">friends@friends-foundation.com</a>
+				<a href="tel:+79772770717" class="contacts__phone">+7 977 277-07-17</a>
+			</div>
+		</section>
+
+		<section class="values">
+			<ul class="digits">
+				<li class="digits__element">
+					<h3 class="digits__heading">2 500</h3>
+					<p class="digits__text">НКО <span class="digits__span-accent">стали</span> участниками наших программ</p>
+				</li>
+				<li class="digits__element">
+					<h3 class="digits__heading">150</h3>
+					<p class="digits__text"><span class="digits__span-accent">Профессионалов</span> благотворительности получили
+						дипломы</p>
+				</li>
+				<li class="digits__element">
+					<h3 class="digits__heading">4 000</h3>
+					<p class="digits__text">Волонтер <span class="digits__span-accent">был привлечен</span> через нас для помощи
+						различным НКО</p>
+				</li>
+				<li class="digits__element">
+					<h3 class="digits__heading">250</h3>
+					<p class="digits__text">Экспертов <span class="digits__span-accent">преподают</span> в наших программах</p>
+				</li>
+			</ul>
+		</section>
+
+		<!-- Блок “Как еще вы можете помочь” -->
+		<section class="more-help">
+			<h2 class="more-help__title title">Как&nbsp;еще&nbsp;<span class="more-help__span-accent">вы&nbsp;можете
+					помочь</span></h2>
+			<div class="more-help__container">
+				<div class="more-help__flex-wrap">
+					<div class="more-help__card more-help__card_position_end">
+						<div class="more-help__text-container">
+							<h3 class="more-help__card-title">Стать интеллектуальным волонтером</h3>
+							<p class="more-help__card-description">Помогая фондам своими профессиональными навыками, Вы сохраняете
+								средства в
+								бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
+							<button class="more-help__button">Перейти на сайт ProCharity
+								<span class="more-help__btn-span-accent"><img src="./images/icons/arrow-icon.svg" alt="Стрелка"></span>
+							</button>
+						</div>
+					</div>
+					<div class="more-help__card">
+						<img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image1.png"
+							alt="Страница фонда в соцсети">
+					</div>
+				</div>
+				<div class="more-help__flex-wrap more-help__flex-wrap_direction_reverse">
+					<div class="more-help__card">
+						<img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image2.png"
+							alt="Пост на странице фонда в соцсети">
+					</div>
+					<div class="more-help__card more-help__card_position_start">
+						<div class="more-help__text-container">
+							<h3 class="more-help__card-title">Стать попечителем</h3>
+							<p class="more-help__card-description">Инвестируя в одну из программ фонда “Друзья”, вы можете стать
+								попечителем
+								Московской школы профессиональной филантропии, платформы ProCharity или фонда «Друзья», а также наших
+								благополучателей – НКО, социальной организации/проекта или конкретного профессионала.</p>
+							<a href="#" class="more-help__link">e.gosteva@friends-foundation.com</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="more-help__socials">
+					<p class="more-help__socials-text">Рассказать о нас друзьям</p>
+					<div class="more-help__social-container">
+						<a href="#"><img src="./images/icons/Logo_social_vk_blue.svg" alt="Вк" class="more-help__social" /></a>
+						<a href="#"><img src="./images/icons/Logo_social_telegram_blue.svg" alt="Телеграм"
+								class="more-help__social" /></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<!-- Блок “Форма обратной связи” -->
+		</section>
+
+		<section class="newsletter">
+			<div class="newsletter__text-container">
+				<h2 class="newsletter__title">
+					Подпишитесь на&nbsp;новостную рассылку программы
+				</h2>
+				<p class="newsletter__subtitle">
+					и получайте первыми наши новости и приглашения
+					на&nbsp;семинары/вебинары
+				</p>
+			</div>
+
+			<form id="newsletterForm" class="newsletter__form">
+				<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
+				<button class="newsletter__button">Подписаться</button>
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<!-- Подвал -->
+	</footer>
+
+	<div class="modal modal-nav">
+		<button class="modal-nav__close-button"></button>
+		<ul class="modal-nav__nav">
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Фонд</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Программы</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Для НКО</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Для бизнеса</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Блог</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Партнёры</a>
+			</li>
+			<li class="modal-nav__item">
+				<a href="#" class="modal-nav__link">Контакты</a>
+			</li>
+		</ul>
+		<div class="modal-nav__lang-container">
+			<p class="modal-nav__lang">Ру</p>
+			<p class="modal-nav__lang">En</p>
+		</div>
+		<div class="modal-nav__social-container">
+			<a href="#"><img src="./images/icons/Logo-social-vk-black.svg" alt="" class="modal-nav__social" /></a>
+			<a href="#"><img src="./images/icons/Logo-social-telegram-black.svg" alt="" class="modal-nav__social" /></a>
+		</div>
+	</div>
+
+	<script src="./scripts/header.js"></script>
+</body>
+
 </html>

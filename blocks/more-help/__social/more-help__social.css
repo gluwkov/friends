@@ -1,0 +1,9 @@
+.more-help__social {
+	width: 40px;
+	margin-right: 26px;
+}
+
+.more-help__social:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}

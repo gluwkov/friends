@@ -10,8 +10,8 @@
 	}
 }
 
-@media screen and (max-width: 503px) {
+@media screen and (max-width: 572px) {
 	.sources {
-		margin-top: 56px;
+		max-width: 91.5vw;
 	}
 }
