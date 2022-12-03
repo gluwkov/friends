@@ -1,0 +1,29 @@
+.more-help__card_position_end {
+	margin-left: 6.875vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.more-help__card_position_end {
+		margin-left: 88px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.more-help__card_position_end {
+		margin-left: 3.5vw;
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 1103px) {
+	.more-help__card_position_end {
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (max-width: 1030px) {
+	.more-help__card_position_end {
+		margin: 0;
+	}
+}

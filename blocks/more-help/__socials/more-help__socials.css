@@ -1,0 +1,22 @@
+.more-help__socials {
+	margin-left: 6.875vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.more-help__socials {
+    margin-left: 88px;
+}
+}
+
+@media screen and (max-width: 1150px) {
+	.more-help__socials {
+    margin-left: 3.5vw;
+}
+}
+
+@media screen and (max-width: 1103px) {
+	.more-help__socials {
+		margin-left: 0;
+		width: 100%;
+}
+}

@@ -1,0 +1,17 @@
+.more-help {
+	margin: 96px auto 0;
+	width: 80.625vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.more-help {
+		width: 1032px;
+	}
+}
+
+@media screen and (max-width: 504px) {
+	.more-help {
+		margin-top: 56px;
+		width: 87.2vw;
+	}
+}

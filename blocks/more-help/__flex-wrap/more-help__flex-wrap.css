@@ -1,0 +1,13 @@
+.more-help__flex-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1030px) {
+	.more-help__flex-wrap {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+}
