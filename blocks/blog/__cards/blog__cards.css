@@ -2,6 +2,7 @@
 	max-width: 1032px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 24px;
 	margin: 56px auto;
 }
