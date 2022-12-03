@@ -1,4 +1,5 @@
 .promo__button {
+	padding: 0;
 	margin: 56px 0 48px 40px;
 	position: relative;
 	border: none;
@@ -26,5 +27,6 @@
 		margin-top: 32px;
 		margin-bottom: 16px;
 		margin-left: 26px;
+		width: 201px;
 	}
 }

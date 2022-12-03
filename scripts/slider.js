@@ -41,10 +41,11 @@ $(document).ready(function () {
 $('.slider').slick({
 	infinite: true,
 	slidesToShow: 1,
-	speed: 900,
+	speed: 1100,
 	autoplay: true,
 	autoplaySpeed: 11000,
 	dots: true,
+	fade: true,
 	dotsClass: 'slick-dots',
 	prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
 	nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
