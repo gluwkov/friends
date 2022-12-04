@@ -14,7 +14,7 @@
 	}
 
 	.items__element:first-child {
-		margin-top: 8px;
+		margin-top: 0;
 	}
 
 	.items__element:last-child {
