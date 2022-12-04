@@ -1,0 +1,11 @@
+.friends__title {
+	margin-top: 96px;
+	margin-bottom: 56px;
+}
+
+
+@media (max-width: 550px) {
+	.friends__title {
+		margin-bottom: 24px;
+	}
+}
