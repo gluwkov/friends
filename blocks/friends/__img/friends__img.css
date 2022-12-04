@@ -1,0 +1,9 @@
+.friends__img {
+	object-fit: cover;
+}
+
+@media (max-width: 900px) {
+	.slick-slide img {
+		display: none;
+	}
+}

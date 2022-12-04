@@ -46,6 +46,8 @@ $('.slider').slick({
 	autoplaySpeed: 11000,
 	dots: true,
 	fade: true,
+	adaptiveHeight: true,
+	centerMode: true,
 	dotsClass: 'slick-dots',
 	prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
 	nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
@@ -58,3 +60,16 @@ $('.slider').slick({
 		},
 	]
 });
+
+/* $(window).resize(function () {
+	if (window.matchMedia("(max-width: 766px)").matches) {
+		$('.blog__cards').slick({
+			speed: 400,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			dots: true,
+			dotsClass: 'slick-dots',
+		});
+	}
+}); */

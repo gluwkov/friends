@@ -1,0 +1,15 @@
+.friends__block-text_position_left {
+	margin-left: 125px;
+}
+
+@media (max-width: 1050px) {
+	.friends__block-text_position_left {
+		margin: auto 10px auto 90px ;
+	}
+}
+
+@media (max-width: 666px) {
+	.friends__block-text_position_left {
+		margin: 0 auto ;
+	}
+}
