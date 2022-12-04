@@ -1,7 +1,10 @@
+.friends__slide {
+	min-height: 408px;
+}
+
 .slick-initialized .slick-slide {
 	display: flex;
 	flex-direction: row;
-	min-height: 408px;
 }
 
 
