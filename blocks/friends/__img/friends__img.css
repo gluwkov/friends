@@ -3,7 +3,7 @@
 }
 
 @media (max-width: 900px) {
-	.slick-slide img {
+	.slick-slide .friends__img  {
 		display: none;
 	}
 }
