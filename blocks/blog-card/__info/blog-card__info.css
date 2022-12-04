@@ -9,10 +9,17 @@
 	bottom: 0;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.blog-card:first-of-type>.blog-card__info {
 		position: unset;
 		width: 85.37%;
 		margin: 0 auto;
+	}
+} */
+
+ @media (max-width: 768px) {
+	.blog-card__info {
+		margin: 0 auto;
+		width: 400px;
 	}
 }
