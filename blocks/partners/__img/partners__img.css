@@ -1,16 +1,9 @@
 .partners__img {
-	width: 124px;
-	height: 124px;
+	width: 100%;
+	height: 100%;
 	filter: grayscale(100%);
 	opacity: 0.5;
 	transition: .5s ease;
-}
-
-@media (max-width: 550px) {
-	.partners__img {
-		width: 80px;
-		height: 80px;
-	}
 }
 
 .partners__img:hover {

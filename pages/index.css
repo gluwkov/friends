@@ -71,6 +71,9 @@
 @import url(../blocks/newsletter/__button/newsletter__button.css);
 
 @import url(../vendor/slick/slick.css);
+@import url(../blocks/slider/switch-button.css);
+@import url(../blocks/slider/slick-dots.css);
+
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__item/partners__item.css);
 @import url(../blocks/partners/__slider/partners__slider.css);
@@ -84,6 +87,22 @@
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/popup/__close/popup__close.css);
+
+@import url(../blocks/promo/__slider/promo__slider.css);
+@import url(../blocks/promo/__slide/promo__slide.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__button/promo__button.css);
+@import url(../blocks/promo/__wrapper/promo__wrapper.css);
+@import url(../blocks/promo/__wrapper/_slider-1/promo__wrapper_slider-1.css);
+@import url(../blocks/promo/__wrapper/_slider-2/promo__wrapper_slider-2.css);
+@import url(../blocks/promo/__wrapper/_slider-3/promo__wrapper_slider-3.css);
+@import url(../blocks/promo/__img/promo__img.css);
+@import url(../blocks/promo/__img/_slide-1/promo__img_slide-1.css);
+@import url(../blocks/promo/__img/_slide-2/promo__img_slide-2.css);
+@import url(../blocks/promo/__img/_slide-3/promo__img_slide-3.css);
+@import url(../blocks/promo/__title/_italic/promo__title_italic.css);
+@import url(../blocks/promo/__subtitle/_bold/promo__subtitle_bold.css);
 
 @import url(../blocks/blog/blog.css);
 @import url(../blocks/blog/__cards/blog__cards.css);

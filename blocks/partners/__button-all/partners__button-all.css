@@ -17,3 +17,9 @@
 .partners__button-all:hover {
 	background-color: #F8F8F8;
 }
+
+@media (max-width: 550px) {
+	.partners__button-all {
+		margin-top: 10px;
+	}
+}

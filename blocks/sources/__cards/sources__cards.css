@@ -9,5 +9,6 @@
 	.sources__cards {
 		max-width: 91.7vw;
 		margin: auto;
+		gap: 15.85px;
 	}
 }
