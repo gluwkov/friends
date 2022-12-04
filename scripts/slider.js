@@ -15,23 +15,24 @@ $(document).ready(function () {
 				}
 			},
 			{
-				breakpoint: 810,
+				breakpoint: 850,
 				settings: {
 					slidesToShow: 3,
+					arrows: false
 				}
 			},
 			{
 				breakpoint: 790,
 				settings: {
 					slidesToShow: 3,
-					arrows: false
+
 				}
 			},
 			{
 				breakpoint: 430,
 				settings: {
 					slidesToShow: 2,
-					arrows: false
+
 				}
 			}
 		]
@@ -52,9 +53,10 @@ $('.slider').slick({
 	nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
 	responsive: [
 		{
-			breakpoint: 800,
+			breakpoint: 850,
 			settings: {
 				arrows: false,
+				fade: false,
 			}
 		},
 	]
