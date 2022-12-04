@@ -4,6 +4,7 @@ const modalNavEl = document.querySelector('.modal-nav');
 const modalNavCloseBtnEl = document.querySelector('.modal-nav__close-button');
 const modal = document.querySelector('.modal');
 
+const footerHelpBtnEl = document.querySelector('.footer__help-button');
 const headerHelpBtnEl = document.querySelector('.header__help-button');
 
 function openModal(modal) {
@@ -24,5 +25,10 @@ modalNavCloseBtnEl.addEventListener('click', () => {
 
 // Переход на страницу "Помочь фонду" при клике на кнопку "Помочь фонду"
 headerHelpBtnEl.addEventListener('click', () => {
+	window.location.href = './help.html';
+});
+
+// Переход на страницу "Помочь фонду" при клике на кнопку "Помочь фонду" в футере
+footerHelpBtnEl.addEventListener('click', () => {
 	window.location.href = './help.html';
 });

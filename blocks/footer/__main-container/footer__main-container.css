@@ -1,0 +1,13 @@
+.footer__main-container {
+	display: flex;
+	flex-direction: column;
+	width: 80.625%;
+	margin: auto;
+}
+
+@media screen and (max-width: 593px) {
+	.footer__main-container {
+		width: 87.73%;
+		margin: auto;
+	}
+}

@@ -1,0 +1,16 @@
+.nav_place_footer {
+	width: 558px;
+}
+
+@media screen and (max-width: 693px) {
+	.nav_place_footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 593px) {
+	.nav_place_footer {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+}
