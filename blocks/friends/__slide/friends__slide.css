@@ -8,11 +8,7 @@
 	}
 }
 
-.slick-initialized .slick-slide {
+.slick-initialized .friends__slide {
 	display: flex;
 	flex-direction: row;
 }
-
-
-
-

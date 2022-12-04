@@ -25,14 +25,14 @@ $(document).ready(function () {
 				breakpoint: 790,
 				settings: {
 					slidesToShow: 3,
-
+					arrows: false
 				}
 			},
 			{
 				breakpoint: 430,
 				settings: {
 					slidesToShow: 2,
-
+					arrows: false
 				}
 			}
 		]
@@ -62,15 +62,17 @@ $('.slider').slick({
 	]
 });
 
-/* $(window).resize(function () {
-	if (window.matchMedia("(max-width: 766px)").matches) {
-		$('.blog__cards').slick({
+$(window).on('load resize', function() {
+  if ($(window).width() < 769) {
+    $('.blog__cards:not(.slick-initialized)').slick({
 			speed: 400,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			arrows: false,
 			dots: true,
 			dotsClass: 'slick-dots',
-		});
-	}
-}); */
+    });
+  } else {
+    $(".blog__cards.slick-initialized").slick("unslick");
+  }
+});
