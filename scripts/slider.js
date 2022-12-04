@@ -46,7 +46,6 @@ $('.slider').slick({
 	autoplaySpeed: 11000,
 	dots: true,
 	fade: true,
-	adaptiveHeight: true,
 	centerMode: true,
 	dotsClass: 'slick-dots',
 	prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
