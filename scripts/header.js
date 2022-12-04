@@ -5,6 +5,8 @@ const modalNavEl = document.querySelector('.modal-nav');
 const modalNavCloseBtnEl = document.querySelector('.modal-nav__close-button');
 const modal = document.querySelector('.modal');
 
+const footerHelpBtnEl = document.querySelector('.footer__help-button');
+
 function openModal(modal) {
 	modal.classList.add('modal_opened');
 }
@@ -19,4 +21,9 @@ headerNavBtnEl.addEventListener('click', () => {
 
 modalNavCloseBtnEl.addEventListener('click', () => {
   closeModal(modalNavEl);
+});
+
+// Переход на страницу "Помочь фонду" при клике на кнопку "Помочь фонду" в футере
+footerHelpBtnEl.addEventListener('click', () => {
+	window.location.href = './help.html';
 });

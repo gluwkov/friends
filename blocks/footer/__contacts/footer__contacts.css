@@ -1,0 +1,19 @@
+.footer__contacts {
+	display: flex;
+	margin-right: 64px;
+	justify-self: end;
+}
+
+.footer__contacts:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1097px) {
+	.footer__contacts {
+		margin: 0 0 16px 0;
+	}
+
+	.footer__contacts:last-child {
+		margin: 0;
+	}
+}

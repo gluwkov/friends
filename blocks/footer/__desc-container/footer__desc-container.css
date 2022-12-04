@@ -1,0 +1,21 @@
+.footer__desc-container {
+	display: flex;
+	justify-content: space-between;
+	width: 48.2vw;
+	margin-left: 6.406vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.footer__desc-container {
+		width: 617px;
+		margin-left: 82px;
+	}
+}
+
+@media screen and (max-width: 1097px) {
+	.footer__desc-container {
+		margin: 10px 0 0;
+		width: 100%;
+		justify-content: space-between;
+	}
+}
