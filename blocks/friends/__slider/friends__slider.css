@@ -2,6 +2,10 @@
 	width: 100%;
 }
 
+.friends__slider .slick-dots {
+	margin-top: 9px;
+}
+
 .friends__slider .slick-prev {
 	position: absolute;
 	bottom: 50%;
@@ -12,9 +16,4 @@
 	position: absolute;
 	bottom: 50%;
 	right: 24px;
-}
-
-
-.friends__slider .slick-dots {
-	margin-top: 9px;
 }
