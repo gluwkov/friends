@@ -1,0 +1,15 @@
+.programs__item_theme_blue {
+	background-image: url(../../../../images/programs/programs_blue.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #528CBE;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+@media (max-width: 768px) {
+	.programs__item_theme_blue {
+		background-image: none;
+		justify-content: center;
+	}
+}

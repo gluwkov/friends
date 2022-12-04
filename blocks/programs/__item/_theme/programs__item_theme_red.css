@@ -1,0 +1,12 @@
+.programs__item_theme_red {
+	background-image: url(../../../../images/programs/programs_red.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #DE6F7E;
+}
+
+@media (max-width: 768px) {
+	.programs__item_theme_red {
+		background-image: none;
+	}
+}

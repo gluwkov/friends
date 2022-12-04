@@ -1,0 +1,27 @@
+.programs__button {
+	width: 201px;
+	height: 56px;
+	margin: 56px 0 0;
+	border: none;
+	box-sizing: border-box;
+	border-radius: 56px;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	transition: .5s ease;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.programs__button:hover {
+	background: #fff;
+	color: #000;
+}
+
+@media (max-width: 768px) {
+	.programs__button {
+		margin: 24px 0 40px 0;
+	}
+}

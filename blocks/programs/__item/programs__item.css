@@ -1,0 +1,14 @@
+.programs__item {
+	display: flex;
+	align-items: flex-start;
+	min-height: 490px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+	.programs__item {
+		align-items: center;
+		justify-content: center;
+		min-height: 0;
+	}
+}
