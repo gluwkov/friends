@@ -2,15 +2,17 @@
 	min-height: 408px;
 }
 
+@media (max-width: 900px) {
+	.friends__slide {
+		background-color: #F8F8F8;
+	}
+}
+
 .slick-initialized .slick-slide {
 	display: flex;
 	flex-direction: row;
 }
 
 
-@media (max-width: 900px) {
-	.slick-initialized .slick-slide {
-		background-color: #F8F8F8;
-	}
-}
+
 
