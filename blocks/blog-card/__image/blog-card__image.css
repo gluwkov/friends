@@ -2,3 +2,11 @@
 	object-fit: cover;
 	aspect-ratio: 1.52/1;
 }
+
+@media (max-width: 768px) {
+	.blog-card__image {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 450px;
+	}
+}

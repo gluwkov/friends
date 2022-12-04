@@ -1,0 +1,12 @@
+.friends__author {
+	margin: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+@media (max-width: 1050px) {
+	.friends__author {
+		font-size: 16px;
+	}
+}

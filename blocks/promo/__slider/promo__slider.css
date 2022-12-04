@@ -14,3 +14,21 @@
 	bottom: 50%;
 	right: 24px;
 }
+
+.promo__slider .slick-dots {
+	position: relative;
+	bottom: 48px;
+}
+
+@media screen and (max-width: 500px) {
+	.promo__slider .slick-dots {
+		bottom: 30px;
+	}
+}
+
+@media (max-width: 500px) {
+	.promo__slider .slick-dots button {
+		height: 8px;
+		width: 8px;
+	}
+}
