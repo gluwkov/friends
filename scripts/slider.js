@@ -40,14 +40,14 @@ $(document).ready(function () {
 });
 
 $('.slider').slick({
+	adaptiveHeight: true,
 	infinite: true,
 	slidesToShow: 1,
-	speed: 1100,
+	speed: 900,
 	autoplay: true,
 	autoplaySpeed: 11000,
 	dots: true,
 	fade: true,
-	centerMode: true,
 	dotsClass: 'slick-dots',
 	prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
 	nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
@@ -65,9 +65,12 @@ $('.slider').slick({
 $(window).on('load resize', function() {
   if ($(window).width() < 769) {
     $('.blog__cards:not(.slick-initialized)').slick({
-			speed: 400,
+			infinite: true,
+			adaptiveHeight: true,
+			speed: 1100,
+			autoplay: true,
+			autoplaySpeed: 11000,
 			slidesToShow: 1,
-			slidesToScroll: 1,
 			arrows: false,
 			dots: true,
 			dotsClass: 'slick-dots',
