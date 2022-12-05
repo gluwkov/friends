@@ -24,6 +24,7 @@
 		letter-spacing: 0.24em;
 		text-transform: uppercase;
 		color: #82607D;
+		margin-top: 24px;
 	}
 
 	.blog-card:first-of-type>.blog-card__info>.blog-card__date {
