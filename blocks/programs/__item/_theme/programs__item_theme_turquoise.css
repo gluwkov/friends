@@ -3,10 +3,12 @@
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-color: #77C5D5;
+	margin-top: 56px;
 }
 
 @media (max-width: 768px) {
 	.programs__item_theme_turquoise {
 		background-image: none;
+		margin-top: 24px;
 	}
 }
