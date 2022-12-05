@@ -1,0 +1,17 @@
+.programs__description {
+	margin: 24px 0 0;
+	max-width: 465px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.programs__description {
+		margin: 16px 0 0;
+		max-width: 300px;
+		line-height: 24px;
+	}
+}

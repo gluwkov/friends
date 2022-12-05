@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/title/_margin/title_margin.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -45,6 +46,20 @@
 @import url(../blocks/modal-nav/__social/modal-nav__social.css);
 @import url(../blocks/modal-nav/__social-container/modal-nav__social-container.css);
 @import url(../blocks/modal/_opened/modal_opened.css);
+
+@import url(../blocks/programs/programs.css);
+@import url(../blocks/programs/__item/programs__item.css);
+@import url(../blocks/programs/__container/programs__container.css);
+@import url(../blocks/programs/__logo/programs__logo.css);
+@import url(../blocks/programs/__heading/programs__heading.css);
+@import url(../blocks/programs/__name/programs__name.css);
+@import url(../blocks/programs/__description/programs__description.css);
+@import url(../blocks/programs/__button/programs__button.css);
+@import url(../blocks/programs/__item/_theme/programs__item_theme_turquoise.css);
+@import url(../blocks/programs/__item/_theme/programs__item_theme_blue.css);
+@import url(../blocks/programs/__item/_theme/programs__item_theme_red.css);
+@import url(../blocks/programs/__box/_position/programs__box_position_left.css);
+@import url(../blocks/programs/__box/_position/programs__box_position_right.css);
 
 @import url(../blocks/values/values.css);
 @import url(../blocks/items/items.css);

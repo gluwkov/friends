@@ -1,0 +1,12 @@
+.programs__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 88px;
+}
+
+@media (max-width: 768px) {
+	.programs__container {
+		margin-top: 32px;
+	}
+}
