@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./pages/index.css">
+
 	<title>Фонд Друзья</title>
 </head>
 
@@ -388,8 +389,11 @@
 			</div>
 
 			<form id="newsletterForm" class="newsletter__form">
-				<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
-				<button class="newsletter__button">Подписаться</button>
+				<fieldset class="newsletter__email-fieldset">
+						<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="">
+						<button type="button" class="newsletter__clearButton newsletter__clearButton_hidden"></button>
+				</fieldset>
+				<button type="submit" class="newsletter__button">Подписаться</button>
 			</form>
 		</section>
 
@@ -556,6 +560,7 @@
 	<script src="./scripts/header.js"></script>
 	<script src="./scripts/blog.js"></script>
 	<script src="./scripts/closePopup.js"></script>
+	<script src="./scripts/newsletter.js"></script>
 </body>
 
 </html>

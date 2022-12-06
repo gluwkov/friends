@@ -14,8 +14,12 @@
 	color: #000000;
 }
 
+.newsletter__input:focus {
+	outline: none;
+}
+
 .newsletter__input::placeholder {
-	background-image: url(../../../images/email.svg);
+	background-image: url(../../../images/newsletter/email.svg);
 	background-position: left;
 	background-repeat: no-repeat;
 }
