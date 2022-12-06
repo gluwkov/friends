@@ -56,7 +56,20 @@ function closePopup(popup) {
 	popup.classList.remove('popup_opened');
 }
 
-// Закрытие попапа при клике на крестик
+// Функция очистки полей формы
+function clearForm() {
+	if (nameFeedbackInput.value !== '' && mailFeedbackInput.value !== '' && textFeedbackInput.value !== '' && feedbackCheckbox.checked === true) {
+		nameFeedbackInput.value = '';
+		mailFeedbackInput.value = '';
+		textFeedbackInput.value = '';
+		feedbackCheckbox.checked = false;
+	}
+}
+
+// Закрытие попапа и очистка полей формы при клике на крестик
 closePopupEl.addEventListener('click', () => {
 	closePopup(popupEl);
+	clearForm();
 });
+
+
