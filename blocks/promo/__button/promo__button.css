@@ -1,17 +1,17 @@
 .promo__button {
-	padding: 0;
+	display: inline-block;
 	margin: 56px 0 48px 40px;
 	position: relative;
-	border: none;
 	width: 231px;
 	height: 56px;
 	border-radius: 48px;
+	text-decoration: none;
 	background: #fff;
 	color: #000;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
 	transition: .5s ease;
@@ -30,3 +30,4 @@
 		width: 201px;
 	}
 }
+
