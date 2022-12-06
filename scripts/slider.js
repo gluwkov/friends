@@ -50,8 +50,8 @@ $(document).ready(function () {
 		dots: true,
 		fade: true,
 		dotsClass: 'slick-dots',
-		prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="../images/button-slider/arrow-l.svg" alt="стрелка влево"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="../images/button-slider/arrow-r.svg" alt="стрлка вправо"></button>',
 		responsive: [
 			{
 				breakpoint: 850,
