@@ -1,0 +1,16 @@
+.mission__rectangle_color_aqua {
+	background-color: #77C5D5;
+	background-image: url(../../../../images/mission/lampochkahaha.svg);
+	background-repeat: no-repeat;
+	background-position: top 31.68px left 38.24px;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_color_aqua {
+		height: 102.23px;
+		z-index: 4;
+		background-size: 71.57px 82.96px;
+		background-position: top 18.88px left 21.24px;
+	}
+}
+

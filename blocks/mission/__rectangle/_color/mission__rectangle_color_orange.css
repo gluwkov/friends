@@ -1,0 +1,18 @@
+.mission__rectangle_color_orange {
+	background-color: #EEB250;
+	background-image: url(../../../../images/mission/bag.svg);
+	background-repeat: no-repeat;
+	background-position: top 22.18px left 0;
+	bottom: 0;
+	right: 0;
+	z-index: 4;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_color_orange {
+		z-index: 1;
+		background-size: 76.16px 68.82px;
+		background-position: top 18.18px left 0;
+		width: 83.56%;
+	}
+}

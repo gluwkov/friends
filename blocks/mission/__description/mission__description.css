@@ -1,0 +1,16 @@
+.mission__description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	margin: 0;
+}
+
+.mission__description:first-of-type {
+	margin: 0 0 25px 0;
+}
+
+@media (max-width: 768px) {
+	.mission__description {
+		line-height: 23px;
+	}
+}

@@ -1,0 +1,11 @@
+.mission__circle_size_medium {
+	width: 17px;
+	height: 17px;
+}
+
+@media (max-width: 768px) {
+	.mission__circle_size_medium {
+		height: 10.66px;
+		width: 10.66px;
+	}
+}

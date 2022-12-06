@@ -1,0 +1,14 @@
+.mission__rectangle_color_gray {
+	background-color: #F8F8F8;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_color_blue {
+		background-size: 82.36px 60.98px;
+		background-position: top 23.44px left 0;
+		top: 95px;
+		left: 20.53px;
+		width: 78.83%;
+		z-index: 3;
+	}
+}
