@@ -2,4 +2,5 @@
 	display: block;
 	visibility: visible;
 	opacity: 1;
+	position: fixed;
 }
