@@ -104,6 +104,7 @@
 @import url(../blocks/popup/__close/popup__close.css);
 
 @import url(../blocks/promo/__slider/promo__slider.css);
+@import url(../blocks/promo/__link/promo__link.css);
 @import url(../blocks/promo/__slide/promo__slide.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);

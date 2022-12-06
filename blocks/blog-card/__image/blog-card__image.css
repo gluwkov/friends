@@ -6,6 +6,7 @@
 @media (max-width: 768px) {
 	.blog-card__image {
 		margin: 0 auto;
+		height: 100%;
 		width: 100%;
 		max-width: 750px;
 	}
