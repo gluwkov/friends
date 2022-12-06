@@ -13,6 +13,7 @@
 
 @media (max-width: 768px) {
 	.blog-card:first-of-type {
+		height: 100%;
 		max-width: 100%;
 	}
 
@@ -20,5 +21,11 @@
 		width: 100%;
 		max-width: unset;
 		background-color: #fff;
+	}
+}
+
+@media (max-width: 450px) {
+	.blog-card:first-of-type {
+		height: 328px;
 	}
 }

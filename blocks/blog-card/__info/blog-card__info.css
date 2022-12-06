@@ -11,14 +11,14 @@
 
 @media (max-width: 768px) {
 	.blog-card:first-of-type>.blog-card__info {
-		position: unset;
-		width: 85.37%;
+		left: 0;
 	}
 }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.blog-card__info {
 		margin-left: 16px;
+		margin-bottom: 38px;
 		width: 400px;
 	}
 }

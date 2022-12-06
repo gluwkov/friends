@@ -1,5 +1,6 @@
+// слайдер блока partners
 $(document).ready(function () {
-	$('.partners__slider').slick({
+	$('.slider-min').slick({
 		infinite: false,
 		speed: 400,
 		slidesToShow: 5,
@@ -39,6 +40,7 @@ $(document).ready(function () {
 	});
 });
 
+// слайдер блока promo, friends
 $('.slider').slick({
 	adaptiveHeight: true,
 	infinite: true,
@@ -62,14 +64,15 @@ $('.slider').slick({
 	]
 });
 
+// слайдер блока blog
 $(window).on('load resize', function() {
   if ($(window).width() < 769) {
     $('.blog__cards:not(.slick-initialized)').slick({
-			infinite: true,
+			infinite: false,
 			adaptiveHeight: true,
 			speed: 1100,
 			autoplay: true,
-			autoplaySpeed: 11000,
+			autoplaySpeed: 13000,
 			slidesToShow: 1,
 			arrows: false,
 			dots: true,
@@ -79,3 +82,10 @@ $(window).on('load resize', function() {
     $(".blog__cards.slick-initialized").slick("unslick");
   }
 });
+
+// // скрол для кнопки из слайдера в блок programs
+// $("a[href='#scroll-programs']").click(function () {
+//   const _href = $(this).attr("href");
+//   $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+//   return false;
+// });

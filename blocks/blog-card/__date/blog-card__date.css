@@ -28,11 +28,6 @@
 	}
 
 	.blog-card:first-of-type>.blog-card__info>.blog-card__date {
-		font-weight: 700;
-		font-size: 8px;
-		line-height: 120%;
-		letter-spacing: 0.24em;
-		text-transform: uppercase;
-		color: #82607D;
+		font-size: 10px;
 	}
 }

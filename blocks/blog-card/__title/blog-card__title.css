@@ -28,10 +28,4 @@
 		line-height: 22px;
 		margin-top: 8px;
 	}
-
-	.blog-card:first-of-type>.blog-card__info>.blog-card__title {
-		font-size: 16px;
-		line-height: 22px;
-		color: #000000;
-	}
 }
