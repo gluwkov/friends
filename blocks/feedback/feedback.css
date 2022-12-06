@@ -1,0 +1,11 @@
+.feedback {
+	margin: 96px auto 0;
+	width: 680px;
+}
+
+@media screen and (max-width: 727px) {
+	.feedback {
+		width: 87.2vw;
+		margin: 56px auto 0;
+	}
+}

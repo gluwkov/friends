@@ -1,0 +1,9 @@
+.feedback__span-accent {
+	color: rgba(113, 187, 202, 1);
+	cursor: pointer;
+}
+
+.feedback__span-accent:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}

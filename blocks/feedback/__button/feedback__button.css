@@ -1,0 +1,17 @@
+.feedback__button {
+	background: #F8F8F8;
+	border-radius: 56px;
+	border: none;
+	padding: 18px 0 18px;
+	margin-top: 40px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.feedback__button:hover {
+	background: #F1F5F9;
+}

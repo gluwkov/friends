@@ -1,0 +1,29 @@
+.feedback__input-consent {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+
+.feedback__input-consent+.feedback__visible-checkbox:hover {
+	border: 1px solid rgba(113, 187, 202, 1);
+}
+
+.feedback__input-consent+.feedback__visible-checkbox {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 20px;
+	min-height: 20px;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.feedback__input-consent:checked+.feedback__visible-checkbox {
+	border: 1px solid rgba(113, 187, 202, 1);
+	background-color: rgba(113, 187, 202, 1);
+	background-image: url('../../../images/icons/feedback_check-mark.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+}

@@ -2,6 +2,7 @@
 	display: flex;
 	margin-right: 64px;
 	justify-self: end;
+	align-items: center;
 }
 
 .footer__contacts:last-child {

@@ -1,5 +1,7 @@
 .footer__social {
 	margin-right: 16px;
+	display: flex;
+	align-items: center;
 }
 
 .footer__social:last-child {
