@@ -1,0 +1,9 @@
+.feedback__text {
+	max-width: 678px;
+	width: 100%;
+	max-height: 161px;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 26px;
+	resize: none;
+}

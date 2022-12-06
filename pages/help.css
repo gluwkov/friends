@@ -93,3 +93,25 @@
 @import url(../blocks/footer/__container/_position/footer__container_position_end.css);
 @import url(../blocks/footer/__nav-container/footer__nav-container.css);
 @import url(../blocks/footer/__logo-container/footer__logo-container.css);
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__field/feedback__field.css);
+@import url(../blocks/feedback/__textfield/feedback__textfield.css);
+@import url(../blocks/feedback/__button/feedback__button.css);
+@import url(../blocks/feedback/__flex-wrap/feedback__flex-wrap.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__info/feedback__info.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+@import url(../blocks/feedback/__input-consent/feedback__input-consent.css);
+@import url(../blocks/feedback/__span-accent/feedback__span-accent.css);
+@import url(../blocks/feedback/__label-consent/feedback__label-consent.css);
+@import url(../blocks/feedback/__checkbox-text/feedback__checkbox-text.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__close/popup__close.css);

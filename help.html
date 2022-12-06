@@ -129,8 +129,38 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="feedback">
 			<!-- Блок “Форма обратной связи” -->
+			<form class="feedback__form" id="feedback-form" name="feedback-form">
+				<fieldset class="feedback__field">
+					<legend class="feedback__title title">Связаться с нами</legend>
+					<p class="feedback__subtitle">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня
+					</p>
+					<div class="feedback__flex-wrap">
+						<label class="feedback__info" for="feedback-name">
+							<input class="feedback__textfield" type="text" id="feedback-name" name="name" placeholder="Имя" value
+								required>
+						</label>
+						<label class="feedback__info" for="feedback-mail">
+							<input class="feedback__textfield" type="email" id="feedback-mail" name="email" placeholder="E-mail" value
+								required>
+						</label>
+					</div>
+					<label class="feedback__text-info" for="feedback-text">
+						<!-- <input class="feedback__textfield feedback__text" type="text" id="feedback-text" name="text"
+							placeholder="Сообщение" value required> -->
+						<textarea class="feedback__textfield feedback__text" name="text" id="feedback-text" name="text" cols="30" rows="10" placeholder="Сообщение" value required></textarea>
+					</label>
+					<label for="feedback-checkbox" class="feedback__label-consent">
+						<input class="feedback__input-consent" type="checkbox" id="feedback-checkbox" name="feedback-checkbox">
+						<span class="feedback__visible-checkbox"></span>
+						<p class="feedback__checkbox-text">Я согласен с
+							<span class="feedback__span-accent">пользовательским соглашением</span>
+						</p>
+					</label>
+					<button class="feedback__button" type="submit">Отправить</button>
+				</fieldset>
+			</form>
 		</section>
 
 		<section class="newsletter">
@@ -244,7 +274,17 @@
 		</div>
 	</div>
 
+	<div class="popup">
+		<div class="popup__container">
+			<img class="popup__image" src="./images/popup/check.svg" alt="Галочка">
+			<h2 class="popup__title">Заявка успешно отправлена</h2>
+			<p class="popup__text">Мы ответим в течение дня</p>
+			<button class="popup__close"></button>
+		</div>
+	</div>
+
 	<script src="./scripts/header.js"></script>
+	<script src="./scripts/feedback-form.js"></script>
 </body>
 
 </html>
