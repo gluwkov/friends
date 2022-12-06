@@ -1,0 +1,19 @@
+.mission__rectangle_color_blue {
+	background-color: #528CBE;
+	background-image: url(../../../../images/mission/book.svg);
+	background-repeat: no-repeat;
+	background-position: bottom 0 left 0;
+	top: 121px;
+	left: 20.54%;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_color_blue {
+		background-size: 96.11px 72.49px;
+		background-position: top 23.44px left 0;
+		top: 95px;
+		left: 20.53px;
+		width: 78.83%;
+		z-index: 3;
+	}
+}

@@ -1,0 +1,14 @@
+.mission__rectangles {
+	position: relative;
+	height: 515px;
+	margin: 16px auto 0;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangles {
+		width: 95.71%;
+		height: 387.66px;
+		margin-top: 49.57px;
+	}
+}
+

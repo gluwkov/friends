@@ -1,0 +1,33 @@
+.mission__circle_color_gray {
+	background-color: #F8F8F8;
+}
+
+.mission__circle_color_gray:nth-of-type(1) {
+	top: 263px;
+	left: 28.3%;
+}
+
+.mission__circle_color_gray:nth-of-type(2) {
+	top: 13px;
+	left: 109.03%;
+}
+
+.mission__circle_color_gray:nth-of-type(3) {
+	top: -32px;
+	left: 88.72%;
+}
+
+@media (max-width: 768px) {
+	.mission__circle_color_gray:nth-of-type(1) {
+		top: -44.95px;
+		left: 113.69%;
+	}
+
+	.mission__circle_color_gray:nth-of-type(2) {
+		visibility: hidden;
+	}
+
+	.mission__circle_color_gray:nth-of-type(3) {
+		visibility: hidden;
+	}
+}

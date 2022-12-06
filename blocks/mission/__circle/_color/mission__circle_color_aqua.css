@@ -1,0 +1,45 @@
+.mission__circle_color_aqua {
+	background-color: #77C5D5;
+}
+
+.mission__circle_color_aqua:nth-of-type(1) {
+	top: 267px;
+	left: 42.31%;
+}
+
+.mission__circle_color_aqua:nth-of-type(2) {
+	top: 47px;
+	left: 151.68%;
+}
+
+.mission__circle_color_aqua:nth-of-type(3) {
+	top: 393px;
+	left: 53.13%;
+}
+
+.mission__circle_color_aqua:nth-of-type(4) {
+	top: 364px;
+	right: -24.04%;
+	z-index: 10000;
+}
+
+@media (max-width: 768px) {
+	.mission__circle_color_aqua:nth-of-type(1) {
+		top: 172.38px;
+		left: -5.35%;
+	}
+
+	.mission__circle_color_aqua:nth-of-type(2) {
+		visibility: hidden;
+	}
+
+	.mission__circle_color_aqua:nth-of-type(3) {
+		top: 0;
+		left: 118.92%;
+	}
+
+	.mission__circle_color_aqua:nth-of-type(4) {
+		top: 259.83px;
+		left: 10.93%;
+	}
+}

@@ -1,0 +1,11 @@
+.mission {
+	margin: 92px auto 0;
+	max-width: 1032px;
+}
+
+@media (max-width: 768px) {
+	.mission {
+		overflow: hidden;
+		margin: 56px auto 0;
+	}
+}

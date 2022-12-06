@@ -1,0 +1,12 @@
+.mission__circle_color_blue {
+	background-color: #528CBE;
+	top: 46px;
+	left: 110.1%;
+}
+
+@media (max-width: 768px) {
+	.mission__circle_color_blue {
+		top: 33.64px;
+		left: 104.98%;
+	}
+}

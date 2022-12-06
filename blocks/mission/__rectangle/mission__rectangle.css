@@ -1,0 +1,14 @@
+.mission__rectangle {
+	width: 40.31%;
+	height: 163px;
+	border-radius: 136px;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle {
+		height: 102.23px;
+		width: 75.51%;
+	}
+}
