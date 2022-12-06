@@ -6,8 +6,8 @@ $(document).ready(function () {
 		slidesToShow: 5,
 		slidesToScroll: 1,
 		variableWidth: true,
-		prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="./images/button/arrow-l.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="./images/button/arrow-r.svg"></button>',
 		responsive: [
 			{
 				breakpoint: 1000,
@@ -50,8 +50,8 @@ $(document).ready(function () {
 		dots: true,
 		fade: true,
 		dotsClass: 'slick-dots',
-		prevArrow: '<button type="button" class="slick-prev"><img src="../images/button/arrow-l.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../images/button/arrow-r.svg"></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="./images/button/arrow-l.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="./images/button/arrow-r.svg"></button>',
 		responsive: [
 			{
 				breakpoint: 850,
