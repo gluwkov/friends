@@ -16,3 +16,10 @@
 .header__help-button:hover {
 	background: #E8AD4D;
 }
+
+@media screen and (max-width: 460px) {
+	.header__help-button {
+		max-width: 136px;
+		width: 100%;
+	}
+}
