@@ -1,5 +1,12 @@
 .friends__slider {
 	width: 100%;
+	padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+	.friends__slider {
+		padding-bottom: 0;
+	}
 }
 
 .friends__slider .slick-dots {
