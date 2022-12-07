@@ -1,0 +1,16 @@
+.donation-form__checkbox-custom {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+	flex-shrink: 0;
+}
+
+.donation-form__checkbox-custom::after {
+	content: '\2714';
+	color: #FFFFFF;
+}
