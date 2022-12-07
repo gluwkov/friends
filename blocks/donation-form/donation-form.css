@@ -1,0 +1,8 @@
+.donation-form {
+	position: relative;
+	z-index: 1;
+	max-width: 53.13%;
+	padding: 16px 64px 72px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}

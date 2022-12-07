@@ -1,0 +1,12 @@
+.donation-form__card-num-input {
+	margin-top: 24px;
+	margin-left: 24px;
+	height: 56px;
+	width: 290px;
+	border: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 18px;
+}
+

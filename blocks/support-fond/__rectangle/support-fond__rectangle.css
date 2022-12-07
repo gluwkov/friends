@@ -1,0 +1,8 @@
+.support-fond__rectangle  {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	background-color: #82607D;
+	top: 56px;
+	z-index: 0;
+}

@@ -1,0 +1,8 @@
+.donation-form__contacts-subsection {
+	margin-top: 32px;
+	display: grid;
+	grid-template-columns: repeat(2, 268px);
+	grid-template-rows: repeat(2, 56px);
+	column-gap: 16px;
+	row-gap: 16px;
+}
