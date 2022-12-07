@@ -1,0 +1,8 @@
+.donation-form__checkbox-initial {
+	display: none;
+}
+
+.donation-form__checkbox-initial:checked + .donation-form__checkbox-custom {
+	background: #54A8B6;
+	border: #54A8B6;
+}

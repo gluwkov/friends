@@ -1,0 +1,9 @@
+.donation-form__card-front {
+	position: relative;
+	height: 267px;
+	width: 364px;
+	background-color: #F8F8F8;
+	border-radius: 8px;
+	z-index: 100;
+	margin-bottom: 6px;
+}

@@ -1,0 +1,6 @@
+.donation-form__checkbox-lable {
+	margin-top: 16px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}

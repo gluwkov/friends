@@ -44,9 +44,103 @@
 	</header>
 
 	<main class="content">
-		<section>
-			<!-- Блок “Форма пожертвования” -->
+
+		<!-- Блок “Форма пожертвования” -->
+
+		<section class="support-fond">
+
+			<h1 class="title support-fond__title">Поддерживая «Друзей» вы помогаете <span class="support-fond__title_italic">развитию всей индустрии</span></h1>
+			<div class="support-fond__rectangle"></div>
+
+			<form class="donation-form support-fond__donation-form">
+
+				<div class="donation-form__section donation-form__duration-subsection">
+					<h3 class="donation-form__subtitle">Выберите тип и сумму пожертвования</h3>
+					<input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
+					<label for="toggle" class="donation-form__duration-toggler-container">
+						<div>Разовое</div>
+						<div>Ежемесячное</div>
+						</label>
+				</div>
+
+				<div class="donation-form__section donation-form__summ-subsection">
+					<h3 class="donation-form__subtitle">Сумма поддержки</h3>
+					<div class="donation-form__button-container">
+						<button class="donation-form__button donation-form__button_active">5 000</button>
+						<button class="donation-form__button">10 000</button>
+						<button class="donation-form__button">50 000</button>
+					</div>
+					<input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
+				</div>
+
+				<div class="donation-form__section donation-form__payment-subsection">
+					<h3 class="donation-form__subtitle">Способ оплаты</h3>
+						<div class="donation-form__button-container">
+						<button class="donation-form__button donation-form__button-3-logos donation-form__button_active ">
+							<div class="donation-form__payment-visa"></div>
+							<div class="donation-form__payment-ms"></div>
+							<div class="donation-form__payment-mir"></div>
+						</button>
+						<button class="donation-form__button donation-form__payment-gpay"></button>
+						<button class="donation-form__button donation-form__payment-apple"></button>
+					</div>
+				</div>
+
+				<div class="donation-form__section donation-form__card-subsection">
+					<h3 class="donation-form__subtitle">Банковская карта</h3>
+					<div class="donation-form__card-container">
+						<div class="donation-form__card-front">
+							<input type="text" class="donation-form__card-num-input" placeholder="Номер карты">
+							<input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты">
+							<div class="donation-form__card-information-container">
+								<div class="donation-form__card-validity-container">
+									<p class="donation-form__card-validity-subtitle">Действует до</p>
+									<input type="text" class="donation-form__card-validity-date-input" placeholder="ММ/ГГ">
+								</div>
+								<div class="donation-form__card-summ-container">
+									<p class="donation-form__card-summ-subtitle">Итого к оплате</p>
+									<p class="donation-form__card-summ-value">1000р</p>
+								</div>
+							 </div>
+						</div>
+						<div class="donation-form__card-back">
+							<div class="donation-form__card-magnet-line"></div>
+							<div class="donation-form__card-cvc-container">
+								<p class="donation-form__card-cvc-subtitle">CVV/CVC</p>
+								<input type="text" class="donation-form__card-cvc-input" placeholder="***">
+								<p class="donation-form__card-cvc-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="donation-form__subsection donation-form__contacts-subsection">
+						<input type="text" class="donation-form__contacts-input" placeholder="Имя">
+						<input type="text" class="donation-form__contacts-input" placeholder="Фамилия">
+						<input type="text" class="donation-form__contacts-input" placeholder="Телефон">
+						<input type="text" class="donation-form__contacts-input" placeholder="Email">
+					</div>
+
+					<div class="donation-form__subsection donation-form__checkbox-subsection">
+						<label for="offerCheckbox" class="donation-form__checkbox-lable">
+							<input type="checkbox" id="offerCheckbox" name="offerCheckbox" class="donation-form__checkbox-initial" >
+							<div class="donation-form__checkbox-custom"></div>
+							<p class="donation-form__checkbox-text">Согласен с <span class="donation-form__checkbox-text_color"> офертой</span></p>
+						</label>
+						<label for="policyCheckbox" class="donation-form__checkbox-lable">
+							<input type="checkbox" id="policyCheckbox" name="policyCheckbox" class="donation-form__checkbox-initial" >
+							<div class="donation-form__checkbox-custom"></div>
+							<p class="donation-form__checkbox-text">Ознакомился и согласен с <span class="donation-form__checkbox-text_color">политикой обработки персональных данных</span></p>
+						</label>
+					</div>
+					<input class="donation-form__submit-button" type="submit" value="Поддержать фонд">
+			</form>
+
+
+
+
 		</section>
+
+			<!-- Блок “Форма пожертвования” -->
 
 		<section class="contacts">
 			<h2 class="title">Остались вопросы? Пишите и звоните нам</h2>
@@ -61,6 +155,9 @@
 				<li class="digits__element">
 					<h3 class="digits__heading">2 500</h3>
 					<p class="digits__text">НКО <span class="digits__span-accent">стали</span> участниками наших программ</p>
+			<button class="header__help-button">Помочь фонду</button>
+		</header>
+
 				</li>
 				<li class="digits__element">
 					<h3 class="digits__heading">150</h3>
@@ -77,7 +174,6 @@
 					<p class="digits__text">Экспертов <span class="digits__span-accent">преподают</span> в наших программах</p>
 				</li>
 			</ul>
-		</section>
 
 		<!-- Блок “Как еще вы можете помочь” -->
 		<section class="more-help">

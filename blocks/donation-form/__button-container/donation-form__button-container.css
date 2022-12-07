@@ -1,0 +1,5 @@
+.donation-form__button-container {
+	margin-top: 16px;
+	display: flex;
+	justify-content: space-between;
+}

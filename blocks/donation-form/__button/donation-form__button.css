@@ -1,0 +1,9 @@
+.donation-form__button {
+	height: 56px;
+	width: 174px;
+	border: 0;
+	background-color: #F8F8F8;;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}

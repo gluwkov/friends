@@ -1,0 +1,10 @@
+.donation-form__card-cvc-input {
+	width: 64px;
+	height: 48px;
+	margin-top: 4px;
+	padding-left: 18px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	border: 0;
+}
