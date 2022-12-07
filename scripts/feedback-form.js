@@ -63,6 +63,15 @@ function clearForm() {
 		mailFeedbackInput.value = '';
 		textFeedbackInput.value = '';
 		feedbackCheckbox.checked = false;
+		feedbackBtnEl.style.background = '#F8F8F8';
+		feedbackBtnEl.style.color = '#000';
+		feedbackBtnEl.addEventListener('mouseover', () => {
+			feedbackBtnEl.style.background = '#F1F5F9';
+		});
+		feedbackBtnEl.addEventListener('mouseout', () => {
+			feedbackBtnEl.style.background = '#F8F8F8';
+		});
+		feedbackBtnEl.setAttribute('disabled', true);
 	}
 }
 
