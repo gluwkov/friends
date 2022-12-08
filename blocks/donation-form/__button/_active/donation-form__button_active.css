@@ -1,4 +1,13 @@
 .donation-form__button_active {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(0 0 0 0);
+}
+
+
+.donation-form__button_active:checked + .donation-form__button  {
 	background-color: #82607D;
 	color: #FFFFFF;
 }

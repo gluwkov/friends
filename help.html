@@ -2,385 +2,423 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="./pages/help.css" />
-	<title>Помочь фонду</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/help.css" />
+  <title>Помочь фонду</title>
 </head>
 
 <body class="root">
-	<header class="header">
-		<div class="header__container">
-			<button class="header__nav-button" type="button" aria-label="Открыть меню"></button>
-			<div class="logo">
-				<img src="./images/icons/logo-fond-friends.svg" alt="" class="logo__image logo__image_place_header" />
-				<div class="logo__container">
-					<p class="logo__title logo__title_place_header">Фонд</p>
-					<p class="logo__subtitle logo__subtitle_place_header">Друзья</p>
-				</div>
-			</div>
-			<div class="header__nav-container">
-				<ul class="nav">
-					<li><a href="#" class="nav__link">Фонд</a></li>
-					<li><a href="#" class="nav__link">Программы</a></li>
-					<li><a href="#" class="nav__link">Для НКО</a></li>
-					<li><a href="#" class="nav__link">Для бизнеса</a></li>
-					<li><a href="#" class="nav__link">Блог</a></li>
-					<li><a href="#" class="nav__link">Партнёры</a></li>
-					<li><a href="#" class="nav__link">Контакты</a></li>
-				</ul>
-				<div class="header__social-container">
-					<a href="#"><img src="./images/icons/Logo_social_vk.svg" alt="" class="header__social" /></a>
-					<a href="#"><img src="./images/icons/Logo_social_telegram.svg" alt="" class="header__social" /></a>
-				</div>
-				<div class="header__lang-container">
-					<p class="header__lang">Ру</p>
-					<p class="header__lang">En</p>
-				</div>
-			</div>
-		</div>
-		<button class="header__help-button">Помочь фонду</button>
-	</header>
+  <header class="header">
+    <div class="header__container">
+      <button class="header__nav-button" type="button" aria-label="Открыть меню"></button>
+      <div class="logo">
+        <img src="./images/icons/logo-fond-friends.svg" alt="" class="logo__image logo__image_place_header" />
+        <div class="logo__container">
+          <p class="logo__title logo__title_place_header">Фонд</p>
+          <p class="logo__subtitle logo__subtitle_place_header">Друзья</p>
+        </div>
+      </div>
+      <div class="header__nav-container">
+        <ul class="nav">
+          <li><a href="#" class="nav__link">Фонд</a></li>
+          <li><a href="#" class="nav__link">Программы</a></li>
+          <li><a href="#" class="nav__link">Для НКО</a></li>
+          <li><a href="#" class="nav__link">Для бизнеса</a></li>
+          <li><a href="#" class="nav__link">Блог</a></li>
+          <li><a href="#" class="nav__link">Партнёры</a></li>
+          <li><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+        <div class="header__social-container">
+          <a href="#"><img src="./images/icons/Logo_social_vk.svg" alt="" class="header__social" /></a>
+          <a href="#"><img src="./images/icons/Logo_social_telegram.svg" alt="" class="header__social" /></a>
+        </div>
+        <div class="header__lang-container">
+          <p class="header__lang">Ру</p>
+          <p class="header__lang">En</p>
+        </div>
+      </div>
+    </div>
+    <button class="header__help-button">Помочь фонду</button>
+  </header>
 
-	<main class="content">
+  <main class="content">
 
-		<!-- Блок “Форма пожертвования” -->
+    <!-- Блок “Форма пожертвования” -->
 
-		<section class="support-fond">
+    <section class="support-fond">
 
-			<h1 class="title support-fond__title">Поддерживая «Друзей» вы помогаете <span class="support-fond__title_italic">развитию всей индустрии</span></h1>
-			<div class="support-fond__rectangle"></div>
+      <h1 class="title support-fond__title">Поддерживая «Друзей» вы помогаете <span
+          class="support-fond__title_italic">развитию всей индустрии</span></h1>
+      <div class="support-fond__rectangle"></div>
 
-			<form class="donation-form support-fond__donation-form">
+      <form class="donation-form support-fond__donation-form">
 
-				<div class="donation-form__section donation-form__duration-subsection">
-					<h3 class="donation-form__subtitle">Выберите тип и сумму пожертвования</h3>
-					<input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
-					<label for="toggle" class="donation-form__duration-toggler-container">
-						<div>Разовое</div>
-						<div>Ежемесячное</div>
-						</label>
-				</div>
+        <div class="donation-form__section donation-form__duration-subsection">
+          <h3 class="donation-form__subtitle">Выберите тип и сумму пожертвования</h3>
+          <input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
+          <label for="toggle" class="donation-form__duration-toggler-container">
+            <div>Разовое</div>
+            <div>Ежемесячное</div>
+          </label>
+        </div>
 
-				<div class="donation-form__section donation-form__summ-subsection">
-					<h3 class="donation-form__subtitle">Сумма поддержки</h3>
-					<div class="donation-form__button-container">
-						<button class="donation-form__button donation-form__button_active">5 000</button>
-						<button class="donation-form__button">10 000</button>
-						<button class="donation-form__button">50 000</button>
-					</div>
-					<input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
-				</div>
+        <div class="donation-form__section donation-form__summ-subsection">
+          <h3 class="donation-form__subtitle">Сумма поддержки</h3>
+          <div class="donation-form__button-container">
 
-				<div class="donation-form__section donation-form__payment-subsection">
-					<h3 class="donation-form__subtitle">Способ оплаты</h3>
-						<div class="donation-form__button-container">
-						<button class="donation-form__button donation-form__button-3-logos donation-form__button_active ">
-							<div class="donation-form__payment-visa"></div>
-							<div class="donation-form__payment-ms"></div>
-							<div class="donation-form__payment-mir"></div>
-						</button>
-						<button class="donation-form__button donation-form__payment-gpay"></button>
-						<button class="donation-form__button donation-form__payment-apple"></button>
-					</div>
-				</div>
+            <label>
+              <input class="donation-form__button_active" type="radio" name="summ" checked></input>
+              <span class="donation-form__button">5 000</span>
+            </label>
+            <label>
+              <input class="donation-form__button_active" type="radio" class="donation-form__button"
+                name="summ"></input>
+              <span class="donation-form__button">10 000</span>
+            </label>
+            <label>
+              <input class="donation-form__button_active" type="radio" class="donation-form__button"
+                name="summ"></input>
+              <span class="donation-form__button">50 000</span>
+            </label>
 
-				<div class="donation-form__section donation-form__card-subsection">
-					<h3 class="donation-form__subtitle">Банковская карта</h3>
-					<div class="donation-form__card-container">
-						<div class="donation-form__card-front">
-							<input type="text" class="donation-form__card-num-input" placeholder="Номер карты">
-							<input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты">
-							<div class="donation-form__card-information-container">
-								<div class="donation-form__card-validity-container">
-									<p class="donation-form__card-validity-subtitle">Действует до</p>
-									<input type="text" class="donation-form__card-validity-date-input" placeholder="ММ/ГГ">
-								</div>
-								<div class="donation-form__card-summ-container">
-									<p class="donation-form__card-summ-subtitle">Итого к оплате</p>
-									<p class="donation-form__card-summ-value">1000р</p>
-								</div>
-							 </div>
-						</div>
-						<div class="donation-form__card-back">
-							<div class="donation-form__card-magnet-line"></div>
-							<div class="donation-form__card-cvc-container">
-								<p class="donation-form__card-cvc-subtitle">CVV/CVC</p>
-								<input type="text" class="donation-form__card-cvc-input" placeholder="***">
-								<p class="donation-form__card-cvc-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
-							</div>
-						</div>
-					</div>
+          </div>
+          <input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
+        </div>
 
-					<div class="donation-form__subsection donation-form__contacts-subsection">
-						<input type="text" class="donation-form__contacts-input" placeholder="Имя">
-						<input type="text" class="donation-form__contacts-input" placeholder="Фамилия">
-						<input type="text" class="donation-form__contacts-input" placeholder="Телефон">
-						<input type="text" class="donation-form__contacts-input" placeholder="Email">
-					</div>
+        <div class="donation-form__section donation-form__payment-subsection">
+          <h3 class="donation-form__subtitle">Способ оплаты</h3>
+          <div class="donation-form__button-container">
+            <label>
+              <input class="donation-form__button_active" type="radio" name="logo" checked></input>
+              <span class="donation-form__button"><img src="./images/icons/Frame 1096 (1).svg" alt=""></span>
+            </label>
+            <label>
+              <input class="donation-form__button_active" type="radio" class="donation-form__button"
+                name="logo"></input>
+              <span class="donation-form__button"><img src="./images/icons/googlePay (1).png" alt=""></span>
+            </label>
+            <label>
+              <input class="donation-form__button_active" type="radio" class="donation-form__button"
+                name="logo"></input>
+              <span class="donation-form__button"><img src="./images/icons/logo-apple-pay.svg" alt=""></span>
+            </label>
+          </div>
+        </div>
 
-					<div class="donation-form__subsection donation-form__checkbox-subsection">
-						<label for="offerCheckbox" class="donation-form__checkbox-lable">
-							<input type="checkbox" id="offerCheckbox" name="offerCheckbox" class="donation-form__checkbox-initial" >
-							<div class="donation-form__checkbox-custom"></div>
-							<p class="donation-form__checkbox-text">Согласен с <span class="donation-form__checkbox-text_color"> офертой</span></p>
-						</label>
-						<label for="policyCheckbox" class="donation-form__checkbox-lable">
-							<input type="checkbox" id="policyCheckbox" name="policyCheckbox" class="donation-form__checkbox-initial" >
-							<div class="donation-form__checkbox-custom"></div>
-							<p class="donation-form__checkbox-text">Ознакомился и согласен с <span class="donation-form__checkbox-text_color">политикой обработки персональных данных</span></p>
-						</label>
-					</div>
-					<input class="donation-form__submit-button" type="submit" value="Поддержать фонд">
-			</form>
+        <div class="donation-form__section donation-form__card-subsection">
+          <h3 class="donation-form__subtitle">Банковская карта</h3>
+          <div class="donation-form__card-container">
+            <div class="donation-form__card-front">
+              <input type="text" class="donation-form__card-num-input" placeholder="Номер карты">
+              <input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты">
+              <div class="donation-form__card-information-container">
+                <div class="donation-form__card-validity-container">
+                  <p class="donation-form__card-validity-subtitle">Действует до</p>
+                  <input type="text" class="donation-form__card-validity-date-input" placeholder="ММ/ГГ">
+                </div>
+                <div class="donation-form__card-summ-container">
+                  <p class="donation-form__card-summ-subtitle">Итого к оплате</p>
+                  <p class="donation-form__card-summ-value">1000р</p>
+                </div>
+              </div>
+            </div>
+            <div class="donation-form__card-back">
+              <div class="donation-form__card-magnet-line"></div>
+              <div class="donation-form__card-cvc-container">
+                <p class="donation-form__card-cvc-subtitle">CVV/CVC</p>
+                <input type="text" class="donation-form__card-cvc-input" placeholder="***">
+                <p class="donation-form__card-cvc-text">Последние 3 цифры на белой полосе с обратной
+                  стороны карты</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="donation-form__subsection donation-form__contacts-subsection">
+            <input type="text" class="donation-form__contacts-input" placeholder="Имя">
+            <input type="text" class="donation-form__contacts-input" placeholder="Фамилия">
+            <input type="text" class="donation-form__contacts-input" placeholder="Телефон">
+            <input type="text" class="donation-form__contacts-input" placeholder="Email">
+          </div>
+
+          <div class="donation-form__subsection donation-form__checkbox-subsection">
+            <label for="offerCheckbox" class="donation-form__checkbox-lable">
+              <input type="checkbox" id="offerCheckbox" name="offerCheckbox" class="donation-form__checkbox-initial">
+              <div class="donation-form__checkbox-custom"></div>
+              <p class="donation-form__checkbox-text">Согласен с <span class="donation-form__checkbox-text_color">
+                  офертой</span></p>
+            </label>
+            <label for="policyCheckbox" class="donation-form__checkbox-lable">
+              <input type="checkbox" id="policyCheckbox" name="policyCheckbox" class="donation-form__checkbox-initial">
+              <div class="donation-form__checkbox-custom"></div>
+              <p class="donation-form__checkbox-text">Ознакомился и согласен с <span
+                  class="donation-form__checkbox-text_color">политикой обработки персональных
+                  данных</span></p>
+            </label>
+          </div>
+          <input class="donation-form__submit-button" type="submit" value="Поддержать фонд">
+      </form>
 
 
 
 
-		</section>
+    </section>
 
-			<!-- Блок “Форма пожертвования” -->
+    <!-- Блок “Форма пожертвования” -->
 
-		<section class="contacts">
-			<h2 class="title">Остались вопросы? Пишите и звоните нам</h2>
-			<div class="contacts__container">
-				<a href="mailto:friends@friends-foundation.com" class="contacts__email">friends@friends-foundation.com</a>
-				<a href="tel:+79772770717" class="contacts__phone">+7 977 277-07-17</a>
-			</div>
-		</section>
+    <section class="contacts">
+      <h2 class="title">Остались вопросы? Пишите и звоните нам</h2>
+      <div class="contacts__container">
+        <a href="mailto:friends@friends-foundation.com" class="contacts__email">friends@friends-foundation.com</a>
+        <a href="tel:+79772770717" class="contacts__phone">+7 977 277-07-17</a>
+      </div>
+    </section>
 
-		<section class="values">
-			<ul class="digits digits__margin">
-				<li class="digits__element">
-					<h3 class="digits__heading">2 500</h3>
-					<p class="digits__text">НКО <span class="digits__span-accent">стали</span> участниками наших программ</p>
-			<button class="header__help-button">Помочь фонду</button>
-		</header>
+    <section class="values">
+      <ul class="digits digits__margin">
+        <li class="digits__element">
+          <h3 class="digits__heading">2 500</h3>
+          <p class="digits__text">НКО <span class="digits__span-accent">стали</span> участниками наших
+            программ</p>
+          <button class="header__help-button">Помочь фонду</button>
+          </header>
 
-				</li>
-				<li class="digits__element">
-					<h3 class="digits__heading">150</h3>
-					<p class="digits__text"><span class="digits__span-accent">Профессионалов</span> благотворительности получили
-						дипломы</p>
-				</li>
-				<li class="digits__element">
-					<h3 class="digits__heading">4 000</h3>
-					<p class="digits__text">Волонтер <span class="digits__span-accent">был привлечен</span> через нас для помощи
-						различным НКО</p>
-				</li>
-				<li class="digits__element">
-					<h3 class="digits__heading">250</h3>
-					<p class="digits__text">Экспертов <span class="digits__span-accent">преподают</span> в наших программах</p>
-				</li>
-			</ul>
+        </li>
+        <li class="digits__element">
+          <h3 class="digits__heading">150</h3>
+          <p class="digits__text"><span class="digits__span-accent">Профессионалов</span> благотворительности
+            получили
+            дипломы</p>
+        </li>
+        <li class="digits__element">
+          <h3 class="digits__heading">4 000</h3>
+          <p class="digits__text">Волонтер <span class="digits__span-accent">был привлечен</span> через нас
+            для помощи
+            различным НКО</p>
+        </li>
+        <li class="digits__element">
+          <h3 class="digits__heading">250</h3>
+          <p class="digits__text">Экспертов <span class="digits__span-accent">преподают</span> в наших
+            программах</p>
+        </li>
+      </ul>
 
-		<!-- Блок “Как еще вы можете помочь” -->
-		<section class="more-help">
-			<h2 class="more-help__title title">Как&nbsp;еще&nbsp;<span class="more-help__span-accent">вы&nbsp;можете
-					помочь</span></h2>
-			<div class="more-help__container">
-				<div class="more-help__flex-wrap">
-					<div class="more-help__card more-help__card_position_end">
-						<div class="more-help__text-container">
-							<h3 class="more-help__card-title">Стать интеллектуальным волонтером</h3>
-							<p class="more-help__card-description">Помогая фондам своими профессиональными навыками, Вы сохраняете
-								средства в
-								бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
-							<button class="more-help__button">Перейти на сайт ProCharity
-								<span class="more-help__btn-span-accent"><img src="./images/icons/arrow-icon.svg" alt="Стрелка"></span>
-							</button>
-						</div>
-					</div>
-					<div class="more-help__card">
-						<img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image1.png"
-							alt="Страница фонда в соцсети">
-					</div>
-				</div>
-				<div class="more-help__flex-wrap more-help__flex-wrap_direction_reverse">
-					<div class="more-help__card">
-						<img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image2.png"
-							alt="Пост на странице фонда в соцсети">
-					</div>
-					<div class="more-help__card more-help__card_position_start">
-						<div class="more-help__text-container">
-							<h3 class="more-help__card-title">Стать попечителем</h3>
-							<p class="more-help__card-description">Инвестируя в одну из программ фонда “Друзья”, вы можете стать
-								попечителем
-								Московской школы профессиональной филантропии, платформы ProCharity или фонда «Друзья», а также наших
-								благополучателей – НКО, социальной организации/проекта или конкретного профессионала.</p>
-							<a href="#" class="more-help__link">e.gosteva@friends-foundation.com</a>
-						</div>
-					</div>
-				</div>
+      <!-- Блок “Как еще вы можете помочь” -->
+      <section class="more-help">
+        <h2 class="more-help__title title">Как&nbsp;еще&nbsp;<span class="more-help__span-accent">вы&nbsp;можете
+            помочь</span></h2>
+        <div class="more-help__container">
+          <div class="more-help__flex-wrap">
+            <div class="more-help__card more-help__card_position_end">
+              <div class="more-help__text-container">
+                <h3 class="more-help__card-title">Стать интеллектуальным волонтером</h3>
+                <p class="more-help__card-description">Помогая фондам своими профессиональными навыками,
+                  Вы сохраняете
+                  средства в
+                  бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
+                <button class="more-help__button">Перейти на сайт ProCharity
+                  <span class="more-help__btn-span-accent"><img src="./images/icons/arrow-icon.svg"
+                      alt="Стрелка"></span>
+                </button>
+              </div>
+            </div>
+            <div class="more-help__card">
+              <img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image1.png"
+                alt="Страница фонда в соцсети">
+            </div>
+          </div>
+          <div class="more-help__flex-wrap more-help__flex-wrap_direction_reverse">
+            <div class="more-help__card">
+              <img class="more-help__card-img" src="./images/more-help-block_images/more-help-block_image2.png"
+                alt="Пост на странице фонда в соцсети">
+            </div>
+            <div class="more-help__card more-help__card_position_start">
+              <div class="more-help__text-container">
+                <h3 class="more-help__card-title">Стать попечителем</h3>
+                <p class="more-help__card-description">Инвестируя в одну из программ фонда “Друзья”, вы
+                  можете стать
+                  попечителем
+                  Московской школы профессиональной филантропии, платформы ProCharity или фонда
+                  «Друзья», а также наших
+                  благополучателей – НКО, социальной организации/проекта или конкретного
+                  профессионала.</p>
+                <a href="#" class="more-help__link">e.gosteva@friends-foundation.com</a>
+              </div>
+            </div>
+          </div>
 
-				<div class="more-help__socials">
-					<p class="more-help__socials-text">Рассказать о нас друзьям</p>
-					<div class="more-help__social-container">
-						<a href="#"><img src="./images/icons/Logo_social_vk_blue.svg" alt="Вк" class="more-help__social" /></a>
-						<a href="#"><img src="./images/icons/Logo_social_telegram_blue.svg" alt="Телеграм"
-								class="more-help__social" /></a>
-					</div>
-				</div>
-			</div>
-		</section>
+          <div class="more-help__socials">
+            <p class="more-help__socials-text">Рассказать о нас друзьям</p>
+            <div class="more-help__social-container">
+              <a href="#"><img src="./images/icons/Logo_social_vk_blue.svg" alt="Вк" class="more-help__social" /></a>
+              <a href="#"><img src="./images/icons/Logo_social_telegram_blue.svg" alt="Телеграм"
+                  class="more-help__social" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<section class="feedback">
-			<!-- Блок “Форма обратной связи” -->
-			<form class="feedback__form" id="feedback-form" name="feedback-form">
-				<fieldset class="feedback__field">
-					<legend class="feedback__title title">Связаться с нами</legend>
-					<p class="feedback__subtitle">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня
-					</p>
-					<div class="feedback__flex-wrap">
-						<label class="feedback__info" for="feedback-name">
-							<input class="feedback__textfield" type="text" id="feedback-name" name="name" placeholder="Имя" value
-								required>
-						</label>
-						<label class="feedback__info" for="feedback-mail">
-							<input class="feedback__textfield" type="email" id="feedback-mail" name="email" placeholder="E-mail" value
-								required>
-						</label>
-					</div>
-					<label class="feedback__text-info" for="feedback-text">
-						<!-- <input class="feedback__textfield feedback__text" type="text" id="feedback-text" name="text"
+      <section class="feedback">
+        <!-- Блок “Форма обратной связи” -->
+        <form class="feedback__form" id="feedback-form" name="feedback-form">
+          <fieldset class="feedback__field">
+            <legend class="feedback__title title">Связаться с нами</legend>
+            <p class="feedback__subtitle">Если у вас есть вопросы или предложения, напишите нам. Мы ответим
+              в течение дня
+            </p>
+            <div class="feedback__flex-wrap">
+              <label class="feedback__info" for="feedback-name">
+                <input class="feedback__textfield" type="text" id="feedback-name" name="name" placeholder="Имя" value
+                  required>
+              </label>
+              <label class="feedback__info" for="feedback-mail">
+                <input class="feedback__textfield" type="email" id="feedback-mail" name="email" placeholder="E-mail"
+                  value required>
+              </label>
+            </div>
+            <label class="feedback__text-info" for="feedback-text">
+              <!-- <input class="feedback__textfield feedback__text" type="text" id="feedback-text" name="text"
 							placeholder="Сообщение" value required> -->
-						<textarea class="feedback__textfield feedback__text" name="text" id="feedback-text" name="text" cols="30" rows="10" placeholder="Сообщение" value required></textarea>
-					</label>
-					<label for="feedback-checkbox" class="feedback__label-consent">
-						<input class="feedback__input-consent" type="checkbox" id="feedback-checkbox" name="feedback-checkbox">
-						<span class="feedback__visible-checkbox"></span>
-						<p class="feedback__checkbox-text">Я согласен с
-							<span class="feedback__span-accent">пользовательским соглашением</span>
-						</p>
-					</label>
-					<button class="feedback__button" type="submit">Отправить</button>
-				</fieldset>
-			</form>
-		</section>
+              <textarea class="feedback__textfield feedback__text" name="text" id="feedback-text" name="text" cols="30"
+                rows="10" placeholder="Сообщение" value required></textarea>
+            </label>
+            <label for="feedback-checkbox" class="feedback__label-consent">
+              <input class="feedback__input-consent" type="checkbox" id="feedback-checkbox" name="feedback-checkbox">
+              <span class="feedback__visible-checkbox"></span>
+              <p class="feedback__checkbox-text">Я согласен с
+                <span class="feedback__span-accent">пользовательским соглашением</span>
+              </p>
+            </label>
+            <button class="feedback__button" type="submit">Отправить</button>
+          </fieldset>
+        </form>
+      </section>
 
-		<section class="newsletter">
-			<div class="newsletter__text-container">
-				<h2 class="newsletter__title">
-					Подпишитесь на&nbsp;новостную рассылку программы
-				</h2>
-				<p class="newsletter__subtitle">
-					и получайте первыми наши новости и приглашения
-					на&nbsp;семинары/вебинары
-				</p>
-			</div>
+      <section class="newsletter">
+        <div class="newsletter__text-container">
+          <h2 class="newsletter__title">
+            Подпишитесь на&nbsp;новостную рассылку программы
+          </h2>
+          <p class="newsletter__subtitle">
+            и получайте первыми наши новости и приглашения
+            на&nbsp;семинары/вебинары
+          </p>
+        </div>
 
-			<form id="newsletterForm" class="newsletter__form">
-				<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
-				<button class="newsletter__button">Подписаться</button>
-			</form>
-		</section>
-	</main>
+        <form id="newsletterForm" class="newsletter__form">
+          <input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
+          <button class="newsletter__button">Подписаться</button>
+        </form>
+      </section>
+  </main>
 
-	<footer class="footer">
-		<!-- Подвал -->
-		<div class="footer__main-container">
-			<div class="footer__container">
-				<div class="footer__logo-box">
-					<img src="./images/icons/logo-fond-friends.svg" alt="Фонд Друзья"
-						class="logo__image logo__image_place_footer">
-					<div class="footer__logo-container">
-						<p class="logo__title logo__title_place_footer">Фонд</p>
-						<p class="logo__subtitle logo__subtitle_place_footer">Друзья</p>
-					</div>
-				</div>
-				<div class="footer__nav-container">
-					<ul class="nav nav_place_footer">
-						<li><a href="#" class="nav__link nav__link_place_footer">Фонд</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Программы</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Для&nbsp;НКО</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Для&nbsp;бизнеса</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Блог</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Партнёры</a></li>
-						<li><a href="#" class="nav__link nav__link_place_footer">Контакты</a></li>
-					</ul>
-					<button class="footer__help-button">Помочь&nbsp;фонду</button>
-				</div>
-			</div>
+  <footer class="footer">
+    <!-- Подвал -->
+    <div class="footer__main-container">
+      <div class="footer__container">
+        <div class="footer__logo-box">
+          <img src="./images/icons/logo-fond-friends.svg" alt="Фонд Друзья"
+            class="logo__image logo__image_place_footer">
+          <div class="footer__logo-container">
+            <p class="logo__title logo__title_place_footer">Фонд</p>
+            <p class="logo__subtitle logo__subtitle_place_footer">Друзья</p>
+          </div>
+        </div>
+        <div class="footer__nav-container">
+          <ul class="nav nav_place_footer">
+            <li><a href="#" class="nav__link nav__link_place_footer">Фонд</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Программы</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Для&nbsp;НКО</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Для&nbsp;бизнеса</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Блог</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Партнёры</a></li>
+            <li><a href="#" class="nav__link nav__link_place_footer">Контакты</a></li>
+          </ul>
+          <button class="footer__help-button">Помочь&nbsp;фонду</button>
+        </div>
+      </div>
 
-			<div class="footer__container footer__container_position_end">
-				<div class="footer__contacts">
-					<p class="footer__contact-text">Написать&nbsp;нам:</p>
-					<a href="" class="footer__contact">friends@friends-&nbsp;foundation.com</a>
-				</div>
-				<div class="footer__contacts">
-					<p class="footer__contact-text">Позвонить нам:</p>
-					<a href="" class="footer__contact">+7 977 277-07-17</a>
-				</div>
-				<div class="footer__contacts">
-					<p class="footer__contact-text">Мы в соцсетях:</p>
-					<a href="#" class="footer__contact footer__social"><img src="./images/icons/Logo_social_vk_footer.svg"
-							alt="Вк"></a>
-					<a href="#" class="footer__contact footer__social"><img src="./images/icons/Logo_social_telegram_footer.svg"
-							alt="Телеграм"></a>
-				</div>
-			</div>
+      <div class="footer__container footer__container_position_end">
+        <div class="footer__contacts">
+          <p class="footer__contact-text">Написать&nbsp;нам:</p>
+          <a href="" class="footer__contact">friends@friends-&nbsp;foundation.com</a>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contact-text">Позвонить нам:</p>
+          <a href="" class="footer__contact">+7 977 277-07-17</a>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__contact-text">Мы в соцсетях:</p>
+          <a href="#" class="footer__contact footer__social"><img src="./images/icons/Logo_social_vk_footer.svg"
+              alt="Вк"></a>
+          <a href="#" class="footer__contact footer__social"><img src="./images/icons/Logo_social_telegram_footer.svg"
+              alt="Телеграм"></a>
+        </div>
+      </div>
 
-			<div class="footer__container">
-				<div class="footer__copyright-container">
-					<img src="./images/icons/footer_copyright-img.svg" alt="18+" class="footer__copyright-img">
-					<p class="footer__copyright-text">©&nbsp;2021&nbsp;Фонд&nbsp;«Друзья» Все&nbsp;права&nbsp;защищены.</p>
-				</div>
-				<div class="footer__desc-container">
-					<p class="footer__description">Исключительные права на фото- и иные материалы принадлежат авторам. Любое
-						размещение материалов на сторонних ресурсах необходимо согласовывать с правообладателями.</p>
-					<img src="./images/icons/footer_desc-img.svg" alt="Знак качества" class="footer__desc-img">
-				</div>
-			</div>
-		</div>
-	</footer>
+      <div class="footer__container">
+        <div class="footer__copyright-container">
+          <img src="./images/icons/footer_copyright-img.svg" alt="18+" class="footer__copyright-img">
+          <p class="footer__copyright-text">©&nbsp;2021&nbsp;Фонд&nbsp;«Друзья» Все&nbsp;права&nbsp;защищены.
+          </p>
+        </div>
+        <div class="footer__desc-container">
+          <p class="footer__description">Исключительные права на фото- и иные материалы принадлежат авторам.
+            Любое
+            размещение материалов на сторонних ресурсах необходимо согласовывать с правообладателями.</p>
+          <img src="./images/icons/footer_desc-img.svg" alt="Знак качества" class="footer__desc-img">
+        </div>
+      </div>
+    </div>
+  </footer>
 
-	<div class="modal modal-nav">
-		<button class="modal-nav__close-button"></button>
-		<ul class="modal-nav__nav">
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Фонд</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Программы</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Для НКО</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Для бизнеса</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Блог</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Партнёры</a>
-			</li>
-			<li class="modal-nav__item">
-				<a href="#" class="modal-nav__link">Контакты</a>
-			</li>
-		</ul>
-		<div class="modal-nav__lang-container">
-			<p class="modal-nav__lang">Ру</p>
-			<p class="modal-nav__lang">En</p>
-		</div>
-		<div class="modal-nav__social-container">
-			<a href="#"><img src="./images/icons/Logo-social-vk-black.svg" alt="" class="modal-nav__social" /></a>
-			<a href="#"><img src="./images/icons/Logo-social-telegram-black.svg" alt="" class="modal-nav__social" /></a>
-		</div>
-	</div>
+  <div class="modal modal-nav">
+    <button class="modal-nav__close-button"></button>
+    <ul class="modal-nav__nav">
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Фонд</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Программы</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Для НКО</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Для бизнеса</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Блог</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Партнёры</a>
+      </li>
+      <li class="modal-nav__item">
+        <a href="#" class="modal-nav__link">Контакты</a>
+      </li>
+    </ul>
+    <div class="modal-nav__lang-container">
+      <p class="modal-nav__lang">Ру</p>
+      <p class="modal-nav__lang">En</p>
+    </div>
+    <div class="modal-nav__social-container">
+      <a href="#"><img src="./images/icons/Logo-social-vk-black.svg" alt="" class="modal-nav__social" /></a>
+      <a href="#"><img src="./images/icons/Logo-social-telegram-black.svg" alt="" class="modal-nav__social" /></a>
+    </div>
+  </div>
 
-	<div class="popup">
-		<div class="popup__container">
-			<img class="popup__image" src="./images/popup/check.svg" alt="Галочка">
-			<h2 class="popup__title">Заявка успешно отправлена</h2>
-			<p class="popup__text">Мы ответим в течение дня</p>
-			<button class="popup__close"></button>
-		</div>
-	</div>
+  <div class="popup">
+    <div class="popup__container">
+      <img class="popup__image" src="./images/popup/check.svg" alt="Галочка">
+      <h2 class="popup__title">Заявка успешно отправлена</h2>
+      <p class="popup__text">Мы ответим в течение дня</p>
+      <button class="popup__close"></button>
+    </div>
+  </div>
 
-	<script src="./scripts/header.js"></script>
-	<script src="./scripts/feedback-form.js"></script>
+  <script src="./scripts/header.js"></script>
+  <script src="./scripts/feedback-form.js"></script>
 </body>
 
 </html>
