@@ -56,15 +56,13 @@
 @import url(../blocks/donation-form/__button-container/donation-form__button-container.css);
 @import url(../blocks/donation-form/__button/donation-form__button.css);
 @import url(../blocks/donation-form/__button/_active/donation-form__button_active.css);
-@import url(../blocks/donation-form/__button-3-logos/donation-form__button-3-logos.css);
 
 @import url(../blocks/donation-form/__payment-subsection/donation-form__payment-subsection.css);
 @import url(../blocks/donation-form/__payment-logo/donation-form__payment-logo.css);
 @import url(../blocks/donation-form/__payment-apple/donation-form__payment-apple.css);
 @import url(../blocks/donation-form/__payment-gpay/donation-form__payment-gpay.css);
 @import url(../blocks/donation-form/__payment-visa/donation-form__payment-visa.css);
-@import url(../blocks/donation-form/__payment-ms/donation-form__payment-ms.css);
-@import url(../blocks/donation-form/__payment-mir/donation-form__payment-mir.css);
+
 
 @import url(../blocks/donation-form/__card-subsection/donation-form__card-subsection.css);
 @import url(../blocks/donation-form/__card-container/donation-form__card-container.css);
@@ -90,7 +88,7 @@
 @import url(../blocks/donation-form/__checkbox-custom/donation-form__checkbox-custom.css);
 @import url(../blocks/donation-form/__checkbox-initial/donation-form__checkbox-initial.css);
 @import url(../blocks/donation-form/__checkbox-lable/donation-form__checkbox-lable.css);
-@import url(../blocks/donation-form/__checkbox-text/_color/donation-form__checkbox-text_color.css);
+@import url(../blocks/donation-form/__checkbox-text/_link/donation-form__checkbox-text_link.css);
 @import url(../blocks/donation-form/__checkbox-text/donation-form__checkbox-text.css);
 
 @import url(../blocks/donation-form/__contacts-subsection/donation-form__contacts-subsection.css);
