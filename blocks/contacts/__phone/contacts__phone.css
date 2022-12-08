@@ -9,6 +9,11 @@
 	margin: 16px 0 0;
 }
 
+.contacts__phone:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}
+
 @media (max-width: 550px) {
 	.contacts__phone {
 		font-size: 32px;
