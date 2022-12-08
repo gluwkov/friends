@@ -1,0 +1,12 @@
+.newsletter__placeholder-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height, or 125% */
+
+	text-align: center;
+
+	color: #999999;
+
+	margin: 0;
+}

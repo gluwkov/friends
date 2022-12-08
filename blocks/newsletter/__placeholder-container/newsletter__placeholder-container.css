@@ -1,0 +1,14 @@
+.newsletter__placeholder-container {
+	position: absolute;
+	top: 18px;
+	left: 32px;
+	color: #999999;
+	display: flex;
+	flex-flow: nowrap row;
+	align-items: center;
+	gap: 11px;
+	pointer-events: none;
+
+	opacity: 1;
+	transition: 0.1s ease;
+}

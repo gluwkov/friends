@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./pages/index.css">
-
 	<title>Фонд Друзья</title>
 </head>
 
@@ -382,8 +381,12 @@
 
 			<form id="newsletterForm" class="newsletter__form">
 				<fieldset class="newsletter__email-fieldset">
-						<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="">
+						<input type="email" name="newsletterEmail" class="newsletter__input" value="">
 						<button type="button" class="newsletter__clearButton newsletter__clearButton_hidden"></button>
+						<div class="newsletter__placeholder-container">
+							<i class="newsletter__placeholder-icon fa-solid">&#xf0e0</i>
+							<p class="newsletter__placeholder-text">Введите ваш e-mail</p>
+						</div>
 				</fieldset>
 				<button type="submit" class="newsletter__button">Подписаться</button>
 			</form>

@@ -5,7 +5,7 @@
 	background: #ffffff;
 	border: 0;
 	border-radius: 56px;
-	padding-left: 32px;
+	padding: 0 0 0 32px;
 
 	font-style: normal;
 	font-weight: 400;
@@ -16,12 +16,6 @@
 
 .newsletter__input:focus {
 	outline: none;
-}
-
-.newsletter__input::placeholder {
-	background-image: url(../../../images/newsletter/email.svg);
-	background-position: left;
-	background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {

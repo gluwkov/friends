@@ -268,8 +268,15 @@
 			</div>
 
 			<form id="newsletterForm" class="newsletter__form">
-				<input type="email" name="newsletterEmail" class="newsletter__input" placeholder=" " value="" />
-				<button class="newsletter__button">Подписаться</button>
+				<fieldset class="newsletter__email-fieldset">
+						<input type="email" name="newsletterEmail" class="newsletter__input" value="">
+						<button type="button" class="newsletter__clearButton newsletter__clearButton_hidden"></button>
+						<div class="newsletter__placeholder-container">
+							<i class="newsletter__placeholder-icon fa-solid">&#xf0e0</i>
+							<p class="newsletter__placeholder-text">Введите ваш e-mail</p>
+						</div>
+				</fieldset>
+				<button type="submit" class="newsletter__button">Подписаться</button>
 			</form>
 		</section>
 	</main>
@@ -378,6 +385,7 @@
 
 	<script src="./scripts/header.js"></script>
 	<script src="./scripts/feedback-form.js"></script>
+	<script src="./scripts/newsletter.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/fonts/FontAwesome/css/all.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_margin/title_margin.css);
@@ -117,6 +118,13 @@
 @import url(../blocks/newsletter/__form/newsletter__form.css);
 @import url(../blocks/newsletter/__input/newsletter__input.css);
 @import url(../blocks/newsletter/__button/newsletter__button.css);
+@import url(../blocks/newsletter/__clearButton/newsletter__clearButton.css);
+@import url(../blocks/newsletter/__clearButton/_hidden/newsletter__clearButton_hidden.css);
+@import url(../blocks/newsletter/__email-fieldset/newsletter__email-fieldset.css);
+@import url(../blocks/newsletter/__placeholder-container/newsletter__placeholder-container.css);
+@import url(../blocks/newsletter/__placeholder-container/_hidden/newsletter__placeholder-container_hidden.css);
+@import url(../blocks/newsletter/__placeholder-icon/newsletter__placeholder-icon.css);
+@import url(../blocks/newsletter/__placeholder-text/newsletter__placeholder-text.css);
 
 @import url(../blocks/more-help/more-help.css);
 @import url(../blocks/more-help/__span-accent/more-help__span-accent.css);
