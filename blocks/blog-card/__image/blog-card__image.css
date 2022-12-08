@@ -3,12 +3,22 @@
 	aspect-ratio: 1.52/1;
 }
 
+.blog-card:first-of-type>.blog-card__image {
+	aspect-ratio: 1.57/1;
+}
+
+
 @media (max-width: 768px) {
 	.blog-card__image {
+		object-fit: cover;
+	aspect-ratio: 1.52/1;
 		margin: 0 auto;
-		height: 100%;
 		width: 100%;
 		max-width: 750px;
+	}
+
+	.blog-card:first-of-type>.blog-card__image {
+		aspect-ratio: 1.52/1;
 	}
 }
 

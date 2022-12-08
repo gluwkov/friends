@@ -2,6 +2,7 @@
 	position: relative;
 	background-color: #F8F8F8;
 	max-width: 328px;
+	height: 432px;
 	display: flex;
 	flex-flow: column nowrap;
 	cursor: pointer;
@@ -13,19 +14,21 @@
 
 @media (max-width: 768px) {
 	.blog-card:first-of-type {
-		height: 100%;
 		max-width: 100%;
 	}
 
 	.blog-card {
 		width: 100%;
 		max-width: unset;
+		max-height: unset;
+		height: unset;
+		min-height: 392px;
 		background-color: #fff;
 	}
 }
 
-@media (max-width: 450px) {
-	.blog-card:first-of-type {
-		height: 328px;
+@media (max-width: 375px) {
+	.blog-card {
+		max-height: 392px;
 	}
 }

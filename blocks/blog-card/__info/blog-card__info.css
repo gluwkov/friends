@@ -1,6 +1,6 @@
 .blog-card__info {
 	max-width: 85.37%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .blog-card:first-of-type>.blog-card__info {
@@ -11,11 +11,9 @@
 
 @media (max-width: 768px) {
 	.blog-card:first-of-type>.blog-card__info {
-		left: 0;
+		position: unset;
 	}
-}
 
-@media (max-width: 768px) {
 	.blog-card__info {
 		margin-left: 16px;
 		margin-bottom: 38px;
