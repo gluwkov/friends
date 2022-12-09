@@ -1,3 +1,9 @@
 .support-fond__donation-form {
 	margin: 55px auto 0;
 }
+
+@media (max-width: 376px) {
+	.support-fond__donation-form {
+		margin-top: 40px;
+	}
+}

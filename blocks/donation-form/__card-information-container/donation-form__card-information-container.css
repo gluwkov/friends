@@ -11,7 +11,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 	.donation-form__card-information-container {
 		flex-wrap: wrap;
 		width: 112px;

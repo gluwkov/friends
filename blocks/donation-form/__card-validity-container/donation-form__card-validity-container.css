@@ -3,7 +3,7 @@
 	margin-top: 16px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 	.donation-form__card-validity-container {
 		margin-top: 24px;
 	}
