@@ -10,7 +10,6 @@
 	cursor: pointer;
 }
 
-
 @media (max-width: 376px) {
 	.donation-form__button {
 		width: 47.4%;
