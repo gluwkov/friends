@@ -98,6 +98,10 @@
 
 @import url(../blocks/donation-form/__submit-button/donation-form__submit-button.css);
 
+@import url(../blocks/donation-form/__payment-visa_active/donation-form__payment-visa_active.css);
+@import url(../blocks/donation-form/__payment-gpay_active/donation-form__payment-gpay_active.css);
+@import url(../blocks/donation-form/__payment-apple_active/donation-form__payment-apple_active.css);
+
 
 @import url(../blocks/values/values.css);
 @import url(../blocks/digits/digits.css);
