@@ -78,4 +78,5 @@ daylyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "5000";
 	secondSumBtn.textContent = "10000";
 	thirdSumBtn.textContent = "50000";
+	monthlyText.style.display = 'none';
 })
