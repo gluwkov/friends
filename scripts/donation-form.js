@@ -68,8 +68,6 @@ btnApplePay.addEventListener('click', () => {
 // Изменение сумм платежа при клике на кнопку "Ежемесячные"
 monthlyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "1000";
-	firstSumBtn.style.background = '#FFF';
-	firstSumBtn.style.color = '#000';
 	secondSumBtn.textContent = "5000";
 	thirdSumBtn.textContent = "10000";
 })
