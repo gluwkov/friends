@@ -6,6 +6,10 @@
 	cursor: pointer;
 }
 
+.donation-form__card-validity-date-input:focus {
+	outline: none;
+}
+
 @media (max-width: 630px) {
 	.donation-form__card-validity-date-input {
 		width: 112px;
@@ -13,5 +17,3 @@
 		margin-top: 4px;
 	}
 }
-
-

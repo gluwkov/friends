@@ -4,3 +4,7 @@
 	background-color: #F8F8F8;
 	cursor: pointer;
 }
+
+.donation-form__contacts-input:focus {
+	outline: none;
+}

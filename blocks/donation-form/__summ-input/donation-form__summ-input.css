@@ -7,3 +7,7 @@
 	background-color: #F8F8F8;
 	cursor: pointer;
 }
+
+.donation-form__summ-input:focus {
+	outline: none;
+}

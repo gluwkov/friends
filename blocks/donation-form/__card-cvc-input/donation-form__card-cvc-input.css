@@ -10,6 +10,10 @@
 	cursor: pointer;
 }
 
+.donation-form__card-cvc-input:focus {
+	outline: none;
+}
+
 @media (max-width: 630px) {
 	.donation-form__card-cvc-input {
 		width: 104px;
@@ -17,4 +21,3 @@
 		margin-top: 4px;
 	}
 }
-
