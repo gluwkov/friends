@@ -1,0 +1,23 @@
+.donation-form__title {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 38px;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 26px;
+}
+
+@media screen and (max-width: 500px) {
+	.donation-form__title {
+		width: 356px;
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.donation-form__title {
+		width: 306px;
+		font-size: 28px;
+	}
+}

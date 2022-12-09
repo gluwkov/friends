@@ -1,8 +1,21 @@
 .support-fond__title {
 	position: relative;
 	z-index: 5;
-	padding-top: 112px;
+	padding-top: 56px;
 	margin: auto;
 	max-width: 69.1%;
 	color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+	.support-fond__title {
+		max-width: 87.2%;
+	}
+}
+
+@media (max-width: 375px) {
+	.support-fond__title {
+		text-align: left;
+		padding-top: 40.56px;
+	}
 }

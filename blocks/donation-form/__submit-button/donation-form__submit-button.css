@@ -11,4 +11,14 @@
 	border: 0;
 }
 
+@media (max-width: 375px) {
+	.donation-form__submit-button {
+		margin-top: 42px;
+		background-color: #EEB250;
+		font-size: 16px;
+	}
+}
+
+
+
 

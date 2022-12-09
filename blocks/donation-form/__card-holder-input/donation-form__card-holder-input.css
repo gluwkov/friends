@@ -9,3 +9,18 @@
 	line-height: 20px;
 	padding-left: 18px;
 }
+
+@media (max-width: 630px) {
+	.donation-form__card-holder-input {
+		width: 90%
+	}
+}
+
+@media (max-width: 375px) {
+	.donation-form__card-holder-input {
+		width: 279px;
+		margin-left: 16px;
+	}
+}
+
+

@@ -10,3 +10,16 @@
 	padding-left: 18px;
 }
 
+@media (max-width: 630px) {
+	.donation-form__card-num-input {
+		width: 90%
+	}
+}
+
+@media (max-width: 375px) {
+	.donation-form__card-num-input {
+		width: 279px;
+		margin-top: 16px;
+		margin-left: 16px;
+	}
+}

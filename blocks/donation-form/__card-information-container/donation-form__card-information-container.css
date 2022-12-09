@@ -2,3 +2,19 @@
 	display: flex;
 	margin-left: 24px;
 }
+
+@media (max-width: 630px) {
+	.donation-form__card-information-container {
+		flex-wrap: wrap;
+		width: 112px;
+	}
+}
+
+
+@media (max-width: 375px) {
+	.donation-form__card-information-container {
+		flex-wrap: wrap;
+		width: 112px;
+		margin-left: 16px;
+	}
+}

@@ -1,3 +1,10 @@
 .donation-form__summ-subsection {
+	padding-top: 40px;
+}
 
+@media (max-width: 375px) {
+	.donation-form__summ-subsection {
+		padding-top: 24px;
+
+	}
 }

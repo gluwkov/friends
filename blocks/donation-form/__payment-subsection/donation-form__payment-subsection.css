@@ -1,3 +1,10 @@
 .donation-form__payment-subsection {
-
+	padding-top: 40px;
 }
+
+@media (max-width: 375px) {
+	.donation-form__payment-subsection {
+		padding-top: 32px;
+	}
+}
+

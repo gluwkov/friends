@@ -189,3 +189,31 @@
 @import url(../blocks/mission/__circle/_color/mission__circle_color_red.css);
 @import url(../blocks/mission/__circle/_color/mission__circle_color_orange.css);
 @import url(../blocks/mission/__circle/_color/mission__circle_color_gray.css);
+
+@import url(../blocks/support-fond/support-fond.css);
+@import url(../blocks/support-fond/__title/support-fond__title.css);
+@import url(../blocks/support-fond/__title/_italic/support-fond__title_italic.css);
+@import url(../blocks/support-fond/__donation-form/support-fond__donation-form.css);
+@import url(../blocks/support-fond/__rectangle/support-fond__rectangle.css);
+
+@import url(../blocks/donation-form/__title/donation-form__title.css);
+@import url(../blocks/donation-form/donation-form.css);
+@import url(../blocks/donation-form/__subtitle/donation-form__subtitle.css);
+@import url(../blocks/donation-form/__section/donation-form__section.css);
+
+@import url(../blocks/donation-form/__duration-subsection/donation-form__duration-subsection.css);
+@import url(../blocks/donation-form/__duration-toggler-container/donation-form__duration-toggler-container.css);
+@import url(../blocks/donation-form/__duration-toggler-checkbox/donation-form__duration-toggler-checkbox.css);
+
+@import url(../blocks/donation-form/__summ-subsection/donation-form__summ-subsection.css);
+@import url(../blocks/donation-form/__summ-input/donation-form__summ-input.css);
+@import url(../blocks/donation-form/__button-container/donation-form__button-container.css);
+@import url(../blocks/donation-form/__button/donation-form__button.css);
+
+@import url(../blocks/donation-form/__submit-button/donation-form__submit-button.css);
+
+@import url(../blocks/support-partner/support-partner.css);
+@import url(../blocks/support-partner/__container/support-partner__container.css);
+@import url(../blocks/support-partner/__title/support-partner__title.css);
+@import url(../blocks/support-partner/__short-form/support-partner__short-form.css);
+@import url(../blocks/support-partner/__form-button/support-partner__form-button.css);
