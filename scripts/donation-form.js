@@ -12,6 +12,9 @@ const cardUserInfo = document.querySelector('.donation-form__contacts-subsection
 
 const submitBtn = document.querySelector('.donation-form__submit-button');
 
+const monthlyBtn = document.querySelector('.donation-form__monthly-button');
+const daylyBtn = document.querySelector('.donation-form__dayly-button');
+
 // Переключение кнопок с суммами перевода
 donationSumBtns.forEach((donationSumBtn) => {
 	donationSumBtn.addEventListener('click', () => {
@@ -60,4 +63,21 @@ btnApplePay.addEventListener('click', () => {
 	cardUserInfo.style.display = 'none';
 	btnVisaMir.classList.remove('donation-form__payment-visa_active');
 	btnGooglePay.classList.remove('donation-form__payment-gpay_active');
+})
+
+// Изменение сумм платежа при клике на кнопку "Ежемесячные"
+monthlyBtn.addEventListener('click', () => {
+	firstSumBtn.textContent = "1000";
+	firstSumBtn.style.background = '#FFF';
+	firstSumBtn.style.color = '#000';
+	secondSumBtn.textContent = "5000";
+	thirdSumBtn.textContent = "10000";
+})
+
+daylyBtn.addEventListener('click', () => {
+	firstSumBtn.textContent = "5000";
+	firstSumBtn.style.background = '#82607D';
+	firstSumBtn.style.color = '#FFF';
+	secondSumBtn.textContent = "10000";
+	thirdSumBtn.textContent = "50000";
 })
