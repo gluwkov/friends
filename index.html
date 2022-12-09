@@ -457,20 +457,20 @@
 					<div class="donation-form__section donation-form__duration-subsection">
 						<input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
 						<label for="toggle" class="donation-form__duration-toggler-container">
-							<div>Разовое</div>
-							<div>Ежемесячное</div>
+							<div class="donation-form__dayly-button">Разовое</div>
+							<div class="donation-form__monthly-button">Ежемесячное</div>
 							</label>
 					</div>
 
 					<div class="donation-form__section donation-form__summ-subsection">
 						<div class="donation-form__button-container">
-							<button class="donation-form__button donation-form__button_active">5 000</button>
-							<button class="donation-form__button">10 000</button>
-							<button class="donation-form__button">50 000</button>
+							<button class="donation-form__button donation-form__button-sum donation-form__button_active" type="button" id="first-sum">5 000</button>
+							<button class="donation-form__button donation-form__button-sum" type="button" id="second-sum">10 000</button>
+							<button class="donation-form__button donation-form__button-sum" type="button" id="third-sum">50 000</button>
 						</div>
 						<input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
 					</div>
-					<input class="donation-form__submit-button support-partner__form-button" type="submit" value="Поддержать фонд">
+					<button class="support-partner__form-button" type="button">Поддержать фонд</button>
 				</form>
 
 			</div>
@@ -578,6 +578,7 @@
 	<script src="./scripts/blog.js"></script>
 	<script src="./scripts/closePopup.js"></script>
 	<script src="./scripts/newsletter.js"></script>
+	<script src="./scripts/support-partner.js"></script>
 </body>
 
 </html>
