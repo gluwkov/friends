@@ -12,7 +12,7 @@
 
 @media (max-width: 376px) {
 	.donation-form__button {
-		width: 148px;
+		width: 47.4%;
 	}
 	.donation-form__button:last-child {
 		flex-grow: 1;
