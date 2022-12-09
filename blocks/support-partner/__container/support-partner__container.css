@@ -1,0 +1,15 @@
+.support-partner__container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1134px;
+	margin: auto;
+	background-color: #82607D;
+	transform: translate(0, 60px);
+}
+
+@media screen and (max-width:1100px) {
+	.support-partner__container {
+		transform: translate(0, 0);
+		padding-bottom: 8px;
+	}
+}

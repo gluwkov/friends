@@ -10,8 +10,8 @@
 </head>
 
 <body class="root">
+	<!-- Шапка -->
 	<header class="header">
-		<!-- Шапка -->
 		<div class="header__container">
 			<button class="header__nav-button" type="button" aria-label="Открыть меню"></button>
 			<div class="logo">
@@ -45,6 +45,7 @@
 	</header>
 
 	<main class="content">
+
 		<!-- Блок “Интерактивные слайды о программах фонда” -->
 		<section class="promo">
 			<div class="slider promo__slider">
@@ -86,6 +87,7 @@
 			</div>
 		</section>
 
+		<!-- Блок “Наша миссия” -->
 		<section class="mission">
 			<div class="mission__title-description-container">
 				<h2 class="title mission__title">Чем мы занимаемся?</h2>
@@ -215,8 +217,8 @@
 			</ul>
 		</section>
 
+		<!-- Блок “Полезно” -->
 		<section class="sources">
-			<!-- Блок “Полезно” -->
 			<h2 class="sources__title title">Полезно</h2>
 			<div class="sources__cards">
 				<div class="sources__card">
@@ -253,8 +255,8 @@
 			</div>
 		</section>
 
+		<!-- Блок “Наши друзья” -->
 		<section class="friends">
-			<!-- Блок “Наши друзья” -->
 			<h2 class="friends__title title">Наши друзья</h2>
 			<div class="slider friends__slider">
 				<div class="friends__slide">
@@ -360,6 +362,7 @@
 			</div>
 		</section>
 
+		<!-- Блок “Блог” -->
 		<section class="blog">
 			<h2 class="title">Блог</h2>
 			<div class="blog__cards">
@@ -368,6 +371,7 @@
 			<button type="button" class="blog__button">Перейти в блог</button>
 		</section>
 
+		<!-- Блок “Рассылка” -->
 		<section class="newsletter">
 			<div class="newsletter__text-container">
 				<h2 class="newsletter__title">
@@ -392,8 +396,8 @@
 			</form>
 		</section>
 
+		<!-- Блок “Нам доверяют” -->
 		<section class="partners">
-			<!-- Блок “Нам доверяют” -->
 			<h2 class="partners__title title">Нам доверяют</h2>
 			<div class="partners__slider slider-min">
 				<!-- добавить универсальный класс -->
@@ -441,14 +445,41 @@
 				<a href="tel:+79772770717" class="contacts__phone">+7 977 277-07-17</a>
 			</div>
 		</section>
+		<!-- Блок “Короткая форма” -->
 
-		<section>
-			<!-- Блок “Форма пожертвования” -->
+		<section class ="support-partner">
+			<div class="support-partner__container">
+
+				<h1 class="support-partner__title title">Поддержите «Друзей» или станьте <span class="text-italic">нашим партнером</span></h1>
+
+				<form class="donation-form support-partner__short-form">
+					<h3 class="donation-form__title">Поддержать Друзей:</h3>
+					<div class="donation-form__section donation-form__duration-subsection">
+						<input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
+						<label for="toggle" class="donation-form__duration-toggler-container">
+							<div>Разовое</div>
+							<div>Ежемесячное</div>
+							</label>
+					</div>
+
+					<div class="donation-form__section donation-form__summ-subsection">
+						<div class="donation-form__button-container">
+							<button class="donation-form__button donation-form__button_active">5 000</button>
+							<button class="donation-form__button">10 000</button>
+							<button class="donation-form__button">50 000</button>
+						</div>
+						<input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
+					</div>
+					<input class="donation-form__submit-button support-partner__form-button" type="submit" value="Поддержать фонд">
+				</form>
+
+			</div>
+
 		</section>
 	</main>
 
+	<!-- Подвал -->
 	<footer class="footer">
-		<!-- Подвал -->
 		<div class="footer__main-container">
 			<div class="footer__container">
 				<div class="footer__logo-box">

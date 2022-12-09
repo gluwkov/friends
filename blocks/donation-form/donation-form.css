@@ -1,8 +1,23 @@
 .donation-form {
 	position: relative;
 	z-index: 1;
-	max-width: 53.13%;
-	padding: 16px 64px 72px;
+	width: 680px;
+	padding: 56px 64px 72px;
 	background-color: #FFFFFF;
 	overflow: hidden;
+}
+
+@media (max-width: 699px) {
+	.donation-form {
+		width: 95%;
+		padding: 16px 32px 52px;
+	}
+}
+
+@media (max-width: 376px) {
+	.donation-form {
+		width: 359px;
+		text-align: left;
+		padding: 24px 24px 24px;
+	}
 }
