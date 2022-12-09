@@ -9,8 +9,3 @@
 	margin-right: 12px;
 	flex-shrink: 0;
 }
-
-.donation-form__checkbox-custom::after {
-	content: '\2714';
-	color: #FFFFFF;
-}
