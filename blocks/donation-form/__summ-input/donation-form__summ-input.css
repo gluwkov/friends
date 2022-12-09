@@ -5,6 +5,7 @@
 	border: 0;
 	width: 100%;
 	background-color: #F8F8F8;
+	cursor: pointer;
 }
 
 .donation-form__summ-input:focus {

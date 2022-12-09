@@ -7,6 +7,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	border: 0;
+	cursor: pointer;
 }
 
 .donation-form__card-cvc-input:focus {

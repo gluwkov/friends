@@ -19,5 +19,6 @@
 	.donation-form__card-front {
 		width: 311px;
 		height: 338px;
+		margin-bottom: 0;
 	}
 }

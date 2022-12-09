@@ -11,6 +11,7 @@
 	cursor: pointer;
 	column-gap: -25px;
 	border: 0;
+	cursor: pointer;
 }
 
 .donation-form__duration-toggler-container::before {
