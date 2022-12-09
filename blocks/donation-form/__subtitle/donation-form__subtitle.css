@@ -1,7 +1,14 @@
 .donation-form__subtitle {
-margin: 0;
+margin: 0 0 16px;
 padding: 0;
 font-size: 18px;
 font-weight: 400;
 line-height: 26px;
+}
+
+@media (max-width: 376px) {
+	.donation-form__subtitle {
+		font-size: 15px;
+		line-height: 26px;
+	}
 }

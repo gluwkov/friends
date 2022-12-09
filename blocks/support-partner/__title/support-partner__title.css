@@ -1,0 +1,44 @@
+.support-partner__title {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: left;
+	width: 380px;
+	margin-top: 94px;
+	margin-left: 51px;
+	color: #FFFFFF;
+	font-size: 50px;
+	line-height: 130%;
+}
+
+@media screen and (max-width: 1100px) {
+	.support-partner__title {
+		width: 60%;
+		font-size: 45px;
+		margin: auto;
+		margin-top: 48px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.support-partner__title {
+		width: 80%;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.support-partner__title {
+		font-size: 33px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.support-partner__title {
+		width: 332px;
+		font-size: 27px;
+		margin-left: 24px;
+		margin-top: 48px;
+	}
+}

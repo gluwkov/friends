@@ -2,3 +2,16 @@
 	margin-top: 34px;
 	margin-left: 27px;
 }
+
+@media (max-width: 630px) {
+	.donation-form__card-summ-container {
+		margin-top: 11px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 376px) {
+	.donation-form__card-summ-container {
+		margin-top: 24px;
+	}
+}

@@ -8,3 +8,16 @@
 	font-size: 12px;
 	line-height: 19px;
 }
+
+
+@media (max-width: 630px) {
+	.donation-form__card-cvc-text  {
+		width: 150px;
+	}
+}
+
+@media (max-width: 410px) {
+	.donation-form__card-cvc-text  {
+		display: none;
+	}
+}
