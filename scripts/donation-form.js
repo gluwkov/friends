@@ -14,6 +14,7 @@ const submitBtn = document.querySelector('.donation-form__submit-button');
 
 const monthlyBtn = document.querySelector('.donation-form__monthly-button');
 const daylyBtn = document.querySelector('.donation-form__dayly-button');
+const monthlyText = document.querySelector('.donation-form__monthly-text');
 
 // Переключение кнопок с суммами перевода
 donationSumBtns.forEach((donationSumBtn) => {
@@ -70,6 +71,7 @@ monthlyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "1000";
 	secondSumBtn.textContent = "5000";
 	thirdSumBtn.textContent = "10000";
+	monthlyText.style.display = 'block';
 })
 
 daylyBtn.addEventListener('click', () => {
