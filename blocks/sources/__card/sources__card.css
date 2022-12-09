@@ -6,6 +6,7 @@
 	grid-template-columns: repeat(2, minmax(245px, 1fr));
 	transition: 1s;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .sources__card:hover {
