@@ -1,4 +1,4 @@
-.donation-form__button {
+.donation-form__payment-button {
 	padding: 0;
 	height: 56px;
 	width: 31.7%;
@@ -7,16 +7,12 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
+
 }
 
-
-@media (max-width: 376px) {
-	.donation-form__button {
-		width: 148px;
-	}
-	.donation-form__button:last-child {
+@media (max-width: 599px) {
+	.donation-form__payment-button {
+		width: 300px;
 		flex-grow: 1;
 	}
 }
-
-

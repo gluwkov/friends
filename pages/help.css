@@ -58,10 +58,14 @@
 @import url(../blocks/donation-form/__button/_active/donation-form__button_active.css);
 
 @import url(../blocks/donation-form/__payment-subsection/donation-form__payment-subsection.css);
+@import url(../blocks/donation-form/__payment-button-container/donation-form__payment-button-container.css);
+@import url(../blocks/donation-form/__payment-button/donation-form__payment-button.css);
 @import url(../blocks/donation-form/__payment-logo/donation-form__payment-logo.css);
 @import url(../blocks/donation-form/__payment-apple/donation-form__payment-apple.css);
 @import url(../blocks/donation-form/__payment-gpay/donation-form__payment-gpay.css);
-@import url(../blocks/donation-form/__payment-visa/donation-form__payment-visa.css);
+@import url(../blocks/donation-form/__payment-3logos/donation-form__payment-3logos.css);
+@import url(../blocks/donation-form/__payment-button/_active/donation-form__payment-button_active.css);
+
 
 
 @import url(../blocks/donation-form/__card-subsection/donation-form__card-subsection.css);

@@ -1,0 +1,6 @@
+.donation-form__payment-button-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 16px;
+}

@@ -1,5 +1,4 @@
 .donation-form__duration-toggler-container {
-	margin-top: 16px;
 	box-sizing: border-box;
 	position: relative;
 	display: grid;
@@ -19,7 +18,7 @@
 	position: absolute;
 	width: 54%;
 	height: 100%;
-	left: 0%;
+	left: 0;
 	border-radius: 56px;
 	background: #82607D;
 	transition: all 0.3s;
@@ -56,4 +55,10 @@
 .donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container div:last-child{
 	color: #999999;
 	transition: color 0.3s;
+}
+
+@media (max-width: 600px) {
+	.donation-form__duration-toggler-container div {
+		font-size: 10px;
+	}
 }

@@ -1,6 +1,25 @@
 .donation-form__card-cvc-container {
 	position: absolute;
-	top: 30px;
-	right: 38px;
+	top: 58px;
+	right: -150px;
+}
 
+@media (max-width: 630px) {
+	.donation-form__card-cvc-container  {
+		width: 104px;
+		height: 83px;
+		top: 160px;
+		left: 160px;
+		z-index: 101;
+	}
+}
+
+@media (max-width: 376px) {
+	.donation-form__card-cvc-container  {
+		width: 104px;
+		height: 83px;
+		top: 160px;
+		right: 47px;
+		z-index: 101;
+	}
 }
