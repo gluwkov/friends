@@ -1,8 +1,15 @@
 .donation-form__checkbox-initial {
-	display: none;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
 }
 
-.donation-form__checkbox-initial:checked + .donation-form__checkbox-custom {
-	background: #54A8B6;
-	border: #54A8B6;
+.donation-form__checkbox-initial:checked+.donation-form__checkbox-custom {
+	background-color: #54A8B6;
+	border: 1px solid #54A8B6;
+	background-image: url(../../../images/icons/feedback_check-mark.svg);
+	background-position: center;
+	background-repeat: no-repeat;
 }
