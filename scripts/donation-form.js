@@ -74,8 +74,6 @@ monthlyBtn.addEventListener('click', () => {
 
 daylyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "5000";
-	firstSumBtn.style.background = '#82607D';
-	firstSumBtn.style.color = '#FFF';
 	secondSumBtn.textContent = "10000";
 	thirdSumBtn.textContent = "50000";
 })
