@@ -8,4 +8,5 @@
 	justify-content: center;
 	margin-right: 12px;
 	flex-shrink: 0;
+	cursor: pointer;
 }

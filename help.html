@@ -55,10 +55,11 @@
 					<h3 class="donation-form__subtitle">Выберите тип и сумму пожертвования</h3>
 					<input type="checkbox" id="toggle" class="donation-form__duration-toggler-checkbox" />
 					<label for="toggle" class="donation-form__duration-toggler-container">
-						<div>Разовое</div>
-						<div>Ежемесячное</div>
+						<div class="donation-form__dayly-button">Разовое</div>
+						<div class="donation-form__monthly-button">Ежемесячное</div>
 						</label>
 				</div>
+				<p class="donation-form__monthly-text">Ежемесячное пожертвование раз в месяц списывается с банковской карты, Google Pay или Apple Pay. В любой момент вы сможете отключить его.</p>
 
 				<div class="donation-form__section donation-form__summ-subsection">
 					<h3 class="donation-form__subtitle">Сумма поддержки</h3>
@@ -68,18 +69,15 @@
 						<button class="donation-form__button donation-form__button-sum" type="button" id="third-sum">50 000</button>
 					</div>
 					<input type="text" class="donation-form__summ-input" placeholder="Другая сумма">
+					<span class="donation-form__summ-input-span">&#x20bd;</span>
 				</div>
 
 				<div class="donation-form__section donation-form__payment-subsection">
 					<h3 class="donation-form__subtitle">Способ оплаты</h3>
 						<div class="donation-form__button-container">
-						<button class="donation-form__button donation-form__button-3-logos donation-form__payment-visa_active" type="button">
-							<div class="donation-form__payment-visa"></div>
-							<div class="donation-form__payment-ms"></div>
-							<div class="donation-form__payment-mir"></div>
-						</button>
-						<button class="donation-form__button donation-form__payment-gpay" type="button"></button>
-						<button class="donation-form__button donation-form__payment-apple" type="button"></button>
+						<button class="donation-form__button donation-form__payment-button donation-form__payment-visa donation-form__payment-visa_active" type="button"></button>
+						<button class="donation-form__button donation-form__payment-button donation-form__payment-gpay" type="button"></button>
+						<button class="donation-form__button donation-form__payment-button donation-form__payment-apple" type="button"></button>
 					</div>
 				</div>
 
@@ -87,21 +85,21 @@
 					<h3 class="donation-form__subtitle donation-form__subtitle_closed">Банковская карта</h3>
 					<div class="donation-form__card-container">
 						<div class="donation-form__card-front">
-							<input type="text" class="donation-form__card-num-input" placeholder="Номер карты">
+							<input type="number" class="donation-form__card-num-input" placeholder="Номер карты">
 							<input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты">
 							<div class="donation-form__card-information-container">
 								<div class="donation-form__card-validity-container">
 									<p class="donation-form__card-validity-subtitle">Действует до</p>
-									<input type="text" class="donation-form__card-validity-date-input" placeholder="ММ/ГГ">
+									<input type="number" class="donation-form__card-validity-date-input" placeholder="ММ / ГГ">
 								</div>
 								<div class="donation-form__card-summ-container">
 									<p class="donation-form__card-summ-subtitle">Итого к оплате</p>
-									<p class="donation-form__card-summ-value">1000р</p>
+									<p class="donation-form__card-summ-value">1000 &#x20bd;</p>
 								</div>
 							 </div>
 							 <div class="donation-form__card-cvc-container">
 								<p class="donation-form__card-cvc-subtitle">CVV/CVC</p>
-								<input type="text" class="donation-form__card-cvc-input" placeholder="***">
+								<input type="number" class="donation-form__card-cvc-input" placeholder="***">
 								<p class="donation-form__card-cvc-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
 							</div>
 						</div>
@@ -129,10 +127,10 @@
 							<p class="donation-form__checkbox-text">Ознакомился и согласен с <a href="#" class="donation-form__checkbox-text_link">политикой обработки персональных данных</a></p>
 						</label>
 					</div>
-					<input class="donation-form__submit-button" type="submit" value="Поддержать фонд">
+					<button class="donation-form__submit-button" type="submit">Поддержать фонд</button>
 				</div>
 			</form>
-      
+
 		</section>
 
 		<!-- Блок “Контакты” -->

@@ -8,6 +8,11 @@
 	font-size: 16px;
 	line-height: 20px;
 	padding-left: 18px;
+	cursor: pointer;
+}
+
+.donation-form__card-holder-input:focus {
+	outline: none;
 }
 
 @media (max-width: 630px) {
@@ -22,5 +27,3 @@
 		margin-left: 16px;
 	}
 }
-
-

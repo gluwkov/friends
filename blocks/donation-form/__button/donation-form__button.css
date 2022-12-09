@@ -7,12 +7,13 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
+	cursor: pointer;
+
 }
 
-
-@media (max-width: 376px) {
+@media (max-width: 500px) {
 	.donation-form__button {
-		width: 148px;
+		width: 47.4%;
 	}
 	.donation-form__button:last-child {
 		flex-grow: 1;

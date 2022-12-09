@@ -3,6 +3,11 @@
 	height: 56px;
 	border: 0;
 	padding-left: 18px;
+	cursor: pointer;
+}
+
+.donation-form__card-validity-date-input:focus {
+	outline: none;
 }
 
 @media (max-width: 630px) {
@@ -12,5 +17,3 @@
 		margin-top: 4px;
 	}
 }
-
-
