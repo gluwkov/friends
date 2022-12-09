@@ -14,6 +14,7 @@ const submitBtn = document.querySelector('.donation-form__submit-button');
 
 const monthlyBtn = document.querySelector('.donation-form__monthly-button');
 const daylyBtn = document.querySelector('.donation-form__dayly-button');
+const monthlyText = document.querySelector('.donation-form__monthly-text');
 
 // Переключение кнопок с суммами перевода
 donationSumBtns.forEach((donationSumBtn) => {
@@ -68,16 +69,13 @@ btnApplePay.addEventListener('click', () => {
 // Изменение сумм платежа при клике на кнопку "Ежемесячные"
 monthlyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "1000";
-	firstSumBtn.style.background = '#FFF';
-	firstSumBtn.style.color = '#000';
 	secondSumBtn.textContent = "5000";
 	thirdSumBtn.textContent = "10000";
+	monthlyText.style.display = 'block';
 })
 
 daylyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "5000";
-	firstSumBtn.style.background = '#82607D';
-	firstSumBtn.style.color = '#FFF';
 	secondSumBtn.textContent = "10000";
 	thirdSumBtn.textContent = "50000";
 })

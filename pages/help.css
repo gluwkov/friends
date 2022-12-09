@@ -105,6 +105,7 @@
 @import url(../blocks/donation-form/__payment-gpay_active/donation-form__payment-gpay_active.css);
 @import url(../blocks/donation-form/__payment-apple_active/donation-form__payment-apple_active.css);
 @import url(../blocks/donation-form/__summ-input-span/donation-form__summ-input-span.css);
+@import url(../blocks/donation-form/__monthly-text/donation-form__monthly-text.css);
 
 @import url(../blocks/values/values.css);
 @import url(../blocks/digits/digits.css);
