@@ -20,6 +20,7 @@
 @import url(../blocks/logo/__subtitle/logo__subtitle.css);
 @import url(../blocks/logo/__title/logo__title.css);
 @import url(../blocks/logo/__image/_place/logo__image_place_footer.css);
+@import url(../blocks/logo/__container/logo__container.css);
 
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__link/nav__link.css);
