@@ -3,7 +3,7 @@ const firstSumBtn = document.querySelector('#first-sum');
 const secondSumBtn = document.querySelector('#second-sum');
 const thirdSumBtn = document.querySelector('#third-sum');
 
-const btnVisaMir = document.querySelector('.donation-form__button-3-logos');
+const btnVisaMir = document.querySelector('.donation-form__payment-visa');
 const btnGooglePay = document.querySelector('.donation-form__payment-gpay');
 const btnApplePay = document.querySelector('.donation-form__payment-apple');
 const subtitleCard = document.querySelector('.donation-form__subtitle_closed');

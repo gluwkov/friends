@@ -9,6 +9,7 @@
 	line-height: 20px;
 	color: #FFFFFF;
 	border: 0;
+	cursor: pointer;
 }
 
 @media (max-width: 376px) {
