@@ -10,6 +10,10 @@
 	padding-left: 18px;
 }
 
+.donation-form__card-holder-input:focus {
+	outline: none;
+}
+
 @media (max-width: 630px) {
 	.donation-form__card-holder-input {
 		width: 90%
@@ -22,5 +26,3 @@
 		margin-left: 16px;
 	}
 }
-
-
