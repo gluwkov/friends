@@ -18,7 +18,7 @@
 	background-color: #F8F8F8;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
 	.partners__button-all {
 		margin-top: 10px;
 	}

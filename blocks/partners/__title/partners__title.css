@@ -2,7 +2,7 @@
 	margin: 96px auto 23px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
 	.partners__title {
 		margin-top: 56px;
 		margin-bottom: 16px;
