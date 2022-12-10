@@ -2,13 +2,13 @@
 	margin-left: 35px;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 	.friends__block-text_position_right {
 		margin: auto 10px auto 90px ;
 	}
 }
 
-@media (max-width: 666px) {
+@media (max-width: 768px) {
 	.friends__block-text_position_right {
 		margin: 0 auto ;
 	}

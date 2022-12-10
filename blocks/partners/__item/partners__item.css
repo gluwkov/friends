@@ -4,7 +4,7 @@
 	margin-right: 57px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
 	.partners__item {
 		width: 80px;
 		height: 80px;

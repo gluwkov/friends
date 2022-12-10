@@ -16,7 +16,7 @@
 	right: 100%;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
 	.partners__slider .slick-prev {
 		right: 95%;
 	}
@@ -28,7 +28,7 @@
 	left: 100%;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
 	.partners__slider .slick-next {
 		left: 95%;
 	}

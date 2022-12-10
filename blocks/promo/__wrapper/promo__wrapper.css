@@ -4,16 +4,22 @@
 	margin-left: 84px;
 }
 
+@media (max-width: 1024px) {
+	.promo__wrapper {
+		top: 32px;
+		margin-left: 35px;
+	}
+}
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
 	.promo__wrapper {
 		max-width: 550px;
-		top: 32px;
 		margin-left: 8px;
 	}
 }
 
-@media (max-width: 565px) {
+
+@media (max-width: 550px) {
 	.promo__wrapper {
 		top: 0;
 	}

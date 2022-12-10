@@ -7,7 +7,7 @@
 	color: #FFFFFF;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 	.promo__title {
 		max-width: 850px;
 		font-size: 42px;
@@ -15,7 +15,7 @@
 	}
 }
 
-@media (max-width: 565px) {
+@media (max-width: 425px) {
 	.promo__title {
 		margin-top: 32px;
 		margin-left: 16px;

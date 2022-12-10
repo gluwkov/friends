@@ -41,12 +41,10 @@ $(document).ready(function () {
 
 	// слайдер блока promo, friends
 	$('.slider').slick({
-		adaptiveHeight: true,
-		infinite: true,
 		slidesToShow: 1,
 		speed: 900,
-		autoplay: true,
-		autoplaySpeed: 11000,
+		// autoplay: true,
+		// autoplaySpeed: 11000,
 		dots: true,
 		fade: true,
 		dotsClass: 'slick-dots',
@@ -68,8 +66,6 @@ $(document).ready(function () {
 $(window).on('load resize', function () {
 	if ($(window).width() < 769) {
 		$('.blog__cards:not(.slick-initialized)').slick({
-			infinite: false,
-			adaptiveHeight: true,
 			speed: 1100,
 			autoplay: true,
 			autoplaySpeed: 13000,

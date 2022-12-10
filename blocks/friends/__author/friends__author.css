@@ -6,14 +6,9 @@
 	line-height: 26px;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 	.friends__author {
 		font-size: 16px;
-	}
-}
-
-@media (max-width: 900px) {
-	.friends__author {
 		margin-bottom: 30px;
 	}
 }

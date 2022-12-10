@@ -1,12 +1,10 @@
 .promo__img {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	width: 100%;
 	height: 630px;
+	object-fit: cover;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 425px) {
 	.promo__img {
 		height: 486px;
 	}

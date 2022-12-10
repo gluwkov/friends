@@ -4,7 +4,7 @@
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
 	.friends__title {
 		margin-top: 56px;
 		margin-bottom: 24px;

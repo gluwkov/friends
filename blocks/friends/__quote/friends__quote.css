@@ -6,7 +6,7 @@
 	line-height: 58px;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 	.friends__quote {
 		margin-top: 40px;
 		font-size: 27px;
