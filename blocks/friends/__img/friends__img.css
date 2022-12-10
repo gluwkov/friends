@@ -2,7 +2,7 @@
 	object-fit: cover;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 	.slick-slide .friends__img  {
 		display: none;
 	}

@@ -2,7 +2,7 @@
 	min-height: 408px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 	.friends__slide {
 		background-color: #F8F8F8;
 	}
