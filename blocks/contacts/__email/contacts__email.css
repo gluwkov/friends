@@ -13,7 +13,7 @@
 	transition: 0.5s ease;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
 	.contacts__email {
 		font-size: 32px;
 		line-height: 42px;
