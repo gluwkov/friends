@@ -26,7 +26,7 @@
 
 }
 
-.donation-form__duration-toggler-container div {
+.donation-form__duration-toggler-container span {
 	text-transform: uppercase;
 	padding: 6px;
 	text-align: center;
@@ -41,25 +41,25 @@
 	left: 46%;
 }
 
-.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container div:first-child{
+.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container span:first-child{
 	color: #999999;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container div:last-child{
+.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container span:last-child{
 	color: white;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container div:first-child{
+.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container span:first-child{
 	color: white;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container div:last-child{
+.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container span:last-child{
 	color: #999999;
 	transition: color 0.3s;
 }
 
 @media (max-width: 600px) {
-	.donation-form__duration-toggler-container div {
+	.donation-form__duration-toggler-container span {
 		font-size: 10px;
 	}
 }
