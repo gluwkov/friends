@@ -10,5 +10,6 @@
 	.programs__item_theme_turquoise {
 		background-image: none;
 		margin-top: 24px;
+		max-height: 292px;
 	}
 }

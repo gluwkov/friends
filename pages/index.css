@@ -53,8 +53,11 @@
 @import url(../blocks/programs/__item/programs__item.css);
 @import url(../blocks/programs/__container/programs__container.css);
 @import url(../blocks/programs/__logo/programs__logo.css);
+@import url(../blocks/programs/__logo/_size/programs__logo_size_s.css);
+@import url(../blocks/programs/__logo/_size/programs__logo_size_xs.css);
 @import url(../blocks/programs/__heading/programs__heading.css);
 @import url(../blocks/programs/__name/programs__name.css);
+@import url(../blocks/programs/__name/_margin/programs__name_margin.css);
 @import url(../blocks/programs/__description/programs__description.css);
 @import url(../blocks/programs/__button/programs__button.css);
 @import url(../blocks/programs/__item/_theme/programs__item_theme_turquoise.css);
