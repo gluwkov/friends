@@ -9,13 +9,13 @@
 }
 
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
 	.promo__subtitle {
 		max-width: 450px;
 	}
 }
 
-@media (max-width: 565px) {
+@media (max-width: 425px) {
 	.promo__subtitle {
 		max-width: 327px;
 		margin-left: 16px;

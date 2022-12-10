@@ -22,7 +22,7 @@
 	color: #54A8B6;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 425px) {
 	.promo__button {
 		margin-top: 32px;
 		margin-bottom: 16px;
