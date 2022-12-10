@@ -5,30 +5,19 @@
 	margin: 32px auto 0;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
 	.contacts__container {
 		max-width: 900px;
 	}
 }
 
-@media (max-width: 880px) {
-	.contacts__container {
-		max-width: 800px;
-	}
-}
-
-@media (max-width: 750px) {
+@media (max-width: 768px) {
 	.contacts__container {
 		max-width: 670px;
 	}
 }
 
-@media (max-width: 680px) {
-	.contacts__container {
-		max-width: 600px;
-	}
-}
-@media (max-width: 520px) {
+@media (max-width: 550px) {
 	.contacts__container {
 		max-width: 300px;
 	}

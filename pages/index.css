@@ -78,6 +78,7 @@
 @import url(../blocks/contacts/__container/contacts__container.css);
 @import url(../blocks/contacts/__email/contacts__email.css);
 @import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
 
 @import url(../blocks/newsletter/newsletter.css);
 @import url(../blocks/newsletter/__title/newsletter__title.css);
