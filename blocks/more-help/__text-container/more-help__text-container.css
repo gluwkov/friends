@@ -1,15 +1,15 @@
 .more-help__text-container {
-	margin: 37px 0 0 0;
+	margin: 29px 0 0 0;
 	align-self: center;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__text-container {
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 550px) {
 	.more-help__text-container {
 		margin: 0;
 	}

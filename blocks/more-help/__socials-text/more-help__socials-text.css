@@ -7,7 +7,7 @@
 	margin: 76px 0 21px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__socials-text {
 		margin: 40px 0 21px;
 	}

@@ -14,7 +14,7 @@
 	}
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__card-description {
 		width: 100%;
 	}
