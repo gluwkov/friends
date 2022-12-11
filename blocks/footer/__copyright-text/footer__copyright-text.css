@@ -8,7 +8,7 @@
 	align-self: center;
 }
 
-@media screen and (max-width: 1097px) {
+@media screen and (max-width: 1024px) {
 	.footer__copyright-text {
 		margin-left: 10px;
 	}
