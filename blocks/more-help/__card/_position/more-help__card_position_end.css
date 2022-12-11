@@ -10,20 +10,6 @@
 
 @media screen and (max-width: 1150px) {
 	.more-help__card_position_end {
-		margin-left: 3.5vw;
-		margin-right: 30px;
-	}
-}
-
-@media screen and (max-width: 1103px) {
-	.more-help__card_position_end {
-		margin-left: 0;
-	}
-}
-
-
-@media screen and (max-width: 1030px) {
-	.more-help__card_position_end {
 		margin: 0;
 	}
 }

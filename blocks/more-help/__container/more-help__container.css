@@ -4,7 +4,7 @@
 	margin: auto;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__container {
 		align-items: center;
 	}

@@ -1,10 +1,14 @@
 .more-help__flex-wrap {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
+.more-help__flex-wrap:first-child {
+	margin-bottom: 72px;
+}
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__flex-wrap {
 		flex-direction: column;
 		align-items: center;

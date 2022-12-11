@@ -4,13 +4,7 @@
 
 @media screen and (max-width: 1150px) {
 	.more-help__card_position_start {
-		margin-left: 30px;
-		margin-right: 0;
-	}
-}
-
-@media screen and (max-width: 1103px) {
-	.more-help__card_position_start {
 		margin-left: 0;
+		margin-right: 0;
 	}
 }

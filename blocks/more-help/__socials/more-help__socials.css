@@ -10,13 +10,12 @@
 
 @media screen and (max-width: 1150px) {
 	.more-help__socials {
-    margin-left: 3.5vw;
+		margin-left: 0;
 }
 }
 
-@media screen and (max-width: 1103px) {
+@media screen and (max-width: 1024px) {
 	.more-help__socials {
-		margin-left: 0;
 		width: 100%;
 }
 }

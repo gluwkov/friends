@@ -5,13 +5,13 @@
 	object-fit: cover;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__card-img {
 		margin-top: 32px;
 	}
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 550px) {
 	.more-help__card-img {
 		width: 327px;
 	}

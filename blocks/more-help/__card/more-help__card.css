@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
 	.more-help__card {
 		width: 415px;
 	}
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 550px) {
 	.more-help__card {
 		width: 87.2vw;
 		justify-content: center;
