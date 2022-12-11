@@ -17,7 +17,7 @@
 	opacity: 0.4;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 	.header__nav-button {
 		display: block;
 	}

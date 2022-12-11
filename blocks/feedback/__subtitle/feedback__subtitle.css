@@ -7,7 +7,7 @@
 	line-height: 120%;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
 	.feedback__subtitle {
 		margin-bottom: 24px;
 	}

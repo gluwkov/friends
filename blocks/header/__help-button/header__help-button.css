@@ -17,7 +17,7 @@
 	background: #E8AD4D;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 425px) {
 	.header__help-button {
 		max-width: 136px;
 		width: 100%;

@@ -4,7 +4,7 @@
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
 	.feedback__flex-wrap {
 		flex-direction: column;
 	}

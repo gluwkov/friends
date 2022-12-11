@@ -3,7 +3,7 @@
 	width: 680px;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
 	.feedback {
 		width: 87.2vw;
 		margin: 56px auto 0;

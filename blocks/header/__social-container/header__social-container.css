@@ -13,7 +13,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	.header__social-container {
 		margin-left: 1.5vw;
 	}
