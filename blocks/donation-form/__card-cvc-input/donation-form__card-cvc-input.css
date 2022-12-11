@@ -14,7 +14,7 @@
 	outline: none;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 768px) {
 	.donation-form__card-cvc-input {
 		width: 104px;
 		height: 56px;

@@ -7,7 +7,7 @@
 	row-gap: 16px;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
 	.donation-form__contacts-subsection {
 		padding-top: 24px;
 		grid-template-columns: repeat(1, 100%);

@@ -58,7 +58,7 @@
 	transition: color 0.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 	.donation-form__duration-toggler-container span {
 		font-size: 10px;
 	}

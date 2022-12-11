@@ -7,16 +7,18 @@
 	line-height: 26px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
 	.donation-form__title {
 		width: 356px;
 		font-size: 28px;
+		line-height: 44px;
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
 	.donation-form__title {
 		width: 306px;
 		font-size: 28px;
+		line-height: 44px;
 	}
 }
