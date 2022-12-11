@@ -10,7 +10,7 @@ const subtitleCard = document.querySelector('.donation-form__subtitle_closed');
 const cardContainer = document.querySelector('.donation-form__card-container');
 const cardUserInfo = document.querySelector('.donation-form__contacts-subsection');
 
-// const submitBtn = document.querySelector('.donation-form__submit-button');
+const submitDonationBtn = document.querySelector('.donation-form__submit-button');
 
 const monthlyBtn = document.querySelector('.donation-form__monthly-button');
 const daylyBtn = document.querySelector('.donation-form__dayly-button');
@@ -80,3 +80,9 @@ daylyBtn.addEventListener('click', () => {
 	thirdSumBtn.textContent = "50000";
 	monthlyText.style.display = 'none';
 })
+
+// Обработчик «отправки» формы
+function handleDonationFormSubmit(evt) {
+	evt.preventDefault();
+}
+submitDonationBtn.addEventListener('submit', handleDonationFormSubmit);
