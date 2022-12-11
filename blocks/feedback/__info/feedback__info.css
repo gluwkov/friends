@@ -9,7 +9,7 @@
 	margin-right: 0;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
 	.feedback__info {
 		margin-right: 0;
 		width: 100%;

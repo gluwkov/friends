@@ -28,7 +28,7 @@
 	box-shadow: 0 0 0px 1000px #F8F8F8 inset;
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 768px) {
 	.feedback__textfield {
 		width: 100%;
 		margin-bottom: 16;
