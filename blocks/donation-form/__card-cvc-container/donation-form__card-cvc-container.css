@@ -4,7 +4,7 @@
 	right: -150px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 768px) {
 	.donation-form__card-cvc-container  {
 		width: 104px;
 		height: 83px;

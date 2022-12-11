@@ -10,7 +10,7 @@
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
 	.donation-form__payment-button {
 		width: 300px;
 		flex-grow: 1;
