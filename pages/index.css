@@ -37,6 +37,7 @@
 @import url(../blocks/sources/__image/sources__image.css);
 @import url(../blocks/sources/__image/_position/sources__image_position_righter.css);
 @import url(../blocks/sources/__image/_size/sources__image_size_smaller.css);
+@import url(../blocks/sources/__image/_position/sources__image_position_end.css);
 
 @import url(../blocks/modal-nav/modal-nav.css);
 @import url(../blocks/modal-nav/__close-button/modal-nav__close-button.css);

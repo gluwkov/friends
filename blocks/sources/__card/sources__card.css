@@ -20,13 +20,13 @@
 	transform: scale(1.2);
 }
 
-@media screen and (min-width: 881px) and (max-width: 1260px) {
+@media screen and (min-width: 768px) and (max-width: 1150px) {
 	.sources__card {
 		display: flex;
 	}
 }
 
-@media screen and (max-width: 572px) {
+@media screen and (max-width: 550px) {
 	.sources__card {
 		display: flex;
 	}
