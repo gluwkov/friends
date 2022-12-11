@@ -170,6 +170,7 @@
 @import url(../blocks/footer/__container/_position/footer__container_position_end.css);
 @import url(../blocks/footer/__nav-container/footer__nav-container.css);
 @import url(../blocks/footer/__logo-container/footer__logo-container.css);
+@import url(../blocks/footer/_page/footer_page_help.css);
 
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__field/feedback__field.css);

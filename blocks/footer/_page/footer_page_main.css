@@ -1,0 +1,9 @@
+.footer_page_main {
+	padding: 141px 0 25px;
+}
+
+@media screen and (max-width: 1024px) {
+	.footer_page_main {
+		padding: 24px 0 24px;
+	}
+}

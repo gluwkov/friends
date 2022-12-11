@@ -17,7 +17,7 @@
 	transition: 0.5 ease;
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 768px) {
 	.footer__help-button {
 		margin: 0;
 	}
