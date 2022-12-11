@@ -47,3 +47,9 @@ daylyBtn.addEventListener('click', () => {
 supportSubmitBtn.addEventListener('click', () => {
 	window.location.href = "./help.html";
 });
+
+// Обработчик «отправки» формы
+function handleSupportPartnerFormSubmit(evt) {
+	evt.preventDefault();
+}
+supportSubmitBtn.addEventListener('submit', handleSupportPartnerFormSubmit);
