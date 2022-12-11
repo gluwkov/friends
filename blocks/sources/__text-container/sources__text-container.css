@@ -5,7 +5,13 @@
 	width: 50%;
 }
 
-@media screen and (max-width: 572px) {
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+	.sources__text-container {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 550px) {
 	.sources__text-container {
 		margin: 32px 0 0 24.48px;
 	}
