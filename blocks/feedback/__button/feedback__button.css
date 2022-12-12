@@ -15,3 +15,9 @@
 .feedback__button:hover {
 	background: #F1F5F9;
 }
+
+@media screen and (max-width: 768px) {
+	.feedback__button {
+		margin-top: 32px;
+	}
+}
