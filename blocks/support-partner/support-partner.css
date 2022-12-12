@@ -2,7 +2,7 @@
 	margin-top: 36px;
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 376px) {
 	.support-partner {
 		margin-top: 56px;
 	}

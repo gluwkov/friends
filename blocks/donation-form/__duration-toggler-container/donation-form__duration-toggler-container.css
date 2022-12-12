@@ -26,7 +26,18 @@
 
 }
 
-.donation-form__duration-toggler-container span {
+.donation-form__daily-button {
+	text-transform: uppercase;
+	padding: 6px;
+	text-align: center;
+	z-index: 1;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.06em;
+}
+
+.donation-form__monthly-button {
 	text-transform: uppercase;
 	padding: 6px;
 	text-align: center;
@@ -41,25 +52,29 @@
 	left: 46%;
 }
 
-.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container span:first-child{
+.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container .donation-form__daily-button {
 	color: #999999;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container span:last-child{
+.donation-form__duration-toggler-checkbox:checked + .donation-form__duration-toggler-container .donation-form__monthly-button {
 	color: white;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container span:first-child{
+.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container .donation-form__daily-button {
 	color: white;
 	transition: color 0.3s;
 }
-.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container span:last-child{
+.donation-form__duration-toggler-checkbox + .donation-form__duration-toggler-container .donation-form__monthly-button {
 	color: #999999;
 	transition: color 0.3s;
 }
 
 @media (max-width: 768px) {
-	.donation-form__duration-toggler-container span {
+	.donation-form__daily-button {
+		font-size: 10px;
+	}
+
+	.donation-form__monthly-button {
 		font-size: 10px;
 	}
 }

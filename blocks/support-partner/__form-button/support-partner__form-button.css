@@ -1,6 +1,6 @@
 .support-partner__form-button {
 	background-color: #EEB250;
-	margin-top: 27px;
+	margin-top: 50px;
 	width: 100%;
 	height: 56px;
 	border-radius: 56px;
@@ -18,7 +18,7 @@
 
 @media (max-width: 376px) {
 	.support-partner__form-button {
-		margin-top: 42px;
+		margin-top: 32px;
 		font-size: 16px;
 	}
 }
