@@ -4,7 +4,7 @@ const secondSumBtn = document.querySelector('#second-sum');
 const thirdSumBtn = document.querySelector('#third-sum');
 
 const monthlyBtn = document.querySelector('.donation-form__monthly-button');
-const daylyBtn = document.querySelector('.donation-form__dayly-button');
+const dailyBtn = document.querySelector('.donation-form__daily-button');
 
 const supportSubmitBtn = document.querySelector('.support-partner__form-button');
 
@@ -37,7 +37,7 @@ monthlyBtn.addEventListener('click', () => {
 	thirdSumBtn.textContent = "10000";
 })
 
-daylyBtn.addEventListener('click', () => {
+dailyBtn.addEventListener('click', () => {
 	firstSumBtn.textContent = "5000";
 	secondSumBtn.textContent = "10000";
 	thirdSumBtn.textContent = "50000";
