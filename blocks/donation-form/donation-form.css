@@ -7,7 +7,7 @@
 	overflow: hidden;
 }
 
-@media (max-width: 699px) {
+@media (max-width: 768px) {
 	.donation-form {
 		width: 95%;
 		padding: 16px 32px 52px;
