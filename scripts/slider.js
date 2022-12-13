@@ -43,8 +43,8 @@ $(document).ready(function () {
 	$('.slider').slick({
 		slidesToShow: 1,
 		speed: 900,
-		// autoplay: true,
-		// autoplaySpeed: 11000,
+		autoplay: true,
+		autoplaySpeed: 11000,
 		dots: true,
 		fade: true,
 		dotsClass: 'slick-dots',
