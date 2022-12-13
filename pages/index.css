@@ -115,9 +115,7 @@
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/promo/__button/promo__button.css);
 @import url(../blocks/promo/__wrapper/promo__wrapper.css);
-@import url(../blocks/promo/__wrapper/_slider-1/promo__wrapper_slider-1.css);
-@import url(../blocks/promo/__wrapper/_slider-2/promo__wrapper_slider-2.css);
-@import url(../blocks/promo/__wrapper/_slider-3/promo__wrapper_slider-3.css);
+@import url(../blocks/promo/__wrapper/_background-color/_black/promo__wrapper_background-color_black.css);
 @import url(../blocks/promo/__img/promo__img.css);
 
 
