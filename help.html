@@ -85,12 +85,12 @@
 					<h2 class="donation-form__subtitle donation-form__subtitle_closed">Банковская карта</h2>
 					<div class="donation-form__card-container">
 						<div class="donation-form__card-front">
-							<input type="number" class="donation-form__card-num-input" placeholder="Номер карты">
-							<input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты">
+							<input type="number" class="donation-form__card-num-input" placeholder="Номер карты" minlength="16" required title="Введите минимум 16 цифр" pattern="\d{4}([-]|)\d{4}([-]|)\d{4}([-]|)\d{4}">
+							<input type="text" class="donation-form__card-holder-input" placeholder="Держатель карты" pattern="^[a-zA-Z\s]+$" required title="Введите фамилию и имя, указанные на карте">
 							<div class="donation-form__card-information-container">
 								<div class="donation-form__card-validity-container">
 									<p class="donation-form__card-validity-subtitle">Действует до</p>
-									<input type="number" class="donation-form__card-validity-date-input" placeholder="ММ / ГГ">
+									<input type="number" class="donation-form__card-validity-date-input" placeholder="ММ / ГГ" required>
 								</div>
 								<div class="donation-form__card-summ-container">
 									<p class="donation-form__card-summ-subtitle">Итого к оплате</p>
@@ -99,7 +99,7 @@
 							 </div>
 							 <div class="donation-form__card-cvc-container">
 								<p class="donation-form__card-cvc-subtitle">CVV/CVC</p>
-								<input type="number" class="donation-form__card-cvc-input" placeholder="***">
+								<input type="number" class="donation-form__card-cvc-input" placeholder="***" min="0" max="999" step="1" required>
 								<p class="donation-form__card-cvc-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
 							</div>
 						</div>
@@ -109,10 +109,10 @@
 					</div>
 
 					<div class="donation-form__subsection donation-form__contacts-subsection">
-						<input type="text" class="donation-form__contacts-input" placeholder="Имя" id="first-name" name="name">
-						<input type="text" class="donation-form__contacts-input" placeholder="Фамилия" id="last-name" name="name">
-						<input type="text" class="donation-form__contacts-input" placeholder="Телефон" id="phone" name="phone">
-						<input type="text" class="donation-form__contacts-input" placeholder="Email" id="donation-email" name="email">
+						<input type="text" class="donation-form__contacts-input" placeholder="Имя" id="first-name" name="name" required>
+						<input type="text" class="donation-form__contacts-input" placeholder="Фамилия" id="last-name" name="name" required>
+						<input type="text" class="donation-form__contacts-input" placeholder="Телефон" id="phone" name="phone" required>
+						<input type="text" class="donation-form__contacts-input" placeholder="Email" id="donation-email" name="email" pattern="\S+@[a-z]+.[a-z]+" required>
 					</div>
 
 					<div class="donation-form__subsection donation-form__checkbox-subsection">
@@ -230,7 +230,7 @@
 						</label>
 						<label class="feedback__info" for="feedback-mail">
 							<input class="feedback__textfield" type="email" id="feedback-mail" name="email" placeholder="E-mail" value
-								required>
+								required pattern="\S+@[a-z]+.[a-z]+">
 						</label>
 					</div>
 					<label class="feedback__text-info" for="feedback-text">
