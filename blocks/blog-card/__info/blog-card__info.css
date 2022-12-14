@@ -9,6 +9,12 @@
 	bottom: 0;
 }
 
+@media (max-width: 1024px) {
+	.blog-card:first-of-type>.blog-card__info {
+		position: static;
+	}
+}
+
 @media (max-width: 768px) {
 	.blog-card:first-of-type>.blog-card__info {
 		position: unset;

@@ -16,6 +16,19 @@
 	color: #FFFFFF;
 }
 
+@media (max-width: 1024px) {
+	.blog-card:first-of-type>.blog-card__info>.blog-card__date {
+		color: #82607D;
+		font-weight: 700;
+		font-size: 10px;
+		line-height: 120%;
+		letter-spacing: 0.24em;
+		text-transform: uppercase;
+		color: #775872;
+		margin: 27px auto 0;
+	}
+}
+
 @media (max-width: 768px) {
 	.blog-card__date {
 		font-weight: 700;

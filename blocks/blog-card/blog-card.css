@@ -12,6 +12,12 @@
 	max-width: 680px;
 }
 
+@media (max-width: 1024px) {
+	.blog-card:first-of-type {
+		max-width: 328px;
+	}
+}
+
 @media (max-width: 768px) {
 	.blog-card:first-of-type {
 		max-width: 100%;
