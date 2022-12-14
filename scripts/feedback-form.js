@@ -16,17 +16,18 @@ function openPopup(popup) {
 // Заполнение формы обратной связи и открытие попапа при клике на кнопку submit
 function changeBackground() {
 	if (nameFeedbackInput.value !== '' && mailFeedbackInput.value !== '' && textFeedbackInput.value !== '' && feedbackCheckbox.checked === true) {
-		feedbackBtnEl.style.background = '#528CBE';
-		feedbackBtnEl.style.color = '#FFF';
-		feedbackBtnEl.addEventListener('mouseover', () => {
-			feedbackBtnEl.style.background = '#487FAE';
-		});
-		feedbackBtnEl.addEventListener('mouseout', () => {
+		if (nameFeedbackInput.value !== '0' && mailFeedbackInput.value !== '0' && textFeedbackInput.value !== '0' && feedbackCheckbox.checked === true) {
 			feedbackBtnEl.style.background = '#528CBE';
-		});
-		feedbackBtnEl.addEventListener('click', () => {
-			openPopup(popupEl);
-		});
+			feedbackBtnEl.style.color = '#FFF';
+			feedbackBtnEl.addEventListener('mouseover', () => {
+				feedbackBtnEl.style.background = '#487FAE';
+			});
+			feedbackBtnEl.addEventListener('mouseout', () => {
+				feedbackBtnEl.style.background = '#528CBE';
+			});
+			feedbackBtnEl.removeAttribute('disabled', true);
+			return true;
+		}
 	} else {
 		feedbackBtnEl.style.background = '#F8F8F8';
 		feedbackBtnEl.style.color = '#000';
@@ -36,6 +37,8 @@ function changeBackground() {
 		feedbackBtnEl.addEventListener('mouseout', () => {
 			feedbackBtnEl.style.background = '#F8F8F8';
 		});
+		feedbackBtnEl.setAttribute('disabled', true);
+		return false;
 	}
 }
 
@@ -47,6 +50,11 @@ feedbackCheckbox.addEventListener('input', changeBackground);
 // Обработчик «отправки» формы
 function handleFeedbackFormSubmit(evt) {
 	evt.preventDefault();
+	if (changeBackground()) {
+		feedbackBtnEl.addEventListener('click', () => {
+			openPopup(popupEl);
+		});
+	}
 }
 feedbackFormEl.addEventListener('submit', handleFeedbackFormSubmit);
 
