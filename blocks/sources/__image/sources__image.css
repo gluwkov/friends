@@ -1,0 +1,27 @@
+.sources__image {
+	justify-self: center;
+	align-self: center;
+	grid-column-start: -1;
+	grid-column-end: -2;
+	justify-self: center;
+	transition: 1s;
+}
+
+.sources__image:hover {
+	transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.sources__image {
+		align-self: end;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sources__image {
+		align-self: end;
+		width: 38%;
+		margin-bottom: 20px;
+	}
+}

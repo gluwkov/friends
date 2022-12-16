@@ -1,0 +1,20 @@
+.mission__rectangle_color_red {
+	background-color: #DE6F7E;
+	background-image: url(../../../../images/mission/stonks.svg);
+	background-repeat: no-repeat;
+	background-position: top 26.02px left 0;
+	top: 232px;
+	left: 43.41%;
+	z-index: 3;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_color_red {
+		background-size: 82.36px 60.98px;
+		background-position: top 23.44px left 0;
+		top: 190px;
+		left: 39px;
+		width: 83.56%;
+		z-index: 2;
+	}
+}

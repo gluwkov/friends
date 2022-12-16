@@ -1,0 +1,17 @@
+.donation-form__contacts-subsection {
+	padding-top: 32px;
+	display: grid;
+	grid-template-columns: repeat(2, 268px);
+	grid-template-rows: repeat(2, 56px);
+	column-gap: 16px;
+	row-gap: 16px;
+}
+
+@media (max-width: 768px) {
+	.donation-form__contacts-subsection {
+		padding-top: 24px;
+		grid-template-columns: repeat(1, 100%);
+		grid-template-rows: repeat(4, 56px);
+	}
+}
+

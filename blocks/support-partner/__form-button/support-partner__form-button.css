@@ -1,0 +1,24 @@
+.support-partner__form-button {
+	background-color: #EEB250;
+	margin-top: 50px;
+	width: 100%;
+	height: 56px;
+	border-radius: 56px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: 0;
+	cursor: pointer;
+}
+
+.support-partner__form-button:hover {
+	background: #E8AD4D;
+}
+
+@media (max-width: 376px) {
+	.support-partner__form-button {
+		margin-top: 32px;
+		font-size: 16px;
+	}
+}

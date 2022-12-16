@@ -1,0 +1,31 @@
+.mission__circle_color_orange {
+	background-color: #EEB250;
+	top: -13px;
+	right: 36px;
+}
+
+.mission__circle_color_orange:nth-of-type(2) {
+	visibility: hidden;
+}
+
+@media (max-width: 768px) {
+	.mission__circle_color_orange:nth-of-type(1) {
+		visibility: hidden;
+	}
+
+	.mission__circle_color_orange:nth-of-type(2) {
+		top: 74.55px;
+		left: 31.42px;
+		visibility: visible;
+	}
+
+	.mission__circle_color_orange:nth-of-type(3) {
+		top: -22.43px;
+		right: -10.27px;
+	}
+
+	.mission__circle_color_orange:nth-of-type(4) {
+		top: -26.82px;
+		right: 14.18px;
+	}
+}

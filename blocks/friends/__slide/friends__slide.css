@@ -1,0 +1,14 @@
+.friends__slide {
+	min-height: 408px;
+}
+
+@media (max-width: 1024px) {
+	.friends__slide {
+		background-color: #F8F8F8;
+	}
+}
+
+.slick-initialized .friends__slide {
+	display: flex;
+	flex-direction: row;
+}

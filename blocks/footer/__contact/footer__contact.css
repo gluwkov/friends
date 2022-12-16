@@ -1,0 +1,16 @@
+.footer__contact {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	text-align: center;
+	color: #77C5D5;
+	align-self: center;
+	cursor: pointer;
+}
+
+.footer__contact:hover {
+	opacity: 0.4;
+	transition: 0.5 ease;
+}

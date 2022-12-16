@@ -1,0 +1,36 @@
+.feedback__textfield {
+	border: none;
+	padding: 18px 32px 18px 32px;
+	background: #F8F8F8;
+	border-radius: 56px;
+	color: #000000;
+	width: 328px;
+	margin-bottom: 24px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.feedback__textfield::placeholder {
+	color: #6B6B6B;
+}
+
+.feedback__textfield:focus {
+	outline: none;
+}
+
+.feedback__textfield:-webkit-autofill,
+.feedback__textfield:-webkit-autofill:hover,
+.feedback__textfield:-webkit-autofill:focus {
+	border: none;
+	box-shadow: 0 0 0px 1000px #F8F8F8 inset;
+}
+
+@media screen and (max-width: 768px) {
+	.feedback__textfield {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+}

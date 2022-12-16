@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+	.more-help__flex-wrap_direction_reverse {
+		flex-direction: column-reverse;
+	}
+}

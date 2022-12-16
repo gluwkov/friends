@@ -1,0 +1,11 @@
+.programs__box_position_right {
+	max-width: 550px;
+	margin-right: 78px;
+}
+
+@media (max-width: 768px) {
+	.programs__box_position_right {
+		max-width: 332px;
+		margin: 0;
+	}
+}

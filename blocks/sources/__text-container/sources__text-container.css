@@ -1,0 +1,18 @@
+.sources__text-container {
+	margin: 44px 0 0 44px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	width: 50%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+	.sources__text-container {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sources__text-container {
+		margin: 32px 0 0 24.48px;
+	}
+}

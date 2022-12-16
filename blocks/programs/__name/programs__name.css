@@ -1,0 +1,15 @@
+.programs__name {
+	margin: 16px 0 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.programs__name {
+		font-size: 32px;
+		line-height: 36px;
+	}
+}

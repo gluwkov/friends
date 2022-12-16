@@ -1,0 +1,33 @@
+.sources__card {
+	background: #EBE9E6;
+	height: 208px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(245px, 1fr));
+	transition: 1s;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.sources__card:hover {
+	background: #fff;
+	box-shadow: 0 24px 24px #EBE9E6;
+	transform: scale(1);
+}
+
+.sources__card:hover .sources__image {
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+	.sources__card {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sources__card {
+		display: flex;
+	}
+}

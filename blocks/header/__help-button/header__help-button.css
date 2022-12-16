@@ -1,0 +1,25 @@
+.header__help-button {
+	background: #EEB250;
+	width: 212px;
+	/* 16.56vw */
+	color: #fff;
+	border: none;
+	padding: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.header__help-button:hover {
+	background: #E8AD4D;
+}
+
+@media screen and (max-width: 425px) {
+	.header__help-button {
+		max-width: 136px;
+		width: 100%;
+	}
+}

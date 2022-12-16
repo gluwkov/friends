@@ -1,0 +1,6 @@
+.text-italic {
+	margin: 0;
+	font-family: 'Playfair Display', 'Arial', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}

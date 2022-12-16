@@ -1,0 +1,11 @@
+.donation-form__button-container {
+	display: flex;
+	gap: 16px;
+}
+
+@media (max-width: 376px) {
+	.donation-form__button-container {
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+}

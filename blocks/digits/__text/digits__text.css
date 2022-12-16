@@ -1,0 +1,17 @@
+.digits__text {
+	margin: 16px 0 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+@media (max-width: 376px) {
+	.digits__text {
+		font-size: 18px;
+		line-height: 20px;
+		margin: 4px 0 0;
+	}
+}

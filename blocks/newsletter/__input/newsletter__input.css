@@ -1,0 +1,25 @@
+.newsletter__input {
+	box-sizing: border-box;
+	width: 328px;
+	height: 56px;
+	background: #ffffff;
+	border: 0;
+	border-radius: 56px;
+	padding: 0 0 0 32px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.newsletter__input:focus {
+	outline: none;
+}
+
+@media (max-width: 768px) {
+	.newsletter__input {
+		width: 100%;
+	}
+}

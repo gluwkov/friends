@@ -1,0 +1,17 @@
+.donation-form__card-cvc-subtitle {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	right: 77px;
+	top: 30px;
+}
+
+@media (max-width: 768px) {
+	.donation-form__card-cvc-subtitle {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 23px;
+	}
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 881px) and (max-width: 1024px) {
+	.sources__image_size_smaller {
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sources__image_size_smaller {
+		width: 26.24%;
+		margin-left: 25px;
+	}
+}

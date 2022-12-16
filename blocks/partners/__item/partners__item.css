@@ -1,0 +1,13 @@
+.partners__item {
+	width: 124px;
+	height: 124px;
+	margin-right: 57px;
+}
+
+@media (max-width: 768px) {
+	.partners__item {
+		width: 80px;
+		height: 80px;
+		margin-right: 32px;
+	}
+}

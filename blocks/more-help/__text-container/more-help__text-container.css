@@ -1,0 +1,16 @@
+.more-help__text-container {
+	margin: 29px 0 0 0;
+	align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.more-help__text-container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.more-help__text-container {
+		margin: 0;
+	}
+}

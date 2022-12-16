@@ -1,0 +1,17 @@
+.feedback__info {
+	width: 328px;
+	margin-right: 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback__info:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.feedback__info {
+		margin-right: 0;
+		width: 100%;
+	}
+}

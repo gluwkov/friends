@@ -1,0 +1,8 @@
+.promo__slide {
+	max-width: 1280px;
+	width: 100%;
+}
+
+.promo__slide .slick-dots {
+	margin-top: 20px;
+}

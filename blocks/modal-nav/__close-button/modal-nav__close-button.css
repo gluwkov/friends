@@ -1,0 +1,15 @@
+.modal-nav__close-button {
+	background-image: url(../../../images/icons/close-icon-black.svg);
+	background-color: transparent;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	border: none;
+	padding: 0;
+	margin: 16px 0 8px 16px;
+}
+
+.modal-nav__close-button:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}

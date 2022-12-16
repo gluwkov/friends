@@ -1,0 +1,29 @@
+.donation-form__card-holder-input {
+	margin-top: 8px;
+	margin-left: 24px;
+	height: 56px;
+	width: 290px;
+	border: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 18px;
+	cursor: pointer;
+}
+
+.donation-form__card-holder-input:focus {
+	outline: none;
+}
+
+@media (max-width: 768px) {
+	.donation-form__card-holder-input {
+		width: 90%
+	}
+}
+
+@media (max-width: 376px) {
+	.donation-form__card-holder-input {
+		width: 279px;
+		margin-left: 16px;
+	}
+}

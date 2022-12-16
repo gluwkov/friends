@@ -1,0 +1,22 @@
+.more-help__card-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+	width: 36.875vw;
+	margin: 0
+}
+
+@media screen and (min-width: 1280px) {
+	.more-help__card-description {
+		width: 472px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.more-help__card-description {
+		width: 100%;
+	}
+}
+

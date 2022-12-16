@@ -1,0 +1,18 @@
+.more-help__card-img {
+	width: 415px;
+	justify-self: end;
+	margin: 0;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+	.more-help__card-img {
+		margin-top: 32px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.more-help__card-img {
+		width: 327px;
+	}
+}

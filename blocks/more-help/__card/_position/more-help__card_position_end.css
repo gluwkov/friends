@@ -1,0 +1,15 @@
+.more-help__card_position_end {
+	margin-left: 6.875vw;
+}
+
+@media screen and (min-width: 1280px) {
+	.more-help__card_position_end {
+		margin-left: 88px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.more-help__card_position_end {
+		margin: 0;
+	}
+}

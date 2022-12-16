@@ -1,0 +1,9 @@
+.popup__image {
+	margin: 66px 0 26px 0;
+}
+
+@media (max-width: 768px) {
+	.popup__image {
+		margin: 56.67px 0 32.67px 0;
+	}
+}

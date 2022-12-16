@@ -1,0 +1,30 @@
+.footer__contacts {
+	display: flex;
+	margin-right: 64px;
+	justify-self: end;
+	align-items: center;
+}
+
+.footer__contacts:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1150px) {
+	.footer__contacts {
+		margin: 0 16px 0 0;
+	}
+
+	.footer__contacts:last-child {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.footer__contacts {
+		margin: 0 0 16px 0;
+	}
+
+	.footer__contacts:last-child {
+		margin: 0;
+	}
+}

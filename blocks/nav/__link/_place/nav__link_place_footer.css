@@ -1,0 +1,16 @@
+.nav__link_place_footer {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 593px) {
+	.nav__link_place_footer {
+		margin-bottom: 16px;
+		display: block;
+		margin-right: 16px;
+		/* по макету 24px, со шрифтом Inter не помещается, поэтому уменьшила margin */
+	}
+}

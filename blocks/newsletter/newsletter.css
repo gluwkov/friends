@@ -1,0 +1,16 @@
+.newsletter {
+	background-color: #F8F8F8;
+	padding: 43px 0 43px 0;
+	display: flex;
+	flex-flow: nowrap row;
+	align-items: center;
+	margin: 96px 0 0;
+}
+
+@media (max-width: 768px) {
+	.newsletter {
+		flex-direction: column;
+		padding: 40.5px 0 52px 0;
+		margin-top: 56px;
+	}
+}

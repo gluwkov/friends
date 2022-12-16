@@ -1,0 +1,23 @@
+.promo__title {
+	margin: 40px 0 16px 40px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 66px;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.promo__title {
+		max-width: 850px;
+		font-size: 42px;
+		line-height: 47px;
+	}
+}
+
+@media (max-width: 425px) {
+	.promo__title {
+		margin-top: 32px;
+		margin-left: 16px;
+	}
+}

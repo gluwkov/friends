@@ -1,0 +1,13 @@
+.mission__title-description-container {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+@media (max-width: 768px) {
+	.mission__title-description-container {
+		width: 87.2%;
+		flex-flow: nowrap column;
+		text-align: start;
+	}
+}

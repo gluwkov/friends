@@ -1,0 +1,18 @@
+.header__container {
+	background-color: #54A8B6;
+	display: flex;
+	justify-content: space-between;
+	width: 83.44%;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__container {
+		width: 1068px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header__container {
+		justify-content: flex-start;
+	}
+}

@@ -1,0 +1,12 @@
+.partners__img {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(100%);
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
+.partners__img:hover {
+	opacity: 1;
+	filter: grayscale(0);
+}

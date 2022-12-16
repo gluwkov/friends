@@ -1,0 +1,46 @@
+.mission__rectangle-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.mission__rectangle_color_aqua>.mission__rectangle-text {
+	margin: 49px 0 0 46.15%;
+}
+
+.mission__rectangle_color_blue>.mission__rectangle-text {
+	margin: 49px 25.24% 0 45.67%;
+}
+
+.mission__rectangle_color_red>.mission__rectangle-text {
+	margin: 43px 0 0 39.66%;
+}
+
+.mission__rectangle_color_orange>.mission__rectangle-text {
+	margin: 43px 0 0 39.66%;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle-text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.mission__rectangle_color_aqua>.mission__rectangle-text {
+		margin: 23.73px 0 0 36.83%;
+	}
+
+	.mission__rectangle_color_blue>.mission__rectangle-text {
+		margin: 33px 25.24% 0 38.5%;
+	}
+
+	.mission__rectangle_color_red>.mission__rectangle-text {
+		margin: 28.97px 0 0 34.51%;
+	}
+
+	.mission__rectangle_color_orange>.mission__rectangle-text {
+		margin: 24.97px 0 0 34.51%;
+	}
+}

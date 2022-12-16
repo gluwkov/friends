@@ -1,0 +1,10 @@
+.mission__title {
+
+}
+
+@media (max-width: 768px) {
+	.mission__title {
+		text-align: start;
+		margin: 0 0 16px 0;
+	}
+}

@@ -1,0 +1,10 @@
+.more-help__card_position_start {
+	margin-right: 32px;
+}
+
+@media screen and (max-width: 1150px) {
+	.more-help__card_position_start {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

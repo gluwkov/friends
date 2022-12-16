@@ -1,0 +1,33 @@
+.donation-form__submit-button {
+	margin-top: 27px;
+	width: 100%;
+	height: 56px;
+	background-color: #528CBE;
+	border-radius: 56px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: 0;
+	cursor: pointer;
+}
+
+.donation-form__submit-button:hover {
+	background: #487FAE;
+}
+
+
+@media (max-width: 376px) {
+	.donation-form__submit-button {
+		margin-top: 42px;
+		background: #EEB250;
+		font-size: 16px;
+	}
+	.donation-form__submit-button:hover {
+		background: #E8AD4D;
+	}
+}
+
+
+
+

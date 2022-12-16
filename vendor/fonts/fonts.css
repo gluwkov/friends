@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./PlayfairDisplay/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("./PlayfairDisplay/PlayfairDisplay-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Inter/Inter-Regular.woff2") format("woff2"),
+    url("./Inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Inter/Inter-Bold.woff2") format("woff2"),
+    url("./Inter/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./Inter/Inter-Black.woff2") format("woff2"),
+    url("./Inter/Inter-Black.woff") format("woff");
+}

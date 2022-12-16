@@ -1,0 +1,23 @@
+.donation-form__card-cvc-text {
+	margin: 0;
+	padding: 0;
+	margin-top: 11px;
+	width: 126px;
+	height: 76px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+
+@media (max-width: 768px) {
+	.donation-form__card-cvc-text  {
+		width: 150px;
+	}
+}
+
+@media (max-width: 425px) {
+	.donation-form__card-cvc-text  {
+		display: none;
+	}
+}

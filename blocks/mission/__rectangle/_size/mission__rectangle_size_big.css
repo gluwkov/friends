@@ -1,0 +1,17 @@
+.mission__rectangle_size_big {
+	height: 233px;
+	width: 55.81%;
+	z-index: -1;
+	top: 79px;
+	left: 6.2%;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_size_big {
+		height: 125px;
+		width: 70.77%;
+		top: 90px;
+		left: 0;
+	}
+}
+

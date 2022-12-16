@@ -1,0 +1,9 @@
+.sources__title {
+	margin: 0 auto 56px;
+}
+
+@media screen and (max-width: 550px) {
+	.sources__title {
+		margin-bottom: 24.15px;
+	}
+}

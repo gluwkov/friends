@@ -1,0 +1,40 @@
+.promo__slider {
+	margin: 0 auto;
+	width: 100%;
+	height: 630px;
+}
+@media (max-width: 425px) {
+	.promo__slider {
+		height: 486px;
+	}
+}
+
+.promo__slider .slick-prev {
+	position: absolute;
+	bottom: 50%;
+	left: 24px;
+}
+
+.promo__slider .slick-next {
+	position: absolute;
+	bottom: 50%;
+	right: 24px;
+}
+
+.promo__slider .slick-dots {
+	position: relative;
+	bottom: 48px;
+}
+
+@media screen and (max-width: 425px) {
+	.promo__slider .slick-dots {
+		bottom: 30px;
+	}
+}
+
+@media (max-width: 425px) {
+	.promo__slider .slick-dots button {
+		height: 8px;
+		width: 8px;
+	}
+}

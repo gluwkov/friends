@@ -1,0 +1,29 @@
+.promo__wrapper {
+	position: absolute;
+	top: 125px;
+	margin-left: 84px;
+	max-width: 910px;
+}
+
+@media (max-width: 1024px) {
+	.promo__wrapper {
+		top: 32px;
+		margin-left: 35px;
+		max-width: 650px;
+	}
+}
+
+@media (max-width: 768px) {
+	.promo__wrapper {
+		max-width: 550px;
+		margin-left: 8px;
+	}
+}
+
+
+@media (max-width: 550px) {
+	.promo__wrapper {
+		max-width: 359px;
+		top: 0;
+	}
+}

@@ -1,0 +1,6 @@
+.donation-form__payment-gpay_active {
+	background-color: #82607D;
+	background-image: url('../../../images/icons/googlePay-active.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}

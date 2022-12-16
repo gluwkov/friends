@@ -1,0 +1,26 @@
+.friends__slider {
+	width: 100%;
+	padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+	.friends__slider {
+		padding-bottom: 0;
+	}
+}
+
+.friends__slider .slick-dots {
+	margin-top: 9px;
+}
+
+.friends__slider .slick-prev {
+	position: absolute;
+	bottom: 50%;
+	left: 24px;
+}
+
+.friends__slider .slick-next {
+	position: absolute;
+	bottom: 50%;
+	right: 24px;
+}

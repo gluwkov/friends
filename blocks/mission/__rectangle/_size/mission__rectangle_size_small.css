@@ -1,0 +1,27 @@
+.mission__rectangle_size_small {
+	height: 63px;
+	width: 14.63%;
+	z-index: -1;
+	top: 180px;
+	right: 0;
+}
+
+.mission__rectangle_size_small:last-of-type {
+	left: 28.1%;
+	top: 332px;
+}
+
+@media (max-width: 768px) {
+	.mission__rectangle_size_small {
+		height: 39.51px;
+		width: 26.39%;
+		z-index: -1;
+		top: 168.81px;
+		right: -12.82%;
+	}
+
+	.mission__rectangle_size_small:last-of-type {
+		left: -13.65%;
+		top: 248.81px;
+	}
+}

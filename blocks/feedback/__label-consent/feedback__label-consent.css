@@ -1,0 +1,11 @@
+.feedback__label-consent {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+@media screen and (max-width: 768px) {
+	.feedback__label-consent {
+		align-items: flex-start;
+	}
+}

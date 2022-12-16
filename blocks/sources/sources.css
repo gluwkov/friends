@@ -1,0 +1,18 @@
+.sources {
+	margin: 96px auto 0;
+	max-width: 80.625vw;
+	/* 1032px */
+}
+
+@media screen and (min-width: 1280px) {
+	.sources {
+		width: 1032px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sources {
+		max-width: 91.5vw;
+		margin: 56px auto 0;
+	}
+}

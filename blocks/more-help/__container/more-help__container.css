@@ -1,0 +1,11 @@
+.more-help__container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.more-help__container {
+		align-items: center;
+	}
+}

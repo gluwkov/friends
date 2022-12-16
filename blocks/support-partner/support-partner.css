@@ -1,0 +1,9 @@
+.support-partner {
+	margin-top: 36px;
+}
+
+@media (max-width: 376px) {
+	.support-partner {
+		margin-top: 56px;
+	}
+}

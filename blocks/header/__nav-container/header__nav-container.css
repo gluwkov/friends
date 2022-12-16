@@ -1,0 +1,18 @@
+.header__nav-container {
+	display: flex;
+	width: 85.06%;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__nav-container {
+		width: 908px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header__nav-container {
+		visibility: hidden;
+		opacity: 0;
+		width: 0;
+	}
+}

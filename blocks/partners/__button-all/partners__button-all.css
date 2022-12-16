@@ -1,0 +1,25 @@
+.partners__button-all {
+	margin-top: 34px;
+	padding: 0;
+	width: 161px;
+	height: 56px;
+	background-color: #F1F5F9;
+	border-radius: 56px;
+	border: none;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+	transition: .5s ease;
+}
+
+.partners__button-all:hover {
+	background-color: #F8F8F8;
+}
+
+@media (max-width: 768px) {
+	.partners__button-all {
+		margin-top: 10px;
+	}
+}

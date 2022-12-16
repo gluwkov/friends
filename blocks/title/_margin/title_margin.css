@@ -1,0 +1,9 @@
+.title_margin {
+	margin: 96px auto 0;
+}
+
+@media (max-width: 376px) {
+	.title_margin {
+		margin: 56px auto 0;
+	}
+}

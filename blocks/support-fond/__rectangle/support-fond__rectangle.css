@@ -1,0 +1,14 @@
+.support-fond__rectangle  {
+	position: absolute;
+	width: 100%;
+	height: 490px;
+	background-color: #82607D;
+	top: 0;
+	z-index: 0;
+}
+
+@media (max-width: 376px) {
+	.support-fond__rectangle {
+		height: 528px;
+	}
+}

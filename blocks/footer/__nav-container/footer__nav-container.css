@@ -1,0 +1,18 @@
+.footer__nav-container {
+	display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+	.footer__nav-container {
+		margin-top: 25px;
+		width: 100%;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer__nav-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

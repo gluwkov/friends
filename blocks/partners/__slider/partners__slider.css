@@ -1,0 +1,35 @@
+.partners__slider {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1029px;
+}
+
+@media (max-width: 1250px) {
+	.partners__slider {
+		padding:0 24px;
+	}
+}
+
+.partners__slider .slick-prev {
+	position: absolute;
+	bottom: 48px;
+	right: 100%;
+}
+
+@media (max-width: 1280px) {
+	.partners__slider .slick-prev {
+		right: 95%;
+	}
+}
+
+.partners__slider .slick-next {
+	position: absolute;
+	bottom: 48px;
+	left: 100%;
+}
+
+@media (max-width: 1280px) {
+	.partners__slider .slick-next {
+		left: 95%;
+	}
+}

@@ -1,0 +1,10 @@
+.logo__title {
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5px;
+	line-height: 8px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}

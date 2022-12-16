@@ -1,0 +1,20 @@
+.donation-form__card-information-container {
+	display: flex;
+	margin-left: 24px;
+}
+
+@media (max-width: 768px) {
+	.donation-form__card-information-container {
+		flex-wrap: wrap;
+		width: 112px;
+	}
+}
+
+
+@media (max-width: 376px) {
+	.donation-form__card-information-container {
+		flex-wrap: wrap;
+		width: 112px;
+		margin-left: 16px;
+	}
+}

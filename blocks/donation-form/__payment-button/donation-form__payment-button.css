@@ -1,0 +1,18 @@
+.donation-form__payment-button {
+	padding: 0;
+	height: 56px;
+	width: 31.7%;
+	border: 0;
+	background-color: #F8F8F8;;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+
+@media (max-width: 768px) {
+	.donation-form__payment-button {
+		width: 300px;
+		flex-grow: 1;
+	}
+}

@@ -1,0 +1,16 @@
+.donation-form__card-back {
+	position: absolute;
+	z-index: 50;
+	height: 244px;
+	width: 369px;
+	background-color:#E5E5E5;
+	border-radius: 8px;
+	right: 0;
+	top: 29px;
+}
+
+@media (max-width: 768px) {
+	.donation-form__card-back {
+		display: none;
+	}
+}

@@ -1,0 +1,10 @@
+.sources__card-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 130%;
+	color: #000000;
+	margin: 0 0 16px;
+	position: relative;
+	z-index: 1;
+}

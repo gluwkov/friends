@@ -1,0 +1,24 @@
+.header__lang {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	margin-right: 1.25vw;
+	cursor: pointer;
+	/* 16px */
+}
+
+.header__lang:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+}
+
+.header__lang:last-child {
+	opacity: 0.4;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__lang {
+		margin-right: 16px;
+	}
+}

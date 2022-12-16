@@ -1,0 +1,24 @@
+.footer__help-button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: transparent;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #EEB250;
+	cursor: pointer;
+	margin-left: 28px;
+}
+
+.footer__help-button:hover {
+	opacity: 0.4;
+	transition: 0.5 ease;
+}
+
+@media screen and (max-width: 768px) {
+	.footer__help-button {
+		margin: 0;
+	}
+}

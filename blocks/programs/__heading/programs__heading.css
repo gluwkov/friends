@@ -1,0 +1,19 @@
+.programs__heading {
+	margin: 0;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+	color: #FFF;
+	opacity: 0.6;
+	padding-left: 12px;
+}
+
+@media (max-width: 768px) {
+	.programs__heading {
+		padding-left: 8px;
+		font-size: 8px;
+		line-height: 10px;
+	}
+}

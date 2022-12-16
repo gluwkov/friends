@@ -1,0 +1,27 @@
+.blog__cards {
+	max-width: 80.63%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
+	margin: 56px auto;
+}
+
+@media (max-width: 768px) {
+	.blog__cards {
+		max-width: 65%;
+		margin: 24px auto;
+	}
+}
+
+@media (max-width: 660px) {
+	.blog__cards {
+		max-width: 91%;
+	}
+}
+
+@media (max-width: 400px) {
+	.blog__cards {
+		max-width: 343px;
+	}
+}
